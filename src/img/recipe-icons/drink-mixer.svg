@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="130mm"
+   height="130mm"
+   viewBox="0 0 130 130"
+   version="1.1"
+   id="svg1008"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="drink-mixer.svg">
+  <defs
+     id="defs1002" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-120.3343"
+     inkscape:cy="243.18942"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg1008"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2025"
+     inkscape:window-x="3840"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="5" />
+  <metadata
+     id="metadata1005">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 70.925578,47.407657 a 16.704346,21.18111 0 0 1 -6.265767,1.560628 16.704346,21.18111 0 0 1 -6.136058,-1.5012 l -16.903361,76.116805 46.747016,0.16071 z"
+     id="path1596"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.840662;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 62.864054,48.534721 v 55.071059 h 3.800288 V 48.670113 a 16.704346,21.18111 0 0 1 -1.470197,0.09767 16.704346,21.18111 0 0 1 -2.330091,-0.233061 z"
+     id="rect1559"
+     inkscape:connector-curvature="0" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(-68.413552,-36.373274)" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-68.413552,-133.37327)">
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1553-3-6"
+       cx="133.34061"
+       cy="160.42526"
+       rx="16.704346"
+       ry="21.18111" />
+  </g>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.46499991;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1568"
+     width="14.967088"
+     height="0.40088761"
+     x="57.309868"
+     y="104.15926" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:4.46500015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 47.821802,28.121077 80.963226,27.987441"
+     id="path1602"
+     inkscape:connector-curvature="0" />
+</svg>

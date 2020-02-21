@@ -1,0 +1,24 @@
+:host{
+    font-size: x-large;
+} 
+h2{
+    font-size: 2em;
+}
+.step-header{
+    font-size: 1.25em
+}
+.icon-border {
+    border: 5px solid #000000;
+}
+.full-width {
+    width: 100%;
+}
+.no-break {
+    page-break-inside: avoid;
+}
+.hint { 
+    font-size: medium; 
+} 
+.hide-hints .hint { 
+    display:none; 
+} 

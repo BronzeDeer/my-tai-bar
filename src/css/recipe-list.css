@@ -1,0 +1,9 @@
+.full-width {
+    width: 100%;
+  }
+  .d-block{
+      display: block;
+  }
+  .blocker{
+      min-height: 300px;
+  }
