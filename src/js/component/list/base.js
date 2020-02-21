@@ -48,6 +48,19 @@ export default class CocktailList extends HTMLElement{
         }
     }
 
+    set noLazy(val){
+        if(val){
+            this.setAttribute("no-lazy",true)
+        } else {
+            this.removeAttribute("no-lazy")
+        }
+
+    }
+
+    get noLazy(){
+        return this.hasAttribute("no-lazy")
+    }
+
     set cocktailList(list){
         this.setAttribute("cocktail-list",list.toString())
     }
@@ -56,14 +69,19 @@ export default class CocktailList extends HTMLElement{
         throw new Error("Abstract makeLoaderFunc not overriden");
     }
 
-    loadNextEntry = () =>{
+    loadNextEntry = async () =>{
         //Load list entries one by one with delay to preserve responsiveness
         let {value,done} = this.listIt.next()
         if(!done){
-            let ll = document.createElement("lazy-loader")
-            ll.className="full-width d-block blocker"
-            ll.loader = this.makeLoaderFunc(value)
-            this.container.append(ll)
+            if(this.noLazy){
+                let loader = this.makeLoaderFunc(value)
+                this.container.append(await loader())
+            } else {
+                let ll = document.createElement("lazy-loader")
+                ll.className="full-width d-block blocker"
+                ll.loader = this.makeLoaderFunc(value)
+                this.container.append(ll)
+            }
             setTimeout(this.loadNextEntry,50)
         }
 
