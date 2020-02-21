@@ -34,7 +34,11 @@ export default class CocktailList extends HTMLElement{
                     if(newValue.charAt(0) === '[') newValue = newValue.slice(1)
                     if( newValue.slice(-1) === ']') newValue = newValue.slice(0,-1)
 
-                    this.cocktailList = newValue.split(",")
+                    this._cocktailList = newValue.split(",")
+
+                    this.container.innerText = ""
+                    this.listIt = this._cocktailList.values()
+                    this.loadNextEntry()
 
                 }
                 break;
@@ -46,10 +50,6 @@ export default class CocktailList extends HTMLElement{
 
     set cocktailList(list){
         this.setAttribute("cocktail-list",list.toString())
-
-        this.container.innerText = ""
-        this.listIt = list.values()
-        this.loadNextEntry()
     }
 
     makeLoaderFunc = (id) => {
