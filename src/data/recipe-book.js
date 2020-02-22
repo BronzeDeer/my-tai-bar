@@ -124,7 +124,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"garnish": "1 Mint sprig and 1 spent half lime shell",
 		"summary":"Jamaican rum, Martinique rhum, dry Curaçao, orgeat, lime",
-		"note":""
+		"note":"",
+		"menu-desc":"The King of Tiki Drinks. Made using the rediscovered 1931 original Trader Vic recipe, this cocktail celebrates rum"
 	},
 "mai-tai-deluxe":
 	{
@@ -144,7 +145,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"garnish": "1 Mint sprig and 1 spent half lime shell",
 		"summary":"aged Jamaican rum, aged Martinique rhum, dry Curaçao, orgeat, lime",
-		"note":""
+		"note":"",
+		"menu-desc":"The premium version of our Mai Tai. Using aged rums from Jamaica and Martinique elevates this already amazing drink to another level"
 	},
 "hurricane":
 	{
