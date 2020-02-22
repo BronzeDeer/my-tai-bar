@@ -85,7 +85,6 @@ export default class ListELement extends HTMLElement{
 
     set cocktail(cocktail){
         this._updateName(cocktail["name"])
-        this._updateNote(cocktail["note"])
         console.log(["Base: cocktail updated to: ",cocktail])
     }
 

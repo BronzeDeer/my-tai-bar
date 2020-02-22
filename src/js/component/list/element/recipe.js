@@ -50,6 +50,7 @@ export default class RecipeELement extends ListElement{
 
     set cocktail(cocktail){
         super.cocktail = cocktail
+        this._updateNote(cocktail["note"])
         this._updateSummary(cocktail["summary"])
         this._updateIngredients(cocktail["ingredients"],cocktail["special-ingredients"])
         this._updatePreparation(cocktail["method"],cocktail["ice-method"],cocktail["glass"],cocktail["ice-glass"])
