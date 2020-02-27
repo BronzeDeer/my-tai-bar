@@ -1,0 +1,34 @@
+Menu item:
+- desc or summary
+
+Tag by ingredient
+Extend ingredient to object {text,short-text,hint,tags}
+Tag search
+INgredient implies tags
+
+Side list:
+- "Add to list" button in base cocktailElement 
+- SideListElement:
+	- Just cocktail Name
+	- ReorderButton
+- SideListHeader:
+	- Section/group header instead of cocktail Name
+- Create print menu and create print recipe (List to string and open in new tab)
+
+BaseElement:
+- add attribute printable, which will hide certain UI elements
+
+BaseList:
+- add Sort functions
+	- alpha-name
+	- reverse-alpha-name
+
+CompactRecipeList:
+CompactRecipe:
+
+Automatically add Warning to drinks with grapefruit
+
+3 urls:
+/menu
+/recipe
+/compactRecipe
