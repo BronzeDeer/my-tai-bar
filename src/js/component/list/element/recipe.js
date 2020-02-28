@@ -36,10 +36,11 @@ export default class RecipeELement extends ListElement{
 
         let summary = document.createElement("div")
         summary.id = "summary"
+        summary.className = "text-muted"
         this.$("#title").append(summary)
 
         let ingredientsCol = document.createElement("div")
-        ingredientsCol.className = "col-7 ml-2 my-auto ingredients"
+        ingredientsCol.className = "col-8 my-auto ingredients"
         ingredientsCol.id = "ingredients"
         this.$("#top-row").append(ingredientsCol)
         let preparationCol = document.createElement("div")
@@ -65,7 +66,7 @@ export default class RecipeELement extends ListElement{
 
     _makePreparationIcon = (src,size=125) =>{
         let img = document.createElement("img")
-        img.className = "icon-border rounded mx-auto d-block mt-4 mb-4"
+        img.className = "icon-border rounded m-2"
         img.src = src
         img.width = size
         img.height = size
@@ -99,7 +100,7 @@ export default class RecipeELement extends ListElement{
     }
 
     _parseSpecialIngredients = (ingredientList,specialIngredients,actionDict) =>{
-        
+
         if(!specialIngredients){
             return []
         }
@@ -109,9 +110,9 @@ export default class RecipeELement extends ListElement{
         let actions = Object.keys(actionDict).filter(
             x => Object.values(specialIngredients).includes(x)
         )
-        
+
         for( let action of actions){
-            
+
             result.push(this._makeStepHeader(actionDict[action]))
 
             for(let [key,ingAction] of Object.entries(specialIngredients)){
@@ -130,14 +131,14 @@ export default class RecipeELement extends ListElement{
         container.innerText = ""
 
         let row = document.createElement("div")
-        row.className = "row full-width"
+        row.className = "row"
 
         let row2 = null
 
         if(method === "build"){
             //1 row 2 col
             let col = document.createElement("div")
-            col.className = "col"
+            col.className = "col text-center"
             col.append(this._makePreparationIcon(GLASS_ICONS[glass]))
 
             col.append(this._makePreparationIcon(ICE_ICONS[iceMethod]))
@@ -145,32 +146,32 @@ export default class RecipeELement extends ListElement{
         } else if(iceGlass === "method") {
             //Two rows one with 2 col and one with 1 col
             let col = document.createElement("div")
-            col.className = "col"
+            col.className = "col text-center"
             col.append(this._makePreparationIcon(METHOD_ICONS[method]))
             row.append(col)
 
             col = document.createElement("div")
-            col.className = "col"
+            col.className = "col text-center"
             col.append(this._makePreparationIcon(GLASS_ICONS[glass]))
             row.append(col)
 
             row2 = document.createElement("div")
-            row2.className = "row full-width"
+            row2.className = "row"
 
             col = document.createElement("div")
-            col.className = "col"
+            col.className = "col text-center"
             col.append(this._makePreparationIcon(ICE_ICONS[iceMethod]))
             row2.append(col)
         } else {
             //single row two cols
             let col = document.createElement("div")
-            col.className = "col"
+            col.className = "col text-center"
             col.append(this._makePreparationIcon(METHOD_ICONS[method]))
             col.append(this._makePreparationIcon(ICE_ICONS[iceMethod]))
             row.append(col)
 
             col = document.createElement("div")
-            col.className = "col"
+            col.className = "col text-center"
             col.append(this._makePreparationIcon(GLASS_ICONS[glass]))
             col.append(this._makePreparationIcon(ICE_ICONS[iceGlass]))
             row.append(col)
@@ -196,7 +197,7 @@ export default class RecipeELement extends ListElement{
 
 
         let row = document.createElement("div")
-        row.className = "row full-width ingredient"
+        row.className = "row ingredient"
         row.id = key
 
             let amountCol = this._parseAmount(amount)
@@ -221,7 +222,7 @@ export default class RecipeELement extends ListElement{
 
      _parseAmount = (val) => {
         let div = document.createElement("div")
-        div.className = "col-3 ml-2"
+        div.className = "col-2"
         val = val.trim().toLowerCase()
         let b = document.createElement("b")
         if(val.localeCompare("fill") == 0){
