@@ -8,7 +8,7 @@ export default class ListELement extends HTMLElement{
         this._root = this.attachShadow({ mode: "open" });
         [this.$,this.$$] = shadowBling(this._root)
         //create skeleton that all cocktails use
-        
+
 
         //Todo: investigate whether doing this in every component will create performance problems
         let bootstrap = document.createElement("link")
@@ -23,15 +23,15 @@ export default class ListELement extends HTMLElement{
 
         let main = document.createElement("div")
         main.id = "recipe"
-        main.className = "row full-width cocktail mt-5 mb-5 no-break"
+        main.className = "container card cocktail mt-5 mb-5 no-break"
 
             let header = document.createElement("div");
             header.id = "header"
-            header.className = "row full-width"
+            header.className = "row"
 
                 let titleCol = document.createElement("div")
                 titleCol.id = "title"
-                titleCol.className = "col"
+                titleCol.className = "col card-header"
 
                     let cocktailName = document.createElement("H2")
                     cocktailName.id = "cocktail-name"
@@ -41,17 +41,14 @@ export default class ListELement extends HTMLElement{
             main.append(header)
 
             let topRow = document.createElement("div")
-            topRow.className = "row full-width mt-3"
+            topRow.className = "card-body row "
             topRow.id = "top-row"
             main.append(topRow)
 
             let note = document.createElement("div")
-            note.className = "col d-none"
-            note.id = "note-container"
-                let noteP = document.createElement("p")
-                noteP.className = "mt-4"
-                noteP.id = "note"
-                note.append(noteP)
+            note.className = "alert alert-secondary d-none"
+            note.id = "note"
+
 
             main.append(note)
 
@@ -61,7 +58,7 @@ export default class ListELement extends HTMLElement{
     static get observedAttributes() {
         return ['cocktail-id'];
     }
-  
+
     attributeChangedCallback(name, oldValue, newValue) {
         switch (name) {
             case "cocktail-id":
@@ -69,7 +66,7 @@ export default class ListELement extends HTMLElement{
                     this.cocktail = cocktails[newValue]
                 }
                 break;
-        
+
             default:
                 break;
         }
@@ -93,16 +90,17 @@ export default class ListELement extends HTMLElement{
     }
 
     _updateNote = (value) => {
-        this.$("#note").innerText = ""
+        let note = this.$("#note")
+        note.innerText = ""
         if(!!value){
             let b = document.createElement("b")
             b.textContent = "Note: "
-            this.$("#note").append(b)
-            this.$("#note").append(document.createTextNode(value))
+            note.append(b)
+            note.append(document.createTextNode(value))
 
-            this.$("#note-container").classList.remove("d-none")
+            note.classList.remove("d-none")
         } else {
-            this.$("#note-container").classList.add("d-none")
+            note.classList.add("d-none")
         }
     }
 }
