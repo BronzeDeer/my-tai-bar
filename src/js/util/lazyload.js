@@ -39,6 +39,9 @@ export default class LazyLoader extends HTMLElement{
         let el = await this._loader()
         this.removeChild(this.spinner)
         this.append(el)
+        //Remove potentially externally applied styles that were used for blocking
+        //This way the loaded element is wrapped completely transparently
+        this.className = ""
     }
 }
 
