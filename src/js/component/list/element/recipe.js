@@ -49,6 +49,44 @@ export default class RecipeELement extends ListElement{
         this.$("#top-row").append(preparationCol)
     }
 
+    static get observedAttributes() {
+        return ListElement.observedAttributes.concat(['hide-hints']);
+    }
+
+    attributeChangedCallback(name, oldValue, newValue) {
+        super.attributeChangedCallback(name,oldValue,newValue)
+        console.log([name,oldValue,newValue])
+        switch (name) {
+            case "hide-hints":
+                if(oldValue !== newValue){
+                    if(newValue != null){
+                        this.$("#recipe").classList.add("hide-hints")
+                    } else {
+                        this.$("#recipe").classList.remove("hide-hints")
+                    }
+                }
+                break;
+
+            default:
+                break;
+        }
+    }
+
+
+    set hideHints(val){
+        if(!!val){
+            this.setAttribute("hide-hints","")
+        } else {
+            this.removeAttribute("hide-hints")
+        }
+
+    }
+
+    get hideHints(){
+        return this.hasAttribute("hide-hints")
+    }
+
+
     set cocktail(cocktail){
         super.cocktail = cocktail
         this._updateNote(cocktail["note"])
