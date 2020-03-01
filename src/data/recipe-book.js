@@ -959,7 +959,7 @@ export let cocktails = {
 		"method":"shake",
 		"ice-method":"cubes",
 		"ice-glass":"method",
-		"summary":"antigua rum, chartreuse, honey, ginger beer",
+		"summary":"Antigua rum, chartreuse, honey, ginger beer",
 		"note":"Add ginger-ale after shaking"
 	},
 	"puka-punch":
