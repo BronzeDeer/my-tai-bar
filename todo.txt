@@ -1,5 +1,5 @@
-Menu item:
-- desc or summary
+Menu item: (done)
+- desc or summary (done
 
 Tag by ingredient
 Extend ingredient to object {text,short-text,hint,tags}
