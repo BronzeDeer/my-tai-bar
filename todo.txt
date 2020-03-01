@@ -19,9 +19,9 @@ BaseElement:
 - add attribute printable, which will hide certain UI elements
 
 BaseList:
-- add Sort functions
-	- alpha-name
-	- reverse-alpha-name
+- add Sort functions (done)
+	- alpha-name (done)
+	- reverse-alpha-name (done)
 
 CompactRecipeList:
 CompactRecipe:

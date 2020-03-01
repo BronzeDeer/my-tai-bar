@@ -1,5 +1,6 @@
 import LazyLoader from "/js/util/lazyload.js"
 import {shadowBling} from "/js/util/bling.js"
+import { cocktails } from "../../../data/recipe-book.js";
 
 export default class CocktailList extends HTMLElement{
     constructor() {
@@ -24,7 +25,7 @@ export default class CocktailList extends HTMLElement{
     }
 
     static get observedAttributes() {
-        return ['cocktail-list'];
+        return ['cocktail-list','sort'];
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -35,17 +36,56 @@ export default class CocktailList extends HTMLElement{
                     if( newValue.slice(-1) === ']') newValue = newValue.slice(0,-1)
 
                     this._cocktailList = newValue.split(",")
-
-                    this.container.innerText = ""
-                    this.listIt = this._cocktailList.values()
-                    this.loadNextEntry()
-
+                    if(this.sort) this.sortBy(this.sort)
+                    this.refreshContent()
                 }
                 break;
+            case 'sort':
+                if(oldValue !== newValue){
+                    if(newValue){
+                        this.sortBy(newValue)
+                    } else {
+                        //Restore original list according to attribute
+                        this._cocktailList = this.cocktailList
+                        this.refreshContent()
+                    }
+                }
 
             default:
                 break;
         }
+    }
+
+    static sortFuncs = {
+        "alpha-name": (x,y) => cocktails[x].name.localeCompare(cocktails[y].name)
+    }
+
+    sortBy(method){
+        if(this._cocktailList){
+
+            let preSort = [...this._cocktailList]
+
+            let reverse = false
+            if(method.startsWith("reverse-")){
+                reverse = true
+                method = method.slice(8)
+            }
+
+            //in-place
+            this._cocktailList.sort(this.constructor.sortFuncs[method])
+            if(reverse) this._cocktailList.reverse()
+
+            if(preSort != this._cocktailList) this.refreshContent()
+        }
+
+    }
+
+    set sort(val){
+        this.setAttribute("sort",val)
+    }
+
+    get sort(){
+        return this.getAttribute("sort")
     }
 
     set noLazy(val){
@@ -63,6 +103,16 @@ export default class CocktailList extends HTMLElement{
 
     set cocktailList(list){
         this.setAttribute("cocktail-list",list.toString())
+    }
+
+    get cocktailList(){
+        return this.getAttribute("cocktail-list").split(",")
+    }
+
+    refreshContent = () => {
+        this.container.innerText = ""
+        this.listIt = this._cocktailList.values()
+        this.loadNextEntry()
     }
 
     makeLoaderFunc = (id) => {
