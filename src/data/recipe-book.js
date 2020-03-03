@@ -1181,7 +1181,8 @@ export let cocktails = {
 "emmas-potion":{
 	"name":"Emma's health potion",
 	"ingredients":{
-		"syrup-ginger-rosemary":"45ml",
+		"syrup-ginger-rosemary":"20ml",
+		"syrup-honey":"20ml",
 		"juice-lime":"30ml",
 		"juice-grapefruit":"60ml",
 		"ginger-beer":"fill"
