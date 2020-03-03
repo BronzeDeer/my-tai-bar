@@ -56,7 +56,7 @@ export default class CocktailList extends HTMLElement{
         }
     }
 
-    static sortFuncs = {
+    sortFuncs = {
         "alpha-name": (x,y) => cocktails[x].name.localeCompare(cocktails[y].name)
     }
 
