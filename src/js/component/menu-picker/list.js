@@ -26,9 +26,14 @@ export default class PickList extends BaseComponent{
 
     connectedCallback(){
         if(super.connectedCallback) super.connectedCallback()
-        Sortable.create(this._list,{
+        let options = {
             animation:250
-        })
+        }
+
+        if(window.innerWidth < 1250){
+            options.handle = ".fa-grip-lines"
+        }
+        Sortable.create(this._list,options)
     }
 
     addCocktail = (cocktailID) => {
