@@ -8,6 +8,7 @@ export default class MenuList extends CocktailList{
             let el = document.createElement("menu-item")
             el.cocktailID = id
             el.className = "fade-in"
+            el.printable = this.printable
             return el
         }
     }

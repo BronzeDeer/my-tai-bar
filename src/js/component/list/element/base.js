@@ -29,7 +29,7 @@ export default class ListELement extends BaseComponent{
                 header.append(titleCol)
 
                 let btnCol = document.createElement("div")
-                btnCol.className = "col-2 text-center my-auto"
+                btnCol.className = "col-2 text-center my-auto pick-col"
                     let pickBtn = document.createElement("button")
                     pickBtn.id = "pick-btn"
                     this._pickBtn = pickBtn
@@ -69,7 +69,7 @@ export default class ListELement extends BaseComponent{
     }
 
     static get observedAttributes() {
-        return ['cocktail-id'];
+        return ['cocktail-id','printable'];
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -80,7 +80,14 @@ export default class ListELement extends BaseComponent{
                     this._pickBtn.disabled = false
                 }
                 break;
-
+            case "printable":
+                if(oldValue !== newValue){
+                    if(newValue != null){
+                        this._container.classList.add("printable")
+                    } else {
+                        this._container.classList.remove("printable")
+                    }
+                }
             default:
                 break;
         }
@@ -94,9 +101,24 @@ export default class ListELement extends BaseComponent{
         return this.getAttribute("cocktail-id")
     }
 
+    get cocktailID(){
+        return this.getAttribute("cocktail-id")
+    }
     set cocktail(cocktail){
         this._updateName(cocktail["name"])
         console.log(["Base: cocktail updated to: ",cocktail])
+    }
+
+    set printable(val){
+        if(val){
+            this.setAttribute("printable","")
+        } else {
+            this.removeAttribute("printable")
+        }
+    }
+
+    get printable(){
+        return this.hasAttribute("printable")
     }
 
     _updateName = (value) => {

@@ -9,6 +9,7 @@ export default class RecipeList extends CocktailList{
             let el = document.createElement("cocktail-recipe")
             el.cocktailID = id
             el.className = "fade-in"
+            el.printable = this.printable
             return el
         }
     }

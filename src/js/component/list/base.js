@@ -17,7 +17,7 @@ export default class CocktailList extends BaseComponent{
     }
 
     static get observedAttributes() {
-        return ['cocktail-list','sort'];
+        return ['cocktail-list','sort','printable'];
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -42,7 +42,13 @@ export default class CocktailList extends BaseComponent{
                         this.refreshContent()
                     }
                 }
-
+            case 'printable':
+                if(oldValue !== newValue){
+                    let loadedEls = this.$$("[loaded]")
+                    for(let el of loadedEls){
+                        el.printable = (newValue != null)
+                    }
+                }
             default:
                 break;
         }
@@ -99,6 +105,18 @@ export default class CocktailList extends BaseComponent{
 
     get cocktailList(){
         return this.getAttribute("cocktail-list").split(",")
+    }
+
+    set printable(val){
+        if(val){
+            this.setAttribute("printable","")
+        } else {
+            this.removeAttribute("printable")
+        }
+    }
+
+    get printable(){
+        return this.hasAttribute("printable")
     }
 
     refreshContent = () => {

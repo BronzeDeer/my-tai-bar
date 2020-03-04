@@ -21,4 +21,14 @@ h2{
 } 
 .hide-hints .hint { 
     display:none; 
-} 
+}
+.printable .card-header{
+    background-color:white;
+}
+.printable .alert-secondary{
+    background-color: white;
+}
+
+.printable .pick-col{
+    display: none;
+}
