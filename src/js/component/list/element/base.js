@@ -16,17 +16,41 @@ export default class ListELement extends BaseComponent{
 
             let header = document.createElement("div");
             header.id = "header"
-            header.className = "row"
+            header.className = "row card-header"
 
                 let titleCol = document.createElement("div")
                 titleCol.id = "title"
-                titleCol.className = "col card-header"
+                titleCol.className = "col"
 
                     let cocktailName = document.createElement("H2")
                     cocktailName.id = "cocktail-name"
                     titleCol.append(cocktailName)
 
                 header.append(titleCol)
+
+                let btnCol = document.createElement("div")
+                btnCol.className = "col-2 text-center my-auto"
+                    let pickBtn = document.createElement("button")
+                    pickBtn.id = "pick-btn"
+                    this._pickBtn = pickBtn
+                    if(window.pickList){
+                        pickBtn.onclick = () => {if(this.cocktailID)window.pickList.addCocktail(this.cocktailID)}
+                    }
+                    pickBtn.className = "btn btn-secondary fa-1x"
+                    //Will be enabled once cocktailID is set
+                    pickBtn.disabled = true
+
+                        let icon = document.createElement("i")
+                        icon.className="fa fa-plus"
+                        pickBtn.append(icon)
+
+                        let bold = document.createElement("b")
+                        bold.innerText = " Pick"
+                        pickBtn.append(bold)
+
+                    btnCol.append(pickBtn)
+                header.append(btnCol)
+
             main.append(header)
 
             let topRow = document.createElement("div")
@@ -53,6 +77,7 @@ export default class ListELement extends BaseComponent{
             case "cocktail-id":
                 if(oldValue !== newValue){
                     this.cocktail = cocktails[newValue]
+                    this._pickBtn.disabled = false
                 }
                 break;
 

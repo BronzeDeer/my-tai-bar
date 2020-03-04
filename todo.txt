@@ -7,7 +7,7 @@ Tag search
 INgredient implies tags
 
 Side list:
-- "Add to list" button in base cocktailElement 
+- "Add to list" button in base cocktailElement (done)
 - SideListElement: (done)
 	- Just cocktail Name (done)
 	- Reorderable (done)
