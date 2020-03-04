@@ -1213,6 +1213,19 @@ export let cocktails = {
 	"ice-glass":"method",
 	"method":"build",
 	"summary":"almond, lime, soda"
+},
+"jack-rose":{
+	"name": "Jack Rose",
+	"ingredients":{
+		"syrup-grenadine":"15ml",
+		"juice-lime":"30ml",
+		"calvados":"60ml"
+	},
+	"glass":"coupe",
+	"ice-method":"cubes",
+	"ice-glass":"none",
+	"method":"shake",
+	"summary":"Calvados, grenadine, lime"
 }
 	
 }
