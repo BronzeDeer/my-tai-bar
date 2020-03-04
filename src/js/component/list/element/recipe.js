@@ -224,15 +224,9 @@ export default class RecipeELement extends ListElement{
     }
 
     _parseIngredient = (key, amount, includeHints = false) => {
-        let ingText = ingredients[key]
-        let splitIdx = ingText.indexOf("(")
-        let hint = ""
-
-        if(splitIdx >= 0){
-            hint = ingText.slice(splitIdx)
-            ingText = ingText.slice(0,splitIdx)
-        }
-
+        let ing = ingredients[key]
+        let ingText = ing.text
+        let hint = ing.hint
 
         let row = document.createElement("div")
         row.className = "row ingredient"

@@ -2,105 +2,498 @@ export let specialAfter = {"add-after":"Add in the glass","float":"Float"}
 export let specialPre = {"muddle":"Muddle"}
 
 export let ingredients = {
-    "juice-lime": "freshly squeezed lime juice",
-    "juice-lemon": "freshly squeezed lemon juice",
-    "juice-orange": "freshly squeezed orange juice",
-    "juice-pineapple":"pineapple juice",
-    "juice-passion": "passion-fruit juice",
-	"juice-apple-cloudy": "cloudy apple juice",
-	"juice-tangerine":"tangerine juice",
-	"juice-grapefruit":"grapefruit juice",
-
-	"soda":"Soda",
-	
-	"lemon-piece":"eight of a lemon",
-	"lime-piece":"eight of a lime",
-	"cucumber-slice":"slice of cucumber",
-	"mint-leaf":"mint leaf",
-    
-    "syrup-passion": "passion-fruit syrup", 
-    "syrup-simple": "simple syrup",
-	"syrup-orgeat": "orgeat (e.g. Monin, Giffard, or home-made)",
-	"syrup-ginger":"ginger syrup (homemade)",
-    "syrup-honey": "honey syrup",
-    "syrup-grenadine": "grenadine syrup",
-    "syrup-vanille": "vanilla syrup",
-    "syrup-cinnamon": "cinnamon syrup (home-made)", 
-	"syrup-demerara": "demerara syrup (home-made)",
-	"syrup-ginger-rosemary": "ginger and rosemary syrup (home-made)",
-	
-	"sugar-cane-brown": "brown cane sugar",
-    
-	"creme-of-coconut" : "cream of coconut (home-made)",
-	"coconut-milk":"coconut milk",
-	"ginger-beer": "ginger Beer (e.g. Fever Tree)",
-	"ginger-ale":"ginger ale (e.g. Thomas Henry)",
-    "rose-lime": "Lime Cordial (e.g. Rose's lime juice or home-made)",
-    "heavy-cream": "Heavy/Double cream",
-    
-    
-    "rum-dark": "blended dark rum (e.g. Gosling's, Myers's, or Lemon Hart Demerara Rum)",
-    "rum-jamaican": "Jamaican Rum (e.g. Appleton Signature, Myer's, or Coruba Jamaican)",
-    "rum-demerara": "Demerara Rum (e.g. Lemon Hart, El Dorado, XM, or Hamilton 86)",
-    "rum-agricole": "rhum agricole blanc (e.g. Clement, or Saint James)",
-    "goslings-black-seal": "Gosling's Black Seal Rum",
-    "english-harbour": "English Harbour 5 Years",
-    "plantation-oftd": "Plantation O.F.T.D",
-    "plantation-5years": "Plantation Bardbados Grande Reserve Rum 5 Years",
-    "plantation-3stars": "Plantation 3 Stars Rum",
-    "smith-cross": "Smith & Cross Jamaica Rum Navy Strength",
-    "coruba-jamaican": "Coruba Jamaican Rum",
-	"appleton-12": "Appleton Estate 12 Years",
-	"wray-nephew-overproof":"Wray & Nephew Overproof Rum",
-    "clement-vsop": "Clement Rhum Agricole V.S.O.P",
-    "deadhead-dark-choc": "Deadhead Dark Chocolate Rum",
-        
-    "bitter-angostura": "Angostura bitters",
-    "bitter-orange": "Orange Bitters (e.g. Angostura Orange)",
-    
-    "gin-london-dry": "london dry gin (e.g. Tanqueray or Beefeater)",
-	"vodka-normal": "standard vodka (e.g. Absolut)",
-	"vodka-bison": "bison grass vodka (e.g. Żubrówka ) ",
-    "cointreau": "Cointreau Orange Liqueur",
-	"pierre-ferrand-dry-curacao": "Pierre Ferrand Dry Orange Curaçao",
-	"blue-curacao":"blue Curaçao",
-	"chambord":"Chambord Raspberry Liqueur",
-    "pierre-ferrand-brandy": "Cognac (e.g. Pierre Ferrand 1840, Hine V.S.O.P, or Remy Martin V.S.O.P)",
-	"whiskey-bourbon" : "bourbon (e.g. Maker's Mark or Bulleit Bourbon)",
-	"whiskey-rye" : "rye whiskey (e.g. Bulleit Rye or Rittenhouse Rye)",
-	"whiskey-scotch": "scotch (e.g. Monkey Shoulder)",
-    "tequila":"Tequila",
-    
-    
-	"brandy-apricot": "Apricot Brandy (e.g. Giffard)",
-	"creme-de-violette":"Violet Liqueur / Crème de violette",
-	"aperol": "Aperol",
-	"campari":"Campari",
-    "heering-cherry": "Heering Cherry Liqueur",
-    "luxardo-maraschino": "Luxardo Maraschino",
-    "luxardo-sour-cherry": "Luxardo Sour Cherry Gin",
-    "falernum": "John D. Taylor's Velvet Falernum",
-    "midori": "Midori Melon Liqueur",
-	"passoa": "Passoã passion-fruit liqueuer",
-	"st-germain":"St. Germain elderflower liqueur",
-	"licor-43":"Licor 43",
-	"baileys":"Baileys Irish Cream",
-    "mozart-dark": "Mozart Dark Chocolate Liqueur",
-	"mozart-dry": "Mozart Dry Chocolate Spirit (formerly Mozart Dry Chocolate Vodka)",
-	"calvados": "Apple Brandy (Calvados, Applejack)",
-    
-    "vermouth-sweet":"sweet vermouth (typically Carpano Antica Formula)",
-    "vermouth-dry": "dry vermouth (typically Noilly Prat)",
-    "sparkling-dry": "dry sparkling wine (e.g. a Brut Champagne, Crémant, or Cava)", 
-    
-    "chartreuse-green": "green Chartreuse",
-    "chartreuse-yellow": "yellow Chartreuse",
-    "absinth": "Absinthe",
-    "benedictine": "Bénédictine"
-    
-    
-    
-    
+    "juice-lime": {
+        "text": "freshly squeezed lime juice",
+        "hint": "",
+        "short-text": "lime juice",
+        "tags": ["lime"]
+    },
+    "juice-lemon": {
+        "text": "freshly squeezed lemon juice",
+        "hint": "",
+        "short-text": "lemon juice",
+        "tags": ["lemon"]
+    },
+    "juice-orange": {
+        "text": "freshly squeezed orange juice",
+        "hint": "",
+        "short-text": "orange juice",
+        "tags": ["orange"]
+    },
+    "juice-pineapple": {
+        "text": "pineapple juice",
+        "hint": "",
+        "short-text": "",
+        "tags": ["pineapple"]
+    },
+    "juice-passion": {
+        "text": "passion fruit juice",
+        "hint": "",
+        "short-text": "",
+        "tags": ["passion-fruit"]
+    },
+    "juice-apple-cloudy": {
+        "text": "cloudy apple juice",
+        "hint": "",
+        "short-text": "apple juice",
+        "tags": ["apple"]
+    },
+    "juice-tangerine": {
+        "text": "tangerine juice",
+        "hint": "",
+        "short-text": "",
+        "tags": ["tangerine"]
+    },
+    "juice-grapefruit": {
+        "text": "grapefruit juice",
+        "hint": "",
+        "short-text": "",
+        "tags": ["grapefruit"]
+    },
+    "soda": {
+        "text": "soda",
+        "hint": "",
+        "short-text": "",
+        "tags": ["soda"]
+    },
+    "lemon-piece": {
+        "text": "eighth of a lemon",
+        "hint": "",
+        "short-text": "1/8th lemon",
+        "tags": ["lemon"]
+    },
+    "lime-piece": {
+        "text": "eighth of a lime",
+        "hint": "",
+        "short-text": "1/8th lime",
+        "tags": ["lime"]
+    },
+    "cucumber-slice": {
+        "text": "slice of cucumber",
+        "hint": "",
+        "short-text": "cucumber slice",
+        "tags": ["cucumber"]
+    },
+    "mint-leaf": {
+        "text": "mint leaf",
+        "hint": "",
+        "short-text": "",
+        "tags": ["mint"]
+    },
+    "syrup-passion": {
+        "text": "passion-fruit syrup",
+        "hint": "",
+        "short-text": "",
+        "tags": ["passion-fruit"]
+    },
+    "syrup-simple": {
+        "text": "simple syrup",
+        "hint": "",
+        "short-text": "",
+        "tags": []
+    },
+    "syrup-orgeat": {
+        "text": "orgeat",
+        "hint": "e.g. Monin, Giffard, or homemade",
+        "short-text": "",
+        "tags": ["almond"]
+    },
+    "syrup-ginger": {
+        "text": "ginger syrup",
+        "hint": "homemade",
+        "short-text": "",
+        "tags": ["ginger"]
+    },
+    "syrup-honey": {
+        "text": "honey syrup",
+        "hint": "homemade",
+        "short-text": "",
+        "tags": ["honey"]
+    },
+    "syrup-grenadine": {
+        "text": "grenadine syrup",
+        "hint": "",
+        "short-text": "",
+        "tags": ["pomegranate"]
+    },
+    "syrup-vanille": {
+        "text": "vanilla syrup",
+        "hint": "",
+        "short-text": "",
+        "tags": ["vanilla"]
+    },
+    "syrup-cinnamon": {
+        "text": "cinnamon syrup",
+        "hint": "homemade",
+        "short-text": "",
+        "tags": ["cinnamon"]
+    },
+    "syrup-demerara": {
+        "text": "demerara syrup",
+        "hint": "homemade",
+        "short-text": "",
+        "tags": ["cinnamon"]
+    },
+    "syrup-ginger-rosemary": {
+        "text": "ginger and rosemary syrup",
+        "hint": "homemade",
+        "short-text": "",
+        "tags": ["ginger","rosemary"]
+    },
+    "sugar-cane-brown": {
+        "text": "brown cane sugar",
+        "hint": "",
+        "short-text": "",
+        "tags": ["sugar"]
+    },
+    "creme-of-coconut": {
+        "text": "cream of coconut",
+        "hint": "homemade",
+        "short-text": "",
+        "tags": ["coconut"]
+    },
+    "coconut-milk": {
+        "text": "coconut milk",
+        "hint": "",
+        "short-text": "",
+        "tags": ["coconut"]
+    },
+    "ginger-beer": {
+        "text": "ginger beer",
+        "hint": "e.g. Fever Tree",
+        "short-text": "",
+        "tags": ["ginger"]
+    },
+    "ginger-ale": {
+        "text": "ginger ale",
+        "hint": "e.g. Thomas Henry",
+        "short-text": "",
+        "tags": ["ginger"]
+    },
+    "rose-lime": {
+        "text": "lime Cordial",
+        "hint": "e.g. Rose's lime juice or homemade",
+        "short-text": "",
+        "tags": ["lime"]
+    },
+    "heavy-cream": {
+        "text": "heavy/Double cream",
+        "hint": "",
+        "short-text": "cream",
+        "tags": ["milk"]
+    },
+    "rum-dark": {
+        "text": "blended dark rum",
+        "hint": "e.g. Gosling's, Myers's, or Lemon Hart Demerara Rum",
+        "short-text": "dark rum",
+        "tags": ["alcohol","rum"]
+    },
+    "rum-jamaican": {
+        "text": "jamaican Rum",
+        "hint": "e.g. Appleton Signature, Myer's, or Coruba Jamaican",
+        "short-text": "",
+        "tags": ["alcohol","rum"]
+    },
+    "rum-demerara": {
+        "text": "demerara Rum",
+        "hint": "e.g. Lemon Hart, El Dorado, XM, or Hamilton 86",
+        "short-text": "",
+        "tags": ["alcohol","rum"]
+    },
+    "rhum-agricole-blanc": {
+        "text": "rhum agricole blanc",
+        "hint": "e.g. Clement, or Saint James",
+        "short-text": "",
+        "tags": ["alcohol","rum","rhum-agricole"]
+    },
+    "goslings-black-seal": {
+        "text": "Gosling's Black Seal Rum",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum","rum-dark"]
+    },
+    "english-harbour": {
+        "text": "English Harbour 5 Years",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum"]
+    },
+    "plantation-oftd": {
+        "text": "Plantation O.F.T.D",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","overproof","rum","rum-dark","rum-demerara"]
+    },
+    "plantation-5years": {
+        "text": "Plantation Bardbados Grande Reserve Rum 5 Years",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum"]
+    },
+    "plantation-3stars": {
+        "text": "Plantation 3 Stars Rum",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum","rum-white"]
+    },
+    "smith-cross": {
+        "text": "Smith & Cross Jamaica Rum Navy Strength",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum","rum-jamaican"]
+    },
+    "coruba-jamaican": {
+        "text": "Coruba Jamaican Rum",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum","rum-jamaican"]
+    },
+    "appleton-12": {
+        "text": "Appleton Estate 12 Years",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum","rum-jamaican","aged"]
+    },
+    "wray-nephew-overproof": {
+        "text": "Wray & Nephew Overproof Rum",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","overproof","rum","rum-white"]
+    },
+    "clement-vsop": {
+        "text": "Clement Rhum Agricole V.S.O.P",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","aged","rum","rhum-agricole"]
+    },
+    "deadhead-dark-choc": {
+        "text": "Deadhead Dark Chocolate Rum",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum","chocolate","chocolate-dark"]
+    },
+    "bitter-angostura": {
+        "text": "Angostura bitters",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","aromatic-bitters"]
+    },
+    "bitter-orange": {
+        "text": "Orange Bitters",
+        "hint": "e.g. Angostura Orange",
+        "short-text": "",
+        "tags": ["alcohol","aromatic-bitters","orange"]
+    },
+    "gin-london-dry": {
+        "text": "london dry gin",
+        "hint": "e.g. Tanqueray or Beefeater",
+        "short-text": "",
+        "tags": ["alcohol","gin"]
+    },
+    "vodka-normal": {
+        "text": "standard vodka",
+        "hint": "e.g. Absolut",
+        "short-text": "",
+        "tags": ["alcohol"]
+    },
+    "vodka-bison": {
+        "text": "bison grass vodka",
+        "hint": "e.g. \u017bubr\u00f3wka",
+        "short-text": "",
+        "tags": ["alcohol","vodka"]
+    },
+    "cointreau": {
+        "text": "Cointreau Orange Liqueur",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","orange"]
+    },
+    "pierre-ferrand-dry-curacao": {
+        "text": "Pierre Ferrand Dry Orange Cura\u00e7ao",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","orange"]
+    },
+    "blue-curacao": {
+        "text": "blue Cura\u00e7ao",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","orange"]
+    },
+    "chambord": {
+        "text": "Chambord Raspberry Liqueur",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","raspberry"]
+    },
+    "pierre-ferrand-brandy": {
+        "text": "Cognac",
+        "hint": "e.g. Pierre Ferrand 1840, Hine V.S.O.P, or Remy Martin V.S.O.P",
+        "short-text": "",
+        "tags": ["alcohol","brandy","cognac"]
+    },
+    "whiskey-bourbon": {
+        "text": "bourbon",
+        "hint": "e.g. Maker's Mark or Bulleit Bourbon",
+        "short-text": "",
+        "tags": ["alcohol","whiskey"]
+    },
+    "whiskey-rye": {
+        "text": "rye whiskey",
+        "hint": "e.g. Bulleit Rye or Rittenhouse Rye",
+        "short-text": "",
+        "tags": ["alcohol","whiskey"]
+    },
+    "whiskey-scotch": {
+        "text": "scotch",
+        "hint": "e.g. Monkey Shoulder",
+        "short-text": "",
+        "tags": ["alcohol","whiskey"]
+    },
+    "tequila": {
+        "text": "Tequila",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol"]
+    },
+    "brandy-apricot": {
+        "text": "Apricot Brandy",
+        "hint": "e.g. Giffard",
+        "short-text": "",
+        "tags": ["alcohol","apricot"]
+    },
+    "creme-de-violette": {
+        "text": "Violet Liqueur / Cr\u00e8me de violette",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","floral"]
+    },
+    "aperol": {
+        "text": "Aperol",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","orange"]
+    },
+    "campari": {
+        "text": "Campari",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","herbal"]
+    },
+    "heering-cherry": {
+        "text": "Heering Cherry Liqueur",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","cherry"]
+    },
+    "luxardo-maraschino": {
+        "text": "Luxardo Maraschino",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","cherry"]
+    },
+    "luxardo-sour-cherry": {
+        "text": "Luxardo Sour Cherry Gin",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","gin","cherry"]
+    },
+    "falernum": {
+        "text": "John D. Taylor's Velvet Falernum",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","rum"]
+    },
+    "midori": {
+        "text": "Midori Melon Liqueur",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","melon"]
+    },
+    "passoa": {
+        "text": "Passo\u00e3 passion-fruit liqueuer",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","passion-fruit"]
+    },
+    "st-germain": {
+        "text": "St. Germain elderflower liqueur",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","elderflower"]
+    },
+    "licor-43": {
+        "text": "Licor 43",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol"]
+    },
+    "baileys": {
+        "text": "Baileys Irish Cream",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","milk"]
+    },
+    "mozart-dark": {
+        "text": "Mozart Dark Chocolate Liqueur",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","chocolate","chocolate-dark"]
+    },
+    "mozart-dry": {
+        "text": "Mozart Dry Chocolate Spirit",
+        "hint": "formerly Mozart Dry Chocolate Vodka",
+        "short-text": "",
+        "tags": ["alcohol","vodka","chocolate"]
+    },
+    "calvados": {
+        "text": "Apple Brandy",
+        "hint": "Calvados, Applejack",
+        "short-text": "",
+        "tags": ["alcohol","apple"]
+    },
+    "vermouth-sweet": {
+        "text": "sweet vermouth",
+        "hint": "typically Carpano Antica Formula",
+        "short-text": "",
+        "tags": ["alcohol","wine","vermouth"]
+    },
+    "vermouth-dry": {
+        "text": "dry vermouth",
+        "hint": "typically Noilly Prat",
+        "short-text": "",
+        "tags": ["alcohol","wine","vermouth"]
+    },
+    "sparkling-dry": {
+        "text": "dry sparkling wine",
+        "hint": "e.g. a Brut Champagne, Cr\u00e9mant, or Cava",
+        "short-text": "",
+        "tags": ["alcohol","wine"]
+    },
+    "chartreuse-green": {
+        "text": "green Chartreuse",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","herbal"]
+    },
+    "chartreuse-yellow": {
+        "text": "yellow Chartreuse",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","herbal"]
+    },
+    "absinth": {
+        "text": "Absinthe",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","overproof","herbal"]
+    },
+    "benedictine": {
+        "text": "B\u00e9n\u00e9dictine",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol","herbal"]
+    }
 }
 
 
@@ -116,7 +509,7 @@ export let cocktails = {
 			"juice-lime": "30ml",
 			"wray-nephew-overproof": "10ml",
 			"rum-jamaican": "20ml",
-			"rum-agricole": "20ml",
+			"rhum-agricole-blanc": "20ml",
 			"pierre-ferrand-dry-curacao": "20ml"
 		},
 		"glass":"rocks",
