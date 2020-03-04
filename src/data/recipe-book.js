@@ -86,7 +86,8 @@ export let ingredients = {
 	"licor-43":"Licor 43",
 	"baileys":"Baileys Irish Cream",
     "mozart-dark": "Mozart Dark Chocolate Liqueur",
-    "mozart-dry": "Mozart Dry Chocolate Spirit (formerly Mozart Dry Chocolate Vodka)",
+	"mozart-dry": "Mozart Dry Chocolate Spirit (formerly Mozart Dry Chocolate Vodka)",
+	"calvados": "Apple Brandy (Calvados, Applejack)",
     
     "vermouth-sweet":"sweet vermouth (typically Carpano Antica Formula)",
     "vermouth-dry": "dry vermouth (typically Noilly Prat)",
