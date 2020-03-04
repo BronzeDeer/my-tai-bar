@@ -10,9 +10,9 @@ export default class ListELement extends BaseComponent{
         this.addStyleSheet("/dist/fontawesome-free-5.12.1-web/css/all.min.css")
         this.addStyleSheet("/css/recipe-element.css")
 
-        let main = document.createElement("div")
-        main.id = "recipe"
-        main.className = "container card cocktail mt-5 mb-5 no-break"
+        this._container = document.createElement("div")
+        this._container.id = "container"
+        this._container.className = "container card cocktail mt-5 mb-5 no-break"
 
             let header = document.createElement("div");
             header.id = "header"
@@ -51,21 +51,21 @@ export default class ListELement extends BaseComponent{
                     btnCol.append(pickBtn)
                 header.append(btnCol)
 
-            main.append(header)
+            this._container.append(header)
 
             let topRow = document.createElement("div")
             topRow.className = "card-body row "
             topRow.id = "top-row"
-            main.append(topRow)
+            this._container.append(topRow)
 
             let note = document.createElement("div")
             note.className = "alert alert-secondary d-none"
             note.id = "note"
 
 
-            main.append(note)
+            this._container.append(note)
 
-        this._root.append(main)
+        this._root.append(this._container)
     }
 
     static get observedAttributes() {
