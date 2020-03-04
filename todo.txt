@@ -8,9 +8,9 @@ INgredient implies tags
 
 Side list:
 - "Add to list" button in base cocktailElement 
-- SideListElement:
-	- Just cocktail Name
-	- ReorderButton
+- SideListElement: (done)
+	- Just cocktail Name (done)
+	- Reorderable (done)
 - SideListHeader:
 	- Section/group header instead of cocktail Name
 - Create print menu and create print recipe (List to string and open in new tab)
