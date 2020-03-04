@@ -8,6 +8,7 @@ export default class RecipeList extends CocktailList{
         return  async () =>{
             let el = document.createElement("cocktail-recipe")
             el.cocktailID = id
+            el.className = "fade-in"
             return el
         }
     }

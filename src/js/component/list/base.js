@@ -8,6 +8,7 @@ export default class CocktailList extends BaseComponent{
 
         this.addStyleSheet("/css/lazy-loader.css")
         this.addStyleSheet("/css/cocktail-list.css")
+        this.addStyleSheet("/css/no-fouc.css")
 
         let container = document.createElement("div")
         container.id = "container"

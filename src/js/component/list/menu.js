@@ -7,6 +7,7 @@ export default class MenuList extends CocktailList{
         return  async () =>{
             let el = document.createElement("menu-item")
             el.cocktailID = id
+            el.className = "fade-in"
             return el
         }
     }
