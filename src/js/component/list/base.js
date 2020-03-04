@@ -1,22 +1,13 @@
 import LazyLoader from "/js/util/lazyload.js"
-import {shadowBling} from "/js/util/bling.js"
 import { cocktails } from "../../../data/recipe-book.js";
+import BaseComponent from "/js/component/base.js"
 
-export default class CocktailList extends HTMLElement{
+export default class CocktailList extends BaseComponent{
     constructor() {
         super();
-        this._root = this.attachShadow({ mode: "open" });
-        [this.$,this.$$] = shadowBling(this._root)
 
-        let style = document.createElement("link")
-        style.rel = "stylesheet"
-        style.href = "/css/lazy-loader.css"
-        this._root.append(style)
-
-        style = document.createElement("link")
-        style.rel = "stylesheet"
-        style.href = "/css/cocktail-list.css"
-        this._root.append(style)
+        this.addStyleSheet("/css/lazy-loader.css")
+        this.addStyleSheet("/css/cocktail-list.css")
 
         let container = document.createElement("div")
         container.id = "container"

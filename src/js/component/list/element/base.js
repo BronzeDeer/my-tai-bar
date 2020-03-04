@@ -1,25 +1,14 @@
 import {cocktails} from "/data/recipe-book.js"
-import {shadowBling} from "/js/util/bling.js"
+import BaseComponent from "/js/component/base.js"
 
-export default class ListELement extends HTMLElement{
+export default class ListELement extends BaseComponent{
 
     constructor() {
         super();
-        this._root = this.attachShadow({ mode: "open" });
-        [this.$,this.$$] = shadowBling(this._root)
-        //create skeleton that all cocktails use
 
-
-        //Todo: investigate whether doing this in every component will create performance problems
-        let bootstrap = document.createElement("link")
-        bootstrap.rel = "stylesheet"
-        bootstrap.href = "/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css"
-        this._root.append(bootstrap)
-
-        let style = document.createElement("link")
-        style.rel = "stylesheet"
-        style.href = "/css/recipe-element.css"
-        this._root.append(style)
+        this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
+        this.addStyleSheet("/dist/fontawesome-free-5.12.1-web/css/all.min.css")
+        this.addStyleSheet("/css/recipe-element.css")
 
         let main = document.createElement("div")
         main.id = "recipe"
