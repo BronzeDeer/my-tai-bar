@@ -15,10 +15,10 @@ Side list:
 	- Section/group header instead of cocktail Name
 - Create print menu and create print recipe (List to string and open in new tab)
 
-BaseElement:
-- add attribute printable, which will hide certain UI elements
+BaseElement: (done)
+- add attribute printable, which will hide certain UI elements (done)
 
-BaseList:
+BaseList: (done)
 - add Sort functions (done)
 	- alpha-name (done)
 	- reverse-alpha-name (done)
