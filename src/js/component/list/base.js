@@ -70,7 +70,7 @@ export default class CocktailList extends BaseComponent{
             }
 
             //in-place
-            this._cocktailList.sort(this.constructor.sortFuncs[method])
+            this._cocktailList.sort(this.sortFuncs[method])
             if(reverse) this._cocktailList.reverse()
 
             if(preSort != this._cocktailList) this.refreshContent()
