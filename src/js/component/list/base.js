@@ -6,6 +6,7 @@ export default class CocktailList extends BaseComponent{
     constructor() {
         super();
 
+        this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
         this.addStyleSheet("/css/lazy-loader.css")
         this.addStyleSheet("/css/cocktail-list.css")
         this.addStyleSheet("/css/no-fouc.css")
