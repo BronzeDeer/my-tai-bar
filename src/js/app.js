@@ -4,6 +4,7 @@ bling()
 
 import "/js/component/list/element/recipe.js"
 import "/js/component/list/recipe.js"
+import "/js/component/tag-search/searchbar.js"
 import "/js/component/list/menu.js"
 import "/js/component/menu-picker/list.js"
 import {cocktails} from "/data/recipe-book.js"
@@ -24,6 +25,8 @@ window.on('load',() =>{
     let list = document.createElement("recipe-list")
     list.cocktailList = Object.keys(cocktails)
     container.append(list)
+
+    $("tag-search").onFilterChanged = x => {list.filter = x }
 
     let sideList = $("#side-list")
     sideList.innerText=""
