@@ -1038,7 +1038,7 @@ export let cocktails = {
 			"juice-lime":"15ml",
 			"aperol":"30ml",
 			"blue-curacao":"30ml",
-			"coconut-milk":"60ml"
+			"creme-of-coconut":"40ml"
 		},
 		"glass":"martini",
 		"method":"shake",

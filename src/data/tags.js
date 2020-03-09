@@ -212,9 +212,6 @@ export let tags = {
         "force-is-strong",
         "trade-winds"
     ],
-    "coconut-milk": [
-        "force-is-strong"
-    ],
     "cognac": [
         "scorpion-bowl",
         "suffering-bastard"
@@ -242,6 +239,7 @@ export let tags = {
         "colada-pina",
         "colada-shirin",
         "colada-virgin",
+        "force-is-strong",
         "trade-winds"
     ],
     "cucumber": [
