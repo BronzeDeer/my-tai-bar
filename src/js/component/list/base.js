@@ -133,15 +133,18 @@ export default class CocktailList extends BaseComponent{
         //Load list entries one by one with delay to preserve responsiveness
         let {value,done} = this.listIt.next()
         if(!done){
+            let div = document.createElement("div")
+            div.className = "mt-5 mb-5"
             if(this.noLazy){
                 let loader = this.makeLoaderFunc(value)
-                this.container.append(await loader())
+                div.append(await loader())
             } else {
                 let ll = document.createElement("lazy-loader")
                 ll.className="full-width d-block blocker"
                 ll.loader = this.makeLoaderFunc(value)
-                this.container.append(ll)
+                div.append(ll)
             }
+            this.container.append(div)
             setTimeout(this.loadNextEntry,50)
         }
 

@@ -12,7 +12,7 @@ export default class ListELement extends BaseComponent{
 
         this._container = document.createElement("div")
         this._container.id = "container"
-        this._container.className = "container card cocktail mt-5 mb-5 no-break"
+        this._container.className = "container card cocktail no-break"
 
             let header = document.createElement("div");
             header.id = "header"
