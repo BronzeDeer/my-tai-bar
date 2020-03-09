@@ -1,0 +1,8 @@
+.header{
+    height: 72px;
+    background-color: lightgray;
+}
+
+.sticky-offset{
+    padding-top: 100px;
+}
