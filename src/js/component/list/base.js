@@ -18,7 +18,7 @@ export default class CocktailList extends BaseComponent{
     }
 
     static get observedAttributes() {
-        return ['cocktail-list','sort','printable'];
+        return ['cocktail-list','sort','printable',"filter"];
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -49,6 +49,10 @@ export default class CocktailList extends BaseComponent{
                     for(let el of loadedEls){
                         el.printable = (newValue != null)
                     }
+                }
+            case 'filter':
+                if(oldValue !== newValue){
+                    this._filter(newValue.split(","))
                 }
             default:
                 break;
@@ -120,6 +124,29 @@ export default class CocktailList extends BaseComponent{
         return this.hasAttribute("printable")
     }
 
+    _filter(list){
+        for(let child of this.container.children){
+            let id = this.noLazy ? child.firstChild.id : child.firstChild.id.slice("loader-".length)
+            if(list.includes(id)){
+                child.classList.remove("d-none")
+            } else {
+                child.classList.add("d-none")
+            }
+
+        }
+    }
+
+    set filter(val){
+        if(!(val instanceof Array)){
+            val = Array.from(val)
+        }
+        this.setAttribute("filter",val.toString())
+    }
+
+    get filter(){
+        return this.getAttribute("filter").split(",")
+    }
+
     refreshContent = () => {
         this.container.innerText = ""
         this.listIt = this._cocktailList.values()
@@ -142,6 +169,7 @@ export default class CocktailList extends BaseComponent{
             } else {
                 let ll = document.createElement("lazy-loader")
                 ll.className="full-width d-block blocker"
+                ll.id = "loader-"+value
                 ll.loader = this.makeLoaderFunc(value)
                 div.append(ll)
             }
