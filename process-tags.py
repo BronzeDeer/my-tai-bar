@@ -27,6 +27,8 @@ def makeTags(parsedModules):
 
     #Calculate derived tags
     tags["non-alcoholic"] = parsedModules["cocktails"].keys() - tags["alcohol"]
+    tags["no-milk"] = parsedModules["cocktails"].keys() - tags["milk"]
+    tags["vegan"] = parsedModules["cocktails"].keys() - tags["milk"] - tags["honey"] # - tags["egg"] - tags["not-vegan"]
 
     return {k:sorted(list(v)) for k,v in tags.items()}
 
