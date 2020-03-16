@@ -11,9 +11,14 @@ Side list:
 - SideListElement: (done)
 	- Just cocktail Name (done)
 	- Reorderable (done)
+	- Click to show in modal
 - SideListHeader:
 	- Section/group header instead of cocktail Name
-- Create print menu and create print recipe (List to string and open in new tab)
+- Export Menu as JSON
+	- to download
+	- to HTML Sesison Storage
+	- to HTML LocalStorage
+- Create print menu and create print recipe (export list and open in new tab)
 
 BaseElement: (done)
 - add attribute printable, which will hide certain UI elements (done)
