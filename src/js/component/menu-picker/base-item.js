@@ -15,7 +15,7 @@ export default class PickerItem extends BaseComponent{
             row.className = "row"
 
                 let grip = document.createElement("div")
-                grip.className = "col-1 my-auto"
+                grip.className = "col-1 my-auto pl-0"
                     let glyphicon = document.createElement("i")
                     glyphicon.className="text-secondary fa fa-grip-lines fa-lg align-middle"
                     grip.append(glyphicon)
