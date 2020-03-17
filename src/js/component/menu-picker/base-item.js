@@ -79,8 +79,8 @@ export default class PickerItem extends BaseComponent{
         this._deleteButton.disabled = false
     }
 
-    toString = () => {
-        return this.value
+    getExportable = () => {
+        throw new Error("Abstract getExportable() not overriden")
     }
 
     onValueChanged = (newValue) =>{

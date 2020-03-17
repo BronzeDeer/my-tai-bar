@@ -59,5 +59,9 @@ export default class HeaderPickerItem extends PickerItem{
         }
         this._input.focus()
     }
+
+    getExportable = () => {
+        return {type:"section",name:this.value}
+    }
 }
 customElements.define("pick-header",HeaderPickerItem)

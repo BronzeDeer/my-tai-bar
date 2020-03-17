@@ -11,5 +11,9 @@ export default class CocktailPickerItem extends PickerItem{
         this._main.innerText = ""
         this._main.append(header)
     }
+
+    getExportable = () => {
+        return {type:"cocktail",id:this.value}
+    }
 }
 customElements.define("pick-cocktail",CocktailPickerItem)

@@ -134,6 +134,16 @@ export default class PickList extends BaseComponent{
         }
     }
 
+    toString = () => {
+        return JSON.stringify(this.getExportable())
+    }
+
+    getExportable = () => {
+        if(this._placeholder.parentNode == this._list){
+            return []
+        }
+        return this._list.childNodes.map(x => x.getExportable())
+    }
 }
 
 customElements.define("pick-list",PickList)
