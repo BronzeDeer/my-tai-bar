@@ -58,6 +58,10 @@ export default class PickList extends BaseComponent{
                 btn.setAttribute("data-toggle","dropdown")
                 btn.innerHTML = "<b>Export</b>"
                 btn.type = "button"
+                btn.onclick = () => {
+                    localStorage.setItem("displayList",this.toString())
+                    window.open("/menu.html?fromStorage=1",'_blank').focus()
+                }
                 dropdown.append(btn)
 
                 let dropdownMenu = document.createElement("div")
