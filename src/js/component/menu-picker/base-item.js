@@ -71,7 +71,7 @@ export default class PickerItem extends BaseComponent{
     }
 
     get value(){
-        this.getAttribute("value")
+        return this.getAttribute("value")
     }
 
     set deleteCallback(func){
