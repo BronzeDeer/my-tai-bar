@@ -28,20 +28,24 @@ export default class CocktailList extends BaseComponent{
                     if(newValue.charAt(0) === '[') newValue = newValue.slice(1)
                     if( newValue.slice(-1) === ']') newValue = newValue.slice(0,-1)
 
-                    this._cocktailList = newValue.split(",")
-                    if(this.sort) this.sortBy(this.sort)
+                    this._cocktailList = newValue.split(",").map(x => {return {type:"cocktail",id:x}})
+                    if(this.sort){
+                        this._presortedList = this._cocktailList
+                        this._cocktailList = this.sortRichListBy(this.sort,this._cocktailList)
+                    }
                     this.refreshContent()
                 }
                 break;
             case 'sort':
                 if(oldValue !== newValue){
                     if(newValue){
-                        this.sortBy(newValue)
+                        this._presortedList = this._cocktailList
+                        this._cocktailList = this.sortRichListBy(newValue,this._cocktailList)
                     } else {
-                        //Restore original list according to attribute
-                        this._cocktailList = this.cocktailList
-                        this.refreshContent()
+                        //Restore original list
+                        this._cocktailList = this._presortedList
                     }
+                    this.refreshContent()
                 }
             case 'printable':
                 if(oldValue !== newValue){
@@ -60,27 +64,43 @@ export default class CocktailList extends BaseComponent{
     }
 
     sortFuncs = {
-        "alpha-name": (x,y) => cocktails[x].name.localeCompare(cocktails[y].name)
+        "alpha-name": (x,y) => cocktails[x.id].name.localeCompare(cocktails[y.id].name)
     }
 
-    sortBy(method){
-        if(this._cocktailList){
-
-            let preSort = [...this._cocktailList]
-
-            let reverse = false
-            if(method.startsWith("reverse-")){
-                reverse = true
-                method = method.slice(8)
-            }
-
-            //in-place
-            this._cocktailList.sort(this.sortFuncs[method])
-            if(reverse) this._cocktailList.reverse()
-
-            if(preSort != this._cocktailList) this.refreshContent()
+    parseSortMethod(methodString){
+        let reverse = false
+        if(methodString.startsWith("reverse-")){
+            reverse = true
+            methodString = methodString.slice(8)
         }
 
+        return [reverse, method]
+    }
+
+    sortListBy(methodString,list){
+
+        if(list.length == 0) return []
+
+        let out = [...list]
+        let [reverse, method] = this.parseSortMethod(methodString)
+        out.sort(this.sortFuncs[method])
+        if(reverse) out.reverse()
+        return out
+    }
+
+    sortRichListBy(methodString,list){
+        sorted = []
+        curSection = []
+        for(let el of list){
+            if(el.type == "section"){
+                sorted += this.sortListBy(methodString,curSection)
+                sorted += [el]
+            } else {
+                curSection += [el]
+            }
+        }
+        sorted += this.sortListBy(methodString,curSection)
+        return sorted
     }
 
     set sort(val){
@@ -112,6 +132,16 @@ export default class CocktailList extends BaseComponent{
         return this.getAttribute("cocktail-list").split(",")
     }
 
+    set richCocktailList(list){
+        this.type = "rich"
+        this._cocktailList = list
+        this.refreshContent()
+    }
+
+    get richCocktailList(){
+        return this._cocktailList
+    }
+
     set printable(val){
         if(val){
             this.setAttribute("printable","")
@@ -125,15 +155,40 @@ export default class CocktailList extends BaseComponent{
     }
 
     _filter(list){
-        for(let child of this.container.children){
-            let id = this.noLazy ? child.firstChild.id : child.firstChild.id.slice("loader-".length)
-            if(list.includes(id)){
-                child.classList.remove("d-none")
-            } else {
-                child.classList.add("d-none")
-            }
 
+        let isSection = (el) => el.firstChild.tagName.toLowerCase().localeCompare("h1") == 0
+
+        let isEmpty = false
+        let lastSection = undefined
+        for(let child of this.container.children){
+            if(isSection(child)){
+                if(lastSection){
+                    if(isEmpty){
+                        lastSection.classList.add("d-none")
+                    } else {
+                        lastSection.classList.remove("d-none")
+                    }
+                }
+                lastSection = child
+                isEmpty = true
+            } else {
+                let id = this.noLazy ? child.firstChild.id : child.firstChild.id.slice("loader-".length)
+                if(list.includes(id)){
+                    child.classList.remove("d-none")
+                    isEmpty = false
+                } else {
+                    child.classList.add("d-none")
+                }
+            }
         }
+        if(lastSection){
+            if(isEmpty){
+                lastSection.classList.add("d-none")
+            } else {
+                lastSection.classList.remove("d-none")
+            }
+        }
+
     }
 
     set filter(val){
@@ -159,19 +214,27 @@ export default class CocktailList extends BaseComponent{
 
     loadNextEntry = async () =>{
         //Load list entries one by one with delay to preserve responsiveness
-        let {value,done} = this.listIt.next()
+        let {value: el,done} = this.listIt.next()
         if(!done){
             let div = document.createElement("div")
             div.className = "mt-5 mb-5"
-            if(this.noLazy){
-                let loader = this.makeLoaderFunc(value)
-                div.append(await loader())
-            } else {
-                let ll = document.createElement("lazy-loader")
-                ll.className="full-width d-block blocker"
-                ll.id = "loader-"+value
-                ll.loader = this.makeLoaderFunc(value)
-                div.append(ll)
+            if(el.type == "section"){
+                let h = document.createElement("h1")
+                h.innerText = el.name
+                h.classList = "display-3"
+                div.classList.add("ml-5")
+                div.append(h)
+            } else if (el.type == "cocktail"){
+                if(this.noLazy){
+                    let loader = this.makeLoaderFunc(el.id)
+                    div.append(await loader())
+                } else {
+                    let ll = document.createElement("lazy-loader")
+                    ll.className="full-width d-block blocker"
+                    ll.id = "loader-" + el.id
+                    ll.loader = this.makeLoaderFunc(el.id)
+                    div.append(ll)
+                }
             }
             this.container.append(div)
             setTimeout(this.loadNextEntry,50)
