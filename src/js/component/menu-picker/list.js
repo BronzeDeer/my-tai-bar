@@ -1,5 +1,6 @@
 import BaseComponent from "/js/component/base.js"
 import "/js/component/menu-picker/cocktail-item.js"
+import "./header-item.js"
 
 import Sortable from "/dist/RubaXa-Sortable/sortable.core.esm.js"
 
@@ -25,6 +26,15 @@ export default class PickList extends BaseComponent{
                 this._placeholder.innerText = 'Add Cocktails using the "Pick" Button...'
                 this._list.append(this._placeholder)
             main.append(this._list)
+
+            let addHdrDiv = document.createElement("div")
+            addHdrDiv.className = "text-center mt-2"
+                let hdrBtn = document.createElement("button")
+                hdrBtn.className = "btn btn-secondary"
+                hdrBtn.onclick = this.addHdr
+                hdrBtn.innerText = "Add section header"
+                addHdrDiv.append(hdrBtn)
+            main.append(addHdrDiv)
 
         this._root.append(main)
 
@@ -94,9 +104,7 @@ export default class PickList extends BaseComponent{
         Sortable.create(this._list,options)
     }
 
-    addCocktail = (cocktailID) => {
-        let pick = document.createElement("pick-cocktail")
-        pick.value = cocktailID
+    addPick = (pick) => {
         pick.className = " list-group-item fade-in"
         pick.deleteCallback = () => {this.deletePick(pick)}
         if(this._list.firstChild == this._placeholder){
@@ -104,6 +112,19 @@ export default class PickList extends BaseComponent{
         } else {
             this._list.append(pick)
         }
+    }
+
+    addCocktail = (cocktailID) => {
+        let pick = document.createElement("pick-cocktail")
+        pick.value = cocktailID
+        this.addPick(pick)
+    }
+
+    addHdr = () => {
+        let pick = document.createElement("pick-header")
+        this.addPick(pick)
+        pick.classList.add("bg-secondary")
+        pick.classList.add("text-white")
     }
 
     deletePick = (pick) => {

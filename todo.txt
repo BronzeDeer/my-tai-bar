@@ -13,7 +13,7 @@ Side list:
 	- Reorderable (done)
 	- Click to show in modal
 - SideListHeader:
-	- Section/group header instead of cocktail Name
+	- Section/group header instead of cocktail name (done)
 - Export Menu as JSON
 	- to download
 	- to HTML Sesison Storage
