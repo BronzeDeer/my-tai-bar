@@ -31,7 +31,7 @@ export default class PickList extends BaseComponent{
             addHdrDiv.className = "text-center mt-2"
                 let hdrBtn = document.createElement("button")
                 hdrBtn.className = "btn btn-secondary"
-                hdrBtn.onclick = this.addHdr
+                hdrBtn.onclick = () => this.addHdr()
                 hdrBtn.innerText = "Add section header"
                 addHdrDiv.append(hdrBtn)
             main.append(addHdrDiv)
@@ -120,11 +120,12 @@ export default class PickList extends BaseComponent{
         this.addPick(pick)
     }
 
-    addHdr = () => {
+    addHdr = (val) => {
         let pick = document.createElement("pick-header")
         this.addPick(pick)
         pick.classList.add("bg-secondary")
         pick.classList.add("text-white")
+        if(val) pick.value = val
     }
 
     deletePick = (pick) => {
@@ -143,6 +144,26 @@ export default class PickList extends BaseComponent{
             return []
         }
         return this._list.childNodes.map(x => x.getExportable())
+    }
+
+    fromExportable = (exp) => {
+
+        if(typeof exp  == 'string' || exp instanceof String){
+            exp = JSON.parse(exp)
+        }
+
+        this._list.innerText = ""
+        this._list.append(this._placeholder)
+        for(let el of exp){
+            switch(el.type){
+                case "cocktail":
+                    this.addCocktail(el.id)
+                    break;
+                case "section":
+                    this.addHdr(el.name)
+                    break;
+            }
+        }
     }
 }
 
