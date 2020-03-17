@@ -33,10 +33,11 @@ export default class ListELement extends BaseComponent{
                     let pickBtn = document.createElement("button")
                     pickBtn.id = "pick-btn"
                     this._pickBtn = pickBtn
+                    pickBtn.className = "btn btn-secondary fa-1x d-none"
                     if(window.pickList){
                         pickBtn.onclick = () => {if(this.cocktailID)window.pickList.addCocktail(this.cocktailID)}
+                        pickBtn.classList.remove("d-none")
                     }
-                    pickBtn.className = "btn btn-secondary fa-1x"
                     //Will be enabled once cocktailID is set
                     pickBtn.disabled = true
 
