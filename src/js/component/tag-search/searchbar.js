@@ -69,7 +69,6 @@ export default class TagSearchBar extends BaseComponent{
         for(let t of this.selectedTags){
             res = res.intersect(tags[t])
         }
-        console.log([this,res])
         this.filteredCocktails = res
     }
 
@@ -105,7 +104,6 @@ export default class TagSearchBar extends BaseComponent{
     }
 
     tagDeleteCallback = (tag) =>{
-        console.log([this,tag])
         this.selectedTags.delete(tag.value)
         this.recalculateFilter()
         this._tagContainer.removeChild(tag)

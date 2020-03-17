@@ -43,7 +43,6 @@ export default class PickerItem extends BaseComponent{
                 row.append(col)
             container.append(row)
         this._root.append(container)
-        console.log([this,"finished constructing"])
     }
 
     static get observedAttributes() {
@@ -52,7 +51,6 @@ export default class PickerItem extends BaseComponent{
 
     connectedCallback(){
         super.connectedCallback()
-        console.log([this," connected"])
     }
 
     attributeChangedCallback(name, oldValue, newValue) {

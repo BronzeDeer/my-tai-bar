@@ -55,7 +55,6 @@ export default class RecipeELement extends ListElement{
 
     attributeChangedCallback(name, oldValue, newValue) {
         super.attributeChangedCallback(name,oldValue,newValue)
-        console.log([name,oldValue,newValue])
         switch (name) {
             case "hide-hints":
                 if(oldValue !== newValue){

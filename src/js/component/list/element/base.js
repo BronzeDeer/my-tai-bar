@@ -106,7 +106,6 @@ export default class ListELement extends BaseComponent{
     }
     set cocktail(cocktail){
         this._updateName(cocktail["name"])
-        console.log(["Base: cocktail updated to: ",cocktail])
     }
 
     set printable(val){
