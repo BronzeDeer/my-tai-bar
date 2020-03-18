@@ -32,6 +32,9 @@ CompactRecipeList:
 CompactRecipe:
 
 Automatically add Warning to drinks with grapefruit
+Automatically tag non-vegan
+Automatically tag milk containing
+Automatically tag non-alcoholic
 
 3 urls:
 /menu (done)
