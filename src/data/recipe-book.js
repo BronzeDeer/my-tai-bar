@@ -205,7 +205,13 @@ export let ingredients = {
         "hint": "e.g. Clement, or Saint James",
         "short-text": "",
         "tags": ["alcohol","rum","rhum-agricole"]
-    },
+	},
+	"rum-navy":{
+		"text": "navy strength rum",
+		"hint": "e.g. OFTD, Pusser's Navy, or Smith & Cross Jamaican",
+		"short-text": "",
+		"tags": ["alcohol","rum","navy-strength"]
+	},
     "goslings-black-seal": {
         "text": "Gosling's Black Seal Rum",
         "hint": "",
@@ -283,6 +289,24 @@ export let ingredients = {
         "hint": "e.g. Angostura Orange",
         "short-text": "",
         "tags": ["alcohol","aromatic-bitters","orange"]
+	},
+	"bitter-plum": {
+        "text": "Plum Bitters",
+        "hint": "e.g. Fee Brothers Plum",
+        "short-text": "",
+        "tags": ["alcohol","aromatic-bitters","plum"]
+	},
+	"bitter-walnut": {
+        "text": "Walnut Bitters",
+        "hint": "e.g. Fee Brothers Black Walnut",
+        "short-text": "",
+        "tags": ["alcohol","aromatic-bitters","walnut"]
+	},
+	"umeshu": {
+        "text": "umeshu plum liqueur",
+        "hint": "e.g. Choya",
+        "short-text": "umeshu",
+        "tags": ["alcohol","plum"]
     },
     "gin-london-dry": {
         "text": "london dry gin",
@@ -1684,7 +1708,45 @@ export let cocktails = {
 	"ice-method":"cubes",
 	"ice-glass":"none",
 	"method":"shake",
-	"summary":"Calvados, grenadine, lime"
+	"summary":"Calvados, grenadine, lime",
+	"tags": ["sweet","fruity"]
+},
+"you-and-me":{
+	"name": "You and Me",
+	"ingredients":{
+		"syrup-cinnamon":"15ml",
+		"juice-lemon":"15ml",
+		"umeshu":"20ml",
+		"whiskey-rye":"30ml",
+		"bitter-walnut":"2dash",
+		"bitter-plum":"2dash"
+	},
+	"special-ingredients":{
+		"bitter-walnut":"add-after",
+		"bitter-plum":"add-after"
+	},
+	"glass":"coupe",
+	"ice-method":"cubes",
+	"ice-glass":"none",
+	"method":"shake",
+	"summary":"Japanese plum liquor, rye whiskey, cinnamon",
+	"note":"optionally dry shake with egg white or aquafaba for frothy head"
+},
+"pain-killada":{
+	"name": "Pain Killada",
+	"ingredients":{
+		"syrup-cinnamon":"30ml",
+		"creme-of-coconut":"30ml",
+		"juice-tangerine": "30ml",
+		"juice-pineapple": "90ml",
+		"rum-navy":"75ml"
+	},
+	"glass":"hurricane",
+	"ice-method":"crushed",
+	"ice-glass":"method",
+	"method":"drink-mixer",
+	"summary": "Navy strength rum, cinnamon, tangerine, pineapple, coconut",
+	"tags": ["colada","sweet", "creamy", "fruity", "exotic"]
 }
 	
 }
