@@ -294,7 +294,7 @@ export let ingredients = {
         "text": "standard vodka",
         "hint": "e.g. Absolut",
         "short-text": "",
-        "tags": ["alcohol"]
+        "tags": ["alcohol","vodka"]
     },
     "vodka-bison": {
         "text": "bison grass vodka",
@@ -519,7 +519,8 @@ export let cocktails = {
 		"garnish": "1 Mint sprig and 1 spent half lime shell",
 		"summary":"Jamaican rum, Martinique rhum, dry Curaçao, orgeat, lime",
 		"note":"",
-		"menu-desc":"The King of Tiki Drinks. Made using the rediscovered 1931 original Trader Vic recipe, this cocktail celebrates rum"
+		"menu-desc":"The King of Tiki Drinks. Made using the rediscovered 1931 original Trader Vic recipe, this cocktail celebrates rum",
+		"tags": ["spirit-forward"]
 	},
 "mai-tai-deluxe":
 	{
@@ -540,7 +541,8 @@ export let cocktails = {
 		"garnish": "1 Mint sprig and 1 spent half lime shell",
 		"summary":"aged Jamaican rum, aged Martinique rhum, dry Curaçao, orgeat, lime",
 		"note":"",
-		"menu-desc":"The premium version of our Mai Tai. Using aged rums from Jamaica and Martinique elevates this already amazing drink to another level"
+		"menu-desc":"The premium version of our Mai Tai. Using aged rums from Jamaica and Martinique elevates this already amazing drink to another level",
+		"tags": ["spirit-forward"]
 	},
 "hurricane":
 	{
@@ -557,7 +559,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"dark rum, passion fruit, cherry liquor, lemon",
-		"note":""
+		"note":"",
+		"tags":["fruity","exotic"]
 	},
 "dark-n-stormy":
 	{
@@ -573,7 +576,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"dark rum, ginger beer",
-		"note":""
+		"note":"",
+		"tags": ["long-drink","spicy"]
 	},
 "demerara-dry-float":
 	{
@@ -595,7 +599,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"demerara rum, passion fruit, maraschino, lime",
-		"note":"Include no straw, the drink needs to be sipped"
+		"note":"Include no straw, the drink needs to be sipped",
+		"tags": ["spirit-forward","sweet","sour","dry"]
 	},
 "skull-n-bones":
 	{
@@ -614,7 +619,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"overproof rum, passion fruit, grenadine, lime",
-		"note":""
+		"note":"",
+		"tags": ["strong","fruity","sweet","exotic"]
 	},
 "skipper-kent-chocolate":
 	{
@@ -633,7 +639,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"crushed",
 		"summary":"dark rum, aged Martinique rhum, dark chocolate licquor, cinnamon syrup",
-		"note":""
+		"note":"",
+		"tags":[]
 	},
 "king-kamehameha":
 	{
@@ -655,7 +662,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"3 Rums, Aperol, orange, honey, passion fruit, pineapple, lime ",
-		"note":"For 1 or 2 people"
+		"note":"For 1 or 2 people",
+		"tags": ["strong","fruity","exotic","sharing"]
 	},
 
 "rum-sour":
@@ -674,7 +682,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"rum, falernum, cherry liquor, lime",
-		"note":"Add 10ml of simple syrup to take it from a sour to a more balanced drink"
+		"note":"Add 10ml of simple syrup to take it from a sour to a more balanced drink",
+		"tags": ["spirit-forward","sour"]
 	},
 "cobra-fang":
 	{
@@ -693,7 +702,8 @@ export let cocktails = {
 		"method":"shake",
 		"ice-method":"cubes",
 		"ice-glass":"method",
-		"summary":"overproof demerara rum, orange, passion fruit, falernum"
+		"summary":"overproof demerara rum, orange, passion fruit, falernum",
+		"tags": ["strong","fruity","exotic"]
 	},
 "center-galaxy":{
 	"name":"Center of the Galaxy",
@@ -708,7 +718,8 @@ export let cocktails = {
 	"method":"shake",
 	"ice-method":"cubes",
 	"ice-glass":"none",
-	"summary":"demerara rum, raspberry liquor, cinnamon, honey, lime"
+	"summary":"demerara rum, raspberry liquor, cinnamon, honey, lime",
+	"tags": ["spirit-forward"]
 },
 "scorpion-bowl":
 	{
@@ -728,7 +739,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"Gin, brandy, rum, orgeat, orange, lime",
-		"note": "For 4+ People. Use 2 shakers"
+		"note": "For 4+ People. Use 2 shakers",
+		"tags": ["strong","fruity","exotic","sharing"]
 	},
 "tiki-bowl":
 	{
@@ -749,7 +761,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"3 Rums, honey, orange, lime",
-		"note":"For 2 People"
+		"note":"For 2 People",
+		"tags": ["sharing"]
 	},
 "martini":
 	{
@@ -763,7 +776,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Gin, dry vermouth",
-		"note":"Standard ratio, feel free to vary from 1:1 for a very sweet martini to 7:1 for a very dry martini"
+		"note":"Standard ratio, feel free to vary from 1:1 for a very sweet martini to 7:1 for a very dry martini",
+		"tags": ["spirit-forward","dry","classical"]
 	},
 	"martini-royal":{
 		"name":"Martini Royale",
@@ -778,7 +792,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"Martini, sparkling wine, lime, mint",
-		"note":"Rub mint leaves on rim, then drop them in"
+		"note":"Rub mint leaves on rim, then drop them in",
+		"tags":[]
 	},
 	"aperol-spritz":{
 		"name":"Aperol Spritz",
@@ -790,7 +805,8 @@ export let cocktails = {
 		"method":"build",
 		"ice-method":"cubes",
 		"ice-glass":"method",
-		"summary":"Aperol, sparkling wine"
+		"summary":"Aperol, sparkling wine",
+		"tags": ["long-drink","bitter"]
 	},
 "gimlet":
 	{
@@ -804,7 +820,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Gin, lime cordial",
-		"note":"Standard ratio, feel free to vary from 1:1 for a very sweet gimlet to 7:1 for a very dry gimlet"
+		"note":"Standard ratio, feel free to vary from 1:1 for a very sweet gimlet to 7:1 for a very dry gimlet",
+		"tags": ["spirit-forward"]
 	},
 "gimlet-elderflower":{
 		"name": "Cucumber Elderflower Gimlet",
@@ -819,7 +836,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Gin, elderflower, cucumber, lime",
-		"note":""
+		"note":"",
+		"tags": ["floral"]
 	},
 	
 "martini-chocolate-cherry":
@@ -834,7 +852,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Chocolate vodka, cherry liquor ",
-		"note":"The mozart dry is REALLY dry, so the uncommon 1:1 ratio feels necessary"
+		"note":"The mozart dry is REALLY dry, so the uncommon 1:1 ratio feels necessary",
+		"tags": ["dry"]
 	},
 "martinez-sour-cherry":
 	{
@@ -849,7 +868,8 @@ export let cocktails = {
 		"method":"stirr",
 		"ice-method":"cubes",
 		"ice-glass":"none",
-		"summary":"Sour cherry gin, sweet vermouth, maraschino "
+		"summary":"Sour cherry gin, sweet vermouth, maraschino ",
+		"tags": ["dry"]
 	},
 "saturn":
 	{
@@ -866,7 +886,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"gin, falernum, orange, passion fruit, orgeat",
-		"note":""
+		"note":"",
+		"tags": ["exotic","sweet"]
 	},
 "aviation":
 	{
@@ -882,7 +903,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"gin, creme de violette, maraschino, lemon",
-		"note":""
+		"note":"",
+		"tags": ["floral","dry"]
 	},
 "suffering-bastard":
 	{
@@ -902,7 +924,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"cubes",
 		"summary":"Gin, brandy, ginger beer, lime cordial",
-		"note":""
+		"note":"",
+		"tags": ["long-drink"]
 	},
 "moscow-mule":
 	{
@@ -917,7 +940,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"Vodka, lime, ginger beer",
-		"note":""
+		"note":"",
+		"tags": ["spicy","classical"]
 	},
 "apple-pie":
 	{
@@ -932,7 +956,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"Vodka, Licor 43, apple ",
-		"note":"Use apple juice to adjust strength, ratios between 1:1:2 and 1:1:6 are common"
+		"note":"Use apple juice to adjust strength, ratios between 1:1:2 and 1:1:6 are common",
+		"tags": ["sweet","fruity"]
 	},
 "solero":
 	{
@@ -948,7 +973,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"vodka, passion fruit, vanilla",
-		"note":""
+		"note":"",
+		"tags": ["sweet","fruity"]
 	},
 "pornstar-martini":
 	{
@@ -964,7 +990,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"vodka, passion fruit, vanilla",
-		"note":"(Optional) The ritual: serve with a shot of sparkling wine"
+		"note":"(Optional) The ritual: serve with a shot of sparkling wine",
+		"tags": ["sweet","fruity"]
 	},
 "touchdown":
 	{
@@ -981,7 +1008,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"vodka, apricot brandy, grenadine, lemon ",
-		"note":""
+		"note":"",
+		"tags": ["sweet","fruity"]
 	},
 "blood-n-sand":
 	{
@@ -997,7 +1025,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Scotch, sweet vermouth, cherry liquor, lemon",
-		"note":"Strain with a coarse strainer, small ice splinters on top are desired. \n You can swap in a smokey whiskey, like a Talisker Storm for a more complex variant"
+		"note":"Strain with a coarse strainer, small ice splinters on top are desired. \n You can swap in a smokey whiskey, like a Talisker Storm for a more complex variant",
+		"tags": ["spirit-forward"]
 	},
 "whiskey-sour":
 	{
@@ -1012,7 +1041,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"bourbon, lemon, simple sryup",
-		"note":"For a foamy head, add 1 egg white and follow up the wet shake with a dry shake"
+		"note":"For a foamy head, add 1 egg white and follow up the wet shake with a dry shake",
+		"tags": ["spirit-forward","sour"]
 	},
 "honey-bee":
 	{
@@ -1028,7 +1058,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"bourbon, apricot brandy, honey, lemon",
-		"note":""
+		"note":"",
+		"tags": ["spirit-forward","sour"]
 	},
 "force-is-strong":
 	{
@@ -1045,7 +1076,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Aperol, coconut-milk, blue Curaçao, orgeat, lime",
-		"note":""
+		"note":"",
+		"tags": ["sweet","bitter"]
 	},
 "colada-pina":
 	{
@@ -1060,7 +1092,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"rum, pineapple, coconut cream",
-		"note":""
+		"note":"",
+		"tags": ["colada","sweet","fruity","exotic","creamy"]
 	},
 "colada-chocolate":
 	{
@@ -1076,7 +1109,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"rum, chocolate liquor, pineapple, coconut cream",
-		"note":""
+		"note":"",
+		"tags": ["colada","sweet","exotic","creamy"]
 	},
 "colada-cherry":
 	{
@@ -1092,7 +1126,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"rum, cherry liquor, pineapple, coconut cream",
-		"note":""
+		"note":"",
+		"tags": ["colada","sweet","fruity","exotic","creamy"]
 	},
 	"colada-passion":
 	{
@@ -1108,7 +1143,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"rum, passion fruit liquor, pineapple, coconut cream",
-		"note":""
+		"note":"",
+		"tags": ["colada","sweet","fruity","exotic","creamy"]
 	},
 "colada-virgin":
 	{
@@ -1122,7 +1158,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"pineapple, coconut cream",
-		"note":""
+		"note":"",
+		"tags": ["colada","sweet","fruity","exotic","creamy"]
 	},
 	"colada-baileys":{
 		"name":"Baileys Colada",
@@ -1136,7 +1173,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"rum, Baileys, coconut cream",
-		"note":""
+		"note":"",
+		"tags": ["colada","sweet","creamy"]
 	},
 	"colada-shirin":{
 		"name":"Shirin Colada",
@@ -1151,7 +1189,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"rum, Baileys, chocolate liquor, coconut cream",
-		"note":"Use chocolate Baileys if you got it"
+		"note":"Use chocolate Baileys if you got it",
+		"tags": ["colada","sweet","creamy"]
 	},
 "trade-winds":
 	{
@@ -1168,7 +1207,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"2 rums, coconut cream, apricot brandy, lemon",
-		"note":"Swap in 60ml of London Dry Gin for the Rums to make an East India Tradewinds"
+		"note":"Swap in 60ml of London Dry Gin for the Rums to make an East India Tradewinds",
+		"tags": ["sweet","fruity","exotic","creamy"]
 	},
 	"passoa-ginger":{
 		"name":"Passoa & Ginger",
@@ -1181,7 +1221,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"Passoa, ginger beer",
-		"note":""
+		"note":"",
+		"tags": ["long-drink"]
 	},
 "orange-whip":
 	{
@@ -1199,7 +1240,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"vodka, rum, cointreau, heavy cream",
-		"note":"Shake hard to foam up the cream! Rum can be changed for a white rum in a pinch"
+		"note":"Shake hard to foam up the cream! Rum can be changed for a white rum in a pinch",
+		"tags": ["creamy"]
 	},
 "chocolate-whip":
 	{
@@ -1216,7 +1258,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"demerara rum, dark chocolate liquor, cointreau, heavy cream, orange juice",
-		"note":"Shake hard to foam up the cream! Rum can be changed for a white rum in a pinch"
+		"note":"Shake hard to foam up the cream! Rum can be changed for a white rum in a pinch",
+		"tags": ["creamy"]
 	},
 "tropical champagne":
 	{
@@ -1235,7 +1278,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Sparkling Wine, Jamaican rum, passion fruit, orange",
-		"note":""
+		"note":"",
+		"tags": ["exotic","extravagant"]
 	},
 "champagne-glory":
 	{
@@ -1254,7 +1298,8 @@ export let cocktails = {
 		"ice-method":"none",
 		"ice-glass":"none",
 		"summary":"Sparkling Wine, apricot brandy, cherry liquor, passion fruit",
-		"note":"Prepare non-sparkling ingredients in batch to match ratios better. Divide into flutes and fill with sparkling wine as needed"
+		"note":"Prepare non-sparkling ingredients in batch to match ratios better. Divide into flutes and fill with sparkling wine as needed",
+		"tags": ["sweet","fruity"]
 	},
 "last-word":
 	{
@@ -1270,7 +1315,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"gin, chartreuse, maraschino",
-		"note":""
+		"note":"",
+		"tags": ["dry","complex"]
 	},
 "final-ward": {
 	"name":"Final Ward",
@@ -1285,7 +1331,8 @@ export let cocktails = {
 	"ice-method":"cubes",
 	"ice-glass":"none",
 	"summary":"rye whiskey, chartreuse, marschino",
-	"note":""
+	"note":"",
+	"tags": ["dry","complex"]
 },
 "last-sword":
 	{
@@ -1301,7 +1348,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"barbados rum, chartreue, falernum",
-		"note":""
+		"note":"",
+		"tags": ["dry","complex"]
 	},
 	"paper-plane":
 	{
@@ -1317,7 +1365,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"bourbon, Benedictine, Aperol",
-		"note":""
+		"note":"",
+		"tags": ["dry","complex"]
 	},
 	"monte-cassino":
 	{
@@ -1333,7 +1382,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"rye whiskey, chartreuse, benedictine",
-		"note":""
+		"note":"",
+		"tags": ["dry","complex"]
 	},
 	"eureka-punch":
 	{
@@ -1354,7 +1404,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"Antigua rum, chartreuse, honey, ginger beer",
-		"note":"Add ginger-ale after shaking"
+		"note":"Add ginger-ale after shaking",
+		"tags": []
 	},
 	"puka-punch":
 	{
@@ -1379,7 +1430,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"3 rums, falernum, honey, passion fruit, orange, pineapple",
-		"note":"Mix all but OFTD, float OFTD afterwards"
+		"note":"Mix all but OFTD, float OFTD afterwards",
+		"tags": ["exotic","fruity"]
 	},
 	"japanese-slider":
 	{
@@ -1394,7 +1446,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Midori, cointreau, lemon",
-		"note":""
+		"note":"",
+		"tags": ["exotic","fruity","sour"]
 	},
 	"chartreuse-swizzle":
 	{
@@ -1410,7 +1463,8 @@ export let cocktails = {
 		"ice-method":"crushed",
 		"ice-glass":"method",
 		"summary":"Chartreuse, falernum, pineapple",
-		"note":""
+		"note":"",
+		"tags": ["complex"]
 	},
 	"socialist":
 	{
@@ -1427,7 +1481,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"method",
 		"summary":"3 rums, sweet vermouth, orange bitters ",
-		"note":""
+		"note":"",
+		"tags": ["spirit-forward","dry"]
 	},
 	"negroni":
 	{
@@ -1442,7 +1497,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"gin, sweet vermouth, Campari",
-		"note":"Express an orange zest over the drink, then add it as garnish"
+		"note":"Express an orange zest over the drink, then add it as garnish",
+		"tags": ["bitter","spirit-forward","dry"]
 
 	},
 "daiquiri-melon":
@@ -1459,7 +1515,8 @@ export let cocktails = {
 		"ice-method":"cubes",
 		"ice-glass":"none",
 		"summary":"Midori, rum, lime",
-		"note":""
+		"note":"",
+		"tags": ["sour","fruity","exotic"]
 	}
 ,"pirate-eve":
 {
@@ -1476,7 +1533,8 @@ export let cocktails = {
 	"ice-method":"cubes",
 	"ice-glass":"method",
 	"summary":"Midori, rum, apple juice",
-	"note":""
+	"note":"",
+	"tags": ["fruity"]
 },
 "margarita":
 {
@@ -1491,7 +1549,8 @@ export let cocktails = {
 	"ice-method":"cubes",
 	"ice-glass":"none",
 	"summary":"Tequila, Cointreau, lime juice",
-	"note":"Rim the glass with salt"
+	"note":"Rim the glass with salt",
+	"tags": ["sour","classical"]
 },
 "kamikaze":
 {
@@ -1506,7 +1565,8 @@ export let cocktails = {
 	"ice-method":"cubes",
 	"ice-glass":"none",
 	"summary":"Vodka, Cointreau, lime juice",
-	"note":"Scale to number of shots and do all at once. Feel free to swap in tequila for vodka for mini margaritas"
+	"note":"Scale to number of shots and do all at once. Feel free to swap in tequila for vodka for mini margaritas",
+	"tags": ["shot","sour"]
 },
 "mcqueen":{
 	"name":"McQueen",
@@ -1527,7 +1587,8 @@ export let cocktails = {
 	"method":"build",
 	"ice-method":"crushed",
 	"ice-glass":"method",
-	"summary":"Gin, honey, cucumber, ginger beer, lemon"
+	"summary":"Gin, honey, cucumber, ginger beer, lemon",
+	"tags": []
 	
 },
 "ipanema":{
@@ -1541,7 +1602,8 @@ export let cocktails = {
 	"method":"build",
 	"ice-method":"crushed",
 	"ice-glass":"method",
-	"summary":"Lime Juice, Cane Sugar, Ginger beer"
+	"summary":"Lime Juice, Cane Sugar, Ginger beer",
+	"tags": []
 },
 "m-one":{
 	"name":"M-One",
@@ -1556,7 +1618,8 @@ export let cocktails = {
 	"ice-method":"cubes",
 	"ice-glass":"cubes",
 	"summary":"scotch, orange liqueur, tangerine juice",
-	"note":"Prefer peaty/smoky scotches"
+	"note":"Prefer peaty/smoky scotches",
+	"tags": ["exotic"]
 },
 "mandala":{
 	"name":"Mandala",
@@ -1570,7 +1633,8 @@ export let cocktails = {
 	"ice-method":"crushed",
 	"ice-glass":"method",
 	"method":"shake",
-	"summary":"almond, pineapple, passion fruit, lime"
+	"summary":"almond, pineapple, passion fruit, lime",
+	"tags": ["sweet","fruity","exotic"]
 },
 "emmas-potion":{
 	"name":"Emma's health potion",
@@ -1588,7 +1652,8 @@ export let cocktails = {
 	"ice-method":"crushed",
 	"ice-glass":"method",
 	"method":"drink-mixer",
-	"summary":"ginger, grapefruit, rosemary, lime"
+	"summary":"ginger, grapefruit, rosemary, lime",
+	"tags": ["bitter"]
 },
 "almonade":{
 	"name": "Almonade",
@@ -1605,7 +1670,8 @@ export let cocktails = {
 	"ice-method":"crushed",
 	"ice-glass":"method",
 	"method":"build",
-	"summary":"almond, lime, soda"
+	"summary":"almond, lime, soda",
+	"tags": []
 },
 "jack-rose":{
 	"name": "Jack Rose",

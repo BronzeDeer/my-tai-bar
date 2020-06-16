@@ -14,16 +14,22 @@ def parseObj(objStr):
 def makeTags(parsedModules):
     tags = {}
 
+    def addTag(key,value):
+        if key not in tags:
+            tags[key] = set()
+        tags[key].add(value)
+
     for cID,cocktail in parsedModules["cocktails"].items():
+
+        if "tags" in cocktail:
+            for tag in cocktail["tags"]:
+                addTag(tag,cID)
+
         for ingredient in cocktail["ingredients"]:
-            if ingredient not in tags:
-                tags[ingredient] = set()
-            tags[ingredient].add(cID)
+            addTag(ingredient,cID)
 
             for inheritedTag in parsedModules["ingredients"][ingredient]["tags"]:
-                if inheritedTag not in tags:
-                    tags[inheritedTag] = set()
-                tags[inheritedTag].add(cID)
+                addTag(inheritedTag,cID)
 
     #Calculate derived tags
     tags["non-alcoholic"] = parsedModules["cocktails"].keys() - tags["alcohol"]
