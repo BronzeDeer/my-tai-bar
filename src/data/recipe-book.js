@@ -404,6 +404,12 @@ export let ingredients = {
         "short-text": "",
         "tags": ["alcohol","herbal"]
     },
+    "amaro-nonino":{
+    	"text":"Amaro Nonino",
+    	"hint":"",
+    	"short-text":"",
+    	"tags": ["alcohol","herbal"]
+    },
     "heering-cherry": {
         "text": "Heering Cherry Liqueur",
         "hint": "",
@@ -1747,6 +1753,37 @@ export let cocktails = {
 	"method":"drink-mixer",
 	"summary": "Navy strength rum, cinnamon, tangerine, pineapple, coconut",
 	"tags": ["colada","sweet", "creamy", "fruity", "exotic"]
+},
+"paper-plane-2":{
+	"name":"Paper Plane #2",
+	"ingredients":{
+		"juice-lemon":"30ml",
+		"whiskey-bourbon":"30ml",
+		"amaro-nonino":"30ml",
+		"aperol":"30ml"
+	},
+	"glass":"coupe",
+	"ice-method":"cubes",
+	"ice-glass":"none",
+	"method":"shake",
+	"summary": "Paper Plane variation with a hint of herbal plum.\nBourbon, Aperol, Amaro Nonino",
+	"tags": ["dry","complex"]
+},
+
+"water-lilly":{
+	"name": "Water Lilly",
+	"ingredients":{
+		"juice-lemon":"30ml",
+		"gin-london-dry":"30ml",
+		"pierre-ferrand-dry-curacao":"30ml",
+		"creme-de-violette":"30ml"
+	},
+	"glass":"coupe",
+	"ice-method":"cubes",
+	"ice-glass":"none",
+	"method":"shake",
+	"summary": "gin, creme de violette, curaçao, lemon",
+	"tags": ["floral","dry"]	
 }
 	
 }

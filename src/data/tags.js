@@ -54,6 +54,7 @@ export let tags = {
         "orange-whip",
         "pain-killada",
         "paper-plane",
+        "paper-plane-2",
         "passoa-ginger",
         "pirate-eve",
         "pornstar-martini",
@@ -70,6 +71,7 @@ export let tags = {
         "touchdown",
         "trade-winds",
         "tropical champagne",
+        "water-lilly",
         "whiskey-sour",
         "you-and-me"
     ],
@@ -82,11 +84,15 @@ export let tags = {
         "saturn",
         "scorpion-bowl"
     ],
+    "amaro-nonino": [
+        "paper-plane-2"
+    ],
     "aperol": [
         "aperol-spritz",
         "force-is-strong",
         "king-kamehameha",
-        "paper-plane"
+        "paper-plane",
+        "paper-plane-2"
     ],
     "apple": [
         "apple-pie",
@@ -263,7 +269,8 @@ export let tags = {
         "last-sword",
         "last-word",
         "monte-cassino",
-        "paper-plane"
+        "paper-plane",
+        "paper-plane-2"
     ],
     "coruba-jamaican": [
         "colada-cherry",
@@ -283,7 +290,8 @@ export let tags = {
         "trade-winds"
     ],
     "creme-de-violette": [
-        "aviation"
+        "aviation",
+        "water-lilly"
     ],
     "creme-of-coconut": [
         "colada-baileys",
@@ -320,7 +328,9 @@ export let tags = {
         "monte-cassino",
         "negroni",
         "paper-plane",
-        "socialist"
+        "paper-plane-2",
+        "socialist",
+        "water-lilly"
     ],
     "elderflower": [
         "gimlet-elderflower"
@@ -363,7 +373,8 @@ export let tags = {
     ],
     "floral": [
         "aviation",
-        "gimlet-elderflower"
+        "gimlet-elderflower",
+        "water-lilly"
     ],
     "fruity": [
         "apple-pie",
@@ -400,7 +411,8 @@ export let tags = {
         "negroni",
         "saturn",
         "scorpion-bowl",
-        "suffering-bastard"
+        "suffering-bastard",
+        "water-lilly"
     ],
     "gin-london-dry": [
         "aviation",
@@ -412,7 +424,8 @@ export let tags = {
         "negroni",
         "saturn",
         "scorpion-bowl",
-        "suffering-bastard"
+        "suffering-bastard",
+        "water-lilly"
     ],
     "ginger": [
         "dark-n-stormy",
@@ -465,6 +478,7 @@ export let tags = {
         "monte-cassino",
         "negroni",
         "paper-plane",
+        "paper-plane-2",
         "tiki-bowl"
     ],
     "honey": [
@@ -495,11 +509,13 @@ export let tags = {
         "last-word",
         "monte-cassino",
         "paper-plane",
+        "paper-plane-2",
         "pirate-eve",
         "saturn",
         "solero",
         "touchdown",
         "trade-winds",
+        "water-lilly",
         "whiskey-sour",
         "you-and-me"
     ],
@@ -577,11 +593,13 @@ export let tags = {
         "mcqueen",
         "monte-cassino",
         "paper-plane",
+        "paper-plane-2",
         "pirate-eve",
         "saturn",
         "solero",
         "touchdown",
         "trade-winds",
+        "water-lilly",
         "whiskey-sour",
         "you-and-me"
     ],
@@ -721,6 +739,7 @@ export let tags = {
         "negroni",
         "pain-killada",
         "paper-plane",
+        "paper-plane-2",
         "passoa-ginger",
         "pirate-eve",
         "pornstar-martini",
@@ -737,6 +756,7 @@ export let tags = {
         "touchdown",
         "trade-winds",
         "tropical champagne",
+        "water-lilly",
         "whiskey-sour",
         "you-and-me"
     ],
@@ -761,11 +781,13 @@ export let tags = {
         "margarita",
         "orange-whip",
         "paper-plane",
+        "paper-plane-2",
         "puka-punch",
         "scorpion-bowl",
         "socialist",
         "tiki-bowl",
-        "tropical champagne"
+        "tropical champagne",
+        "water-lilly"
     ],
     "overproof": [
         "chocolate-whip",
@@ -807,7 +829,8 @@ export let tags = {
     ],
     "pierre-ferrand-dry-curacao": [
         "mai-tai",
-        "mai-tai-deluxe"
+        "mai-tai-deluxe",
+        "water-lilly"
     ],
     "pineapple": [
         "chartreuse-swizzle",
@@ -1158,6 +1181,7 @@ export let tags = {
         "negroni",
         "pain-killada",
         "paper-plane",
+        "paper-plane-2",
         "passoa-ginger",
         "pirate-eve",
         "pornstar-martini",
@@ -1172,6 +1196,7 @@ export let tags = {
         "touchdown",
         "trade-winds",
         "tropical champagne",
+        "water-lilly",
         "whiskey-sour",
         "you-and-me"
     ],
@@ -1224,12 +1249,14 @@ export let tags = {
         "m-one",
         "monte-cassino",
         "paper-plane",
+        "paper-plane-2",
         "whiskey-sour",
         "you-and-me"
     ],
     "whiskey-bourbon": [
         "honey-bee",
         "paper-plane",
+        "paper-plane-2",
         "whiskey-sour"
     ],
     "whiskey-rye": [
