@@ -1667,7 +1667,7 @@ export let cocktails = {
 	"tags": ["sweet","fruity","exotic"]
 },
 "emmas-potion":{
-	"name":"Emma's health potion",
+	"name":"Emma's Health Potion",
 	"ingredients":{
 		"syrup-ginger-rosemary":"20ml",
 		"syrup-honey":"20ml",
@@ -1784,6 +1784,25 @@ export let cocktails = {
 	"method":"shake",
 	"summary": "gin, creme de violette, curaçao, lemon",
 	"tags": ["floral","dry"]	
+},
+
+"top-notch-volcano":{
+	"name": "Top Notch Volcano",
+	"ingredients" : {
+		"juice-lime": "40ml",
+		"juice-pineapple": "40ml",
+		"syrup-passion": "15ml",
+		"syrup-demerara": "30ml",
+		"luxardo-maraschino": "10ml",
+		"plantation-5years": "40ml",
+		"plantation-3stars": "40ml"
+	},
+	"glass":"hurricane",
+	"ice-method":"crushed",
+	"ice-glass":"method",
+	"method":"drink-mixer",
+	"summary": "Rum, cherry, passion fruit, pineapple, lime",
+	"tags": ["sweet","sour","dry"]
 }
 	
 }

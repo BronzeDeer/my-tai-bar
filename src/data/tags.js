@@ -68,6 +68,7 @@ export let tags = {
         "solero",
         "suffering-bastard",
         "tiki-bowl",
+        "top-notch-volcano",
         "touchdown",
         "trade-winds",
         "tropical champagne",
@@ -198,7 +199,8 @@ export let tags = {
         "last-word",
         "martinez-sour-cherry",
         "martini-chocolate-cherry",
-        "rum-sour"
+        "rum-sour",
+        "top-notch-volcano"
     ],
     "chocolate": [
         "chocolate-whip",
@@ -218,6 +220,7 @@ export let tags = {
         "pain-killada",
         "scorpion-bowl",
         "skipper-kent-chocolate",
+        "top-notch-volcano",
         "you-and-me"
     ],
     "classical": [
@@ -330,6 +333,7 @@ export let tags = {
         "paper-plane",
         "paper-plane-2",
         "socialist",
+        "top-notch-volcano",
         "water-lilly"
     ],
     "elderflower": [
@@ -547,7 +551,8 @@ export let tags = {
         "scorpion-bowl",
         "skipper-kent-chocolate",
         "skull-n-bones",
-        "tiki-bowl"
+        "tiki-bowl",
+        "top-notch-volcano"
     ],
     "juice-orange": [
         "chocolate-whip",
@@ -575,7 +580,8 @@ export let tags = {
         "king-kamehameha",
         "mandala",
         "pain-killada",
-        "puka-punch"
+        "puka-punch",
+        "top-notch-volcano"
     ],
     "juice-tangerine": [
         "m-one",
@@ -639,7 +645,8 @@ export let tags = {
         "skipper-kent-chocolate",
         "skull-n-bones",
         "suffering-bastard",
-        "tiki-bowl"
+        "tiki-bowl",
+        "top-notch-volcano"
     ],
     "long-drink": [
         "aperol-spritz",
@@ -652,7 +659,8 @@ export let tags = {
         "demerara-dry-float",
         "final-ward",
         "last-word",
-        "martinez-sour-cherry"
+        "martinez-sour-cherry",
+        "top-notch-volcano"
     ],
     "luxardo-sour-cherry": [
         "martinez-sour-cherry"
@@ -753,6 +761,7 @@ export let tags = {
         "solero",
         "suffering-bastard",
         "tiki-bowl",
+        "top-notch-volcano",
         "touchdown",
         "trade-winds",
         "tropical champagne",
@@ -815,6 +824,7 @@ export let tags = {
         "saturn",
         "skull-n-bones",
         "solero",
+        "top-notch-volcano",
         "touchdown",
         "tropical champagne"
     ],
@@ -842,19 +852,22 @@ export let tags = {
         "king-kamehameha",
         "mandala",
         "pain-killada",
-        "puka-punch"
+        "puka-punch",
+        "top-notch-volcano"
     ],
     "plantation-3stars": [
         "daiquiri-melon",
         "pirate-eve",
         "puka-punch",
+        "top-notch-volcano",
         "trade-winds"
     ],
     "plantation-5years": [
         "king-kamehameha",
         "last-sword",
         "scorpion-bowl",
-        "socialist"
+        "socialist",
+        "top-notch-volcano"
     ],
     "plantation-oftd": [
         "chocolate-whip",
@@ -925,6 +938,7 @@ export let tags = {
         "skull-n-bones",
         "socialist",
         "tiki-bowl",
+        "top-notch-volcano",
         "trade-winds",
         "tropical champagne"
     ],
@@ -978,6 +992,7 @@ export let tags = {
         "mai-tai",
         "pirate-eve",
         "puka-punch",
+        "top-notch-volcano",
         "trade-winds"
     ],
     "sharing": [
@@ -1004,6 +1019,7 @@ export let tags = {
         "kamikaze",
         "margarita",
         "rum-sour",
+        "top-notch-volcano",
         "whiskey-sour"
     ],
     "sparkling-dry": [
@@ -1064,6 +1080,7 @@ export let tags = {
         "saturn",
         "skull-n-bones",
         "solero",
+        "top-notch-volcano",
         "touchdown",
         "trade-winds"
     ],
@@ -1074,7 +1091,8 @@ export let tags = {
         "you-and-me"
     ],
     "syrup-demerara": [
-        "scorpion-bowl"
+        "scorpion-bowl",
+        "top-notch-volcano"
     ],
     "syrup-ginger-rosemary": [
         "emmas-potion"
@@ -1111,6 +1129,7 @@ export let tags = {
         "puka-punch",
         "saturn",
         "skull-n-bones",
+        "top-notch-volcano",
         "tropical champagne"
     ],
     "syrup-simple": [
@@ -1193,6 +1212,7 @@ export let tags = {
         "socialist",
         "solero",
         "suffering-bastard",
+        "top-notch-volcano",
         "touchdown",
         "trade-winds",
         "tropical champagne",
