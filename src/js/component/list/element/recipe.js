@@ -253,7 +253,7 @@ export default class RecipeELement extends ListElement{
 
      _parseAmount = (val) => {
         let div = document.createElement("div")
-        div.className = "col-2"
+        div.className = "col-4 col-lg-3 col-xl-2"
         val = val.trim().toLowerCase()
         let b = document.createElement("b")
         if(val.localeCompare("fill") == 0){
