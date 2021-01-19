@@ -31,6 +31,7 @@ export let tags = {
         "force-is-strong",
         "gimlet",
         "gimlet-elderflower",
+        "gin-peach-mint",
         "honey-bee",
         "hurricane",
         "jack-rose",
@@ -337,7 +338,8 @@ export let tags = {
         "water-lilly"
     ],
     "elderflower": [
-        "gimlet-elderflower"
+        "gimlet-elderflower",
+        "gin-peach-mint"
     ],
     "english-harbour": [
         "eureka-punch",
@@ -389,6 +391,7 @@ export let tags = {
         "colada-pina",
         "colada-virgin",
         "daiquiri-melon",
+        "gin-peach-mint",
         "hurricane",
         "jack-rose",
         "japanese-slider",
@@ -408,6 +411,7 @@ export let tags = {
         "aviation",
         "gimlet",
         "gimlet-elderflower",
+        "gin-peach-mint",
         "last-word",
         "martinez-sour-cherry",
         "martini",
@@ -422,6 +426,7 @@ export let tags = {
         "aviation",
         "gimlet",
         "gimlet-elderflower",
+        "gin-peach-mint",
         "last-word",
         "martini",
         "mcqueen",
@@ -507,6 +512,7 @@ export let tags = {
         "blood-n-sand",
         "eureka-punch",
         "final-ward",
+        "gin-peach-mint",
         "honey-bee",
         "hurricane",
         "japanese-slider",
@@ -592,6 +598,7 @@ export let tags = {
         "blood-n-sand",
         "eureka-punch",
         "final-ward",
+        "gin-peach-mint",
         "honey-bee",
         "hurricane",
         "japanese-slider",
@@ -682,9 +689,11 @@ export let tags = {
         "orange-whip"
     ],
     "mint": [
+        "gin-peach-mint",
         "martini-royal"
     ],
     "mint-leaf": [
+        "gin-peach-mint",
         "martini-royal"
     ],
     "mozart-dark": [
@@ -723,6 +732,7 @@ export let tags = {
         "force-is-strong",
         "gimlet",
         "gimlet-elderflower",
+        "gin-peach-mint",
         "honey-bee",
         "hurricane",
         "ipanema",
@@ -833,6 +843,12 @@ export let tags = {
         "passoa-ginger",
         "pornstar-martini"
     ],
+    "peach": [
+        "gin-peach-mint"
+    ],
+    "peach-slice": [
+        "gin-peach-mint"
+    ],
     "pierre-ferrand-brandy": [
         "scorpion-bowl",
         "suffering-bastard"
@@ -882,6 +898,9 @@ export let tags = {
     ],
     "plum": [
         "you-and-me"
+    ],
+    "political-commentary": [
+        "gin-peach-mint"
     ],
     "pomegranate": [
         "jack-rose",
@@ -1047,7 +1066,8 @@ export let tags = {
         "whiskey-sour"
     ],
     "st-germain": [
-        "gimlet-elderflower"
+        "gimlet-elderflower",
+        "gin-peach-mint"
     ],
     "strong": [
         "cobra-fang",
@@ -1073,6 +1093,7 @@ export let tags = {
         "colada-virgin",
         "demerara-dry-float",
         "force-is-strong",
+        "gin-peach-mint",
         "jack-rose",
         "mandala",
         "pain-killada",
@@ -1135,6 +1156,7 @@ export let tags = {
     "syrup-simple": [
         "daiquiri-melon",
         "demerara-dry-float",
+        "gin-peach-mint",
         "mai-tai",
         "mai-tai-deluxe",
         "pirate-eve",
@@ -1179,6 +1201,7 @@ export let tags = {
         "force-is-strong",
         "gimlet",
         "gimlet-elderflower",
+        "gin-peach-mint",
         "hurricane",
         "ipanema",
         "jack-rose",

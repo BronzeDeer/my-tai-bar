@@ -67,6 +67,18 @@ export let ingredients = {
         "hint": "",
         "short-text": "1/8th lime",
         "tags": ["lime"]
+	},
+	"mint-leaf": {
+        "text": "mint leaf",
+        "hint": "",
+        "short-text": "mint leaf",
+        "tags": ["mint"]
+    },
+	"peach-slice": {
+        "text": "peach slice",
+        "hint": "",
+        "short-text": "peach slice",
+        "tags": ["peach"]
     },
     "cucumber-slice": {
         "text": "slice of cucumber",
@@ -1803,6 +1815,27 @@ export let cocktails = {
 	"method":"drink-mixer",
 	"summary": "Rum, cherry, passion fruit, pineapple, lime",
 	"tags": ["sweet","sour","dry"]
+},
+
+"gin-peach-mint":{
+	"name": "Gin Peach Mint",
+	"ingredients": {
+		"syrup-simple": "15ml",
+		"juice-lemon": "15ml",
+		"peach-slice": "6pts",
+		"mint-leaf": "6pts",
+		"st-germain": "15ml",
+		"gin-london-dry": "60ml"
+	},
+	"special-ingredients":{
+		"peach-slice": "muddle"
+	},
+	"glass": "martini",
+	"ice-method": "cubes",
+	"ice-glass": "none",
+	"method": "shake",
+	"summary": "Gin, elderflower, peach, mint, lemon",
+	"tags": ["sweet","fruity","political-commentary"]
 }
 	
 }
