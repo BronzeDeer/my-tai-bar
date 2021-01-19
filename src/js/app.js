@@ -48,4 +48,12 @@ window.on('load',() =>{
         document.body.onclick = closeModal
     }
 
+    let queryParams = new URLSearchParams(window.location.search);
+    if(queryParams.has("id")){
+        let el = document.createElement("cocktail-recipe")
+        el.className="no-fouc"
+        el.cocktailID = queryParams.get("id")
+        showModal(el)
+    }
+
 })
