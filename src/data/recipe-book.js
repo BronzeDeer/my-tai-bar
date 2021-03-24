@@ -1836,6 +1836,22 @@ export let cocktails = {
 	"method": "shake",
 	"summary": "Gin, elderflower, peach, mint, lemon",
 	"tags": ["sweet","fruity","political-commentary"]
+},
+
+"nectar-hades":{
+	"name": "Nectar",
+	"ingredients": {
+		"syrup-honey": "30ml",
+		"st-germain": "30ml",
+		"plantation-5years": "60ml",
+		"benedictine": "5ml"
+	},
+	"glass": "martini",
+	"ice-method": "cubes",
+	"ice-glass": "none",
+	"method": "stirr",
+	"summary": "Rum, honey, elderflower, b\u00e9n\u00e9dictine",
+	"tags": ["sweet","herbal"]
 }
 	
 }
