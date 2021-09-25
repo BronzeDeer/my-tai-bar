@@ -51,6 +51,7 @@ export let tags = {
         "mcqueen",
         "monte-cassino",
         "moscow-mule",
+        "nectar-hades",
         "negroni",
         "orange-whip",
         "pain-killada",
@@ -129,6 +130,7 @@ export let tags = {
     ],
     "benedictine": [
         "monte-cassino",
+        "nectar-hades",
         "paper-plane"
     ],
     "bitter": [
@@ -339,7 +341,8 @@ export let tags = {
     ],
     "elderflower": [
         "gimlet-elderflower",
-        "gin-peach-mint"
+        "gin-peach-mint",
+        "nectar-hades"
     ],
     "english-harbour": [
         "eureka-punch",
@@ -485,6 +488,7 @@ export let tags = {
         "last-sword",
         "last-word",
         "monte-cassino",
+        "nectar-hades",
         "negroni",
         "paper-plane",
         "paper-plane-2",
@@ -497,6 +501,7 @@ export let tags = {
         "honey-bee",
         "king-kamehameha",
         "mcqueen",
+        "nectar-hades",
         "puka-punch",
         "tiki-bowl"
     ],
@@ -754,6 +759,7 @@ export let tags = {
         "mcqueen",
         "monte-cassino",
         "moscow-mule",
+        "nectar-hades",
         "negroni",
         "pain-killada",
         "paper-plane",
@@ -881,6 +887,7 @@ export let tags = {
     "plantation-5years": [
         "king-kamehameha",
         "last-sword",
+        "nectar-hades",
         "scorpion-bowl",
         "socialist",
         "top-notch-volcano"
@@ -946,6 +953,7 @@ export let tags = {
         "last-sword",
         "mai-tai",
         "mai-tai-deluxe",
+        "nectar-hades",
         "orange-whip",
         "pain-killada",
         "pirate-eve",
@@ -1067,7 +1075,8 @@ export let tags = {
     ],
     "st-germain": [
         "gimlet-elderflower",
-        "gin-peach-mint"
+        "gin-peach-mint",
+        "nectar-hades"
     ],
     "strong": [
         "cobra-fang",
@@ -1096,6 +1105,7 @@ export let tags = {
         "gin-peach-mint",
         "jack-rose",
         "mandala",
+        "nectar-hades",
         "pain-killada",
         "pornstar-martini",
         "saturn",
@@ -1130,6 +1140,7 @@ export let tags = {
         "honey-bee",
         "king-kamehameha",
         "mcqueen",
+        "nectar-hades",
         "puka-punch",
         "tiki-bowl"
     ],
