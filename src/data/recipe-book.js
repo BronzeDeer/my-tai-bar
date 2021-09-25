@@ -50,6 +50,12 @@ export let ingredients = {
         "short-text": "",
         "tags": ["grapefruit"]
     },
+    "juice-mango": {
+        "text": "mango juice",
+        "hint": "",
+        "short-text": "",
+        "tags": ["mango"]
+    },
     "soda": {
         "text": "soda",
         "hint": "",
@@ -151,6 +157,12 @@ export let ingredients = {
         "hint": "homemade",
         "short-text": "",
         "tags": ["ginger","rosemary"]
+    },
+    "syrup-agave": {
+        "text": "agave syrup",
+        "hint": "",
+        "short-text": "",
+        "tags": ["agave"]
     },
     "sugar-cane-brown": {
         "text": "brown cane sugar",
@@ -391,6 +403,12 @@ export let ingredients = {
         "hint": "",
         "short-text": "",
         "tags": ["alcohol"]
+    },
+    "mezcal": {
+        "text": "Mezcal",
+        "hint": "",
+        "short-text": "",
+        "tags": ["alcohol", "agave"]
     },
     "brandy-apricot": {
         "text": "Apricot Brandy",
@@ -1852,6 +1870,22 @@ export let cocktails = {
 	"method": "stirr",
 	"summary": "Rum, honey, elderflower, b\u00e9n\u00e9dictine",
 	"tags": ["sweet","herbal"]
+},
+
+"smoking-chihuahua": {
+    "name": "Smoking Chihuahua",
+    "ingredients": {
+        "syrup-agave": "15ml",
+        "juice-lemon": "20ml",
+        "mezcal": "30ml",
+        "juice-mango": "50ml"
+    },
+    "glass": "rocks",
+    "ice-method": "cubes",
+    "ice-glass": "method",
+    "method": "shake",
+    "summary": "Mezcal, mango, agave, lemon",
+    "tags": ["smokey","agave","sweet"]
 }
 	
 }
