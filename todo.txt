@@ -40,3 +40,21 @@ Automatically tag non-alcoholic
 /menu (done)
 /recipe
 /compactRecipe
+
+Build and Deploy:
+  - Build:
+    - Bundle in simple nginx container
+  - Deploy:
+    - Write manifests (jsonnet?)
+    - ArgoCD from master
+  - Testing:
+    - Javascript, HTML and general whitespace lint
+    - Run tag generation, ensure diff is empty
+    - Ensure referential integrity for recipes
+    - Ensure valid enums for fields
+    - Screenshot testing:
+      - Landing page
+      - Direct link
+      - Search id directly
+      - Add elements and headings to menu picker
+      - Generated menus
