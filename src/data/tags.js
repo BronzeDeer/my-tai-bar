@@ -3,6 +3,9 @@ export let tags = {
         "cobra-fang",
         "tiki-bowl"
     ],
+    "agave": [
+        "smoking-chihuahua"
+    ],
     "aged": [
         "mai-tai-deluxe",
         "skipper-kent-chocolate"
@@ -66,6 +69,7 @@ export let tags = {
         "scorpion-bowl",
         "skipper-kent-chocolate",
         "skull-n-bones",
+        "smoking-chihuahua",
         "socialist",
         "solero",
         "suffering-bastard",
@@ -527,6 +531,7 @@ export let tags = {
         "paper-plane-2",
         "pirate-eve",
         "saturn",
+        "smoking-chihuahua",
         "solero",
         "touchdown",
         "trade-winds",
@@ -564,6 +569,9 @@ export let tags = {
         "skull-n-bones",
         "tiki-bowl",
         "top-notch-volcano"
+    ],
+    "juice-mango": [
+        "smoking-chihuahua"
     ],
     "juice-orange": [
         "chocolate-whip",
@@ -614,6 +622,7 @@ export let tags = {
         "paper-plane-2",
         "pirate-eve",
         "saturn",
+        "smoking-chihuahua",
         "solero",
         "touchdown",
         "trade-winds",
@@ -677,10 +686,16 @@ export let tags = {
     "luxardo-sour-cherry": [
         "martinez-sour-cherry"
     ],
+    "mango": [
+        "smoking-chihuahua"
+    ],
     "melon": [
         "daiquiri-melon",
         "japanese-slider",
         "pirate-eve"
+    ],
+    "mezcal": [
+        "smoking-chihuahua"
     ],
     "midori": [
         "daiquiri-melon",
@@ -773,6 +788,7 @@ export let tags = {
         "scorpion-bowl",
         "skipper-kent-chocolate",
         "skull-n-bones",
+        "smoking-chihuahua",
         "socialist",
         "solero",
         "suffering-bastard",
@@ -1035,6 +1051,9 @@ export let tags = {
         "skull-n-bones",
         "socialist"
     ],
+    "smokey": [
+        "smoking-chihuahua"
+    ],
     "soda": [
         "almonade"
     ],
@@ -1110,10 +1129,14 @@ export let tags = {
         "pornstar-martini",
         "saturn",
         "skull-n-bones",
+        "smoking-chihuahua",
         "solero",
         "top-notch-volcano",
         "touchdown",
         "trade-winds"
+    ],
+    "syrup-agave": [
+        "smoking-chihuahua"
     ],
     "syrup-cinnamon": [
         "center-galaxy",
@@ -1243,6 +1266,7 @@ export let tags = {
         "scorpion-bowl",
         "skipper-kent-chocolate",
         "skull-n-bones",
+        "smoking-chihuahua",
         "socialist",
         "solero",
         "suffering-bastard",
