@@ -1040,7 +1040,6 @@ export let tags = {
     ],
     "sharing": [
         "king-kamehameha",
-        "scorpion-bowl",
         "tiki-bowl"
     ],
     "shot": [

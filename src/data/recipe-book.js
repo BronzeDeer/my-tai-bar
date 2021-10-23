@@ -786,21 +786,20 @@ export let cocktails = {
     "name":"Scorpion Bowl",
     "ingredients":
     {
-      "syrup-demerara": "45ml",
-      "syrup-orgeat": "60ml",
-      "juice-lime": "60ml",
-      "juice-orange": "120ml",
-      "gin-london-dry": "120ml",
-      "pierre-ferrand-brandy": "60ml",
-      "plantation-5years":"120ml"
+      "syrup-demerara": "10ml",
+      "syrup-orgeat": "15ml",
+      "juice-lime": "15ml",
+      "juice-orange": "30ml",
+      "gin-london-dry": "30ml",
+      "pierre-ferrand-brandy": "15ml",
+      "plantation-5years":"30ml"
     },
-    "glass":"bowl",
+    "glass":"rocks",
     "method":"shake",
     "ice-method":"cubes",
     "ice-glass":"method",
     "summary":"Gin, brandy, rum, orgeat, orange, lime",
-    "note": "For 4+ People. Use 2 shakers",
-    "tags": ["strong","fruity","exotic","sharing"]
+    "tags": ["strong","fruity","exotic"]
   },
 "tiki-bowl":
   {
