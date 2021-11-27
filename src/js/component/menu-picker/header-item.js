@@ -32,7 +32,7 @@ export default class HeaderPickerItem extends PickerItem{
     connectedCallback(){
         super.connectedCallback()
         if(this._input.parentNode == this._main){
-            this._input.focus()
+            setTimeout(() => {this._input.focus();},50)
         }
     }
 
