@@ -230,6 +230,12 @@ export let ingredients = {
     "short-text": "",
     "tags": ["alcohol","rum","rhum-agricole"]
   },
+  "rum-spiced": {
+    "text": "Spiced Rum",
+    "hint": "e.g. Sailor Jerry",
+    "short-text": "",
+    "tags": ["alcohol", "rum"]
+  },
   "rum-navy":{
     "text": "navy strength rum",
     "hint": "e.g. OFTD, Pusser's Navy, or Smith & Cross Jamaican",
@@ -415,6 +421,12 @@ export let ingredients = {
     "hint": "e.g. Giffard",
     "short-text": "",
     "tags": ["alcohol","apricot"]
+  },
+  "banana-liqueur": {
+    "text": "Banana Liqueur",
+    "hin": "e.g. Giffard",
+    "short-text": "",
+    "tags": ["alcohol", "banana"]
   },
   "creme-de-violette": {
     "text": "Violet Liqueur / Cr\u00e8me de violette",
@@ -1887,6 +1899,22 @@ export let cocktails = {
   "method": "shake",
   "summary": "Mezcal, mango, agave, lemon",
   "tags": ["smokey","agave","sweet"]
+},
+
+"banana-daiquiri": {
+  "name": "Banana Daiquiri",
+  "ingredients": {
+    "syrup-simple": "15ml",
+    "juice-lemon": "30ml",
+    "rum-spiced": "45ml",
+    "banana-liqueur": "15ml"
+  },
+  "glass": "coupe",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "summary": "Rum, banana, lime, spices",
+  "tags": ["tropical", "sweet"]
 }
 
 }

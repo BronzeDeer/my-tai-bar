@@ -14,6 +14,7 @@ export let tags = {
         "aperol-spritz",
         "apple-pie",
         "aviation",
+        "banana-daiquiri",
         "blood-n-sand",
         "center-galaxy",
         "champagne-glory",
@@ -131,6 +132,12 @@ export let tags = {
     "baileys": [
         "colada-baileys",
         "colada-shirin"
+    ],
+    "banana": [
+        "banana-daiquiri"
+    ],
+    "banana-liqueur": [
+        "banana-daiquiri"
     ],
     "benedictine": [
         "monte-cassino",
@@ -518,6 +525,7 @@ export let tags = {
     ],
     "juice-lemon": [
         "aviation",
+        "banana-daiquiri",
         "blood-n-sand",
         "eureka-punch",
         "final-ward",
@@ -608,6 +616,7 @@ export let tags = {
     ],
     "lemon": [
         "aviation",
+        "banana-daiquiri",
         "blood-n-sand",
         "eureka-punch",
         "final-ward",
@@ -733,6 +742,7 @@ export let tags = {
         "aperol-spritz",
         "apple-pie",
         "aviation",
+        "banana-daiquiri",
         "blood-n-sand",
         "center-galaxy",
         "champagne-glory",
@@ -950,6 +960,7 @@ export let tags = {
         "emmas-potion"
     ],
     "rum": [
+        "banana-daiquiri",
         "center-galaxy",
         "chartreuse-swizzle",
         "chocolate-whip",
@@ -1029,6 +1040,9 @@ export let tags = {
     ],
     "rum-navy": [
         "pain-killada"
+    ],
+    "rum-spiced": [
+        "banana-daiquiri"
     ],
     "rum-white": [
         "daiquiri-melon",
@@ -1110,6 +1124,7 @@ export let tags = {
     ],
     "sweet": [
         "apple-pie",
+        "banana-daiquiri",
         "champagne-glory",
         "colada-baileys",
         "colada-cherry",
@@ -1187,6 +1202,7 @@ export let tags = {
         "tropical champagne"
     ],
     "syrup-simple": [
+        "banana-daiquiri",
         "daiquiri-melon",
         "demerara-dry-float",
         "gin-peach-mint",
@@ -1206,6 +1222,9 @@ export let tags = {
     "tequila": [
         "margarita"
     ],
+    "tropical": [
+        "banana-daiquiri"
+    ],
     "umeshu": [
         "you-and-me"
     ],
@@ -1218,6 +1237,7 @@ export let tags = {
         "aperol-spritz",
         "apple-pie",
         "aviation",
+        "banana-daiquiri",
         "blood-n-sand",
         "champagne-glory",
         "chartreuse-swizzle",
