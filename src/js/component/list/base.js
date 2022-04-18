@@ -47,6 +47,7 @@ export default class CocktailList extends BaseComponent{
                     }
                     this.refreshContent()
                 }
+                break;
             case 'printable':
                 if(oldValue !== newValue){
                     let loadedEls = this.$$("[loaded]")
@@ -54,10 +55,12 @@ export default class CocktailList extends BaseComponent{
                         el.printable = (newValue != null)
                     }
                 }
+                break;
             case 'filter':
                 if(oldValue !== newValue){
                     this._filter(newValue.split(","))
                 }
+                break;
             default:
                 break;
         }
