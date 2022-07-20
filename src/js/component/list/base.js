@@ -13,6 +13,7 @@ export default class CocktailList extends BaseComponent{
 
         let container = document.createElement("div")
         container.id = "container"
+        container.className = "container"
         this._root.append(container)
         this.container = container
     }
@@ -77,7 +78,7 @@ export default class CocktailList extends BaseComponent{
             methodString = methodString.slice(8)
         }
 
-        return [reverse, method]
+        return [reverse, methodString]
     }
 
     sortListBy(methodString,list){
@@ -92,17 +93,17 @@ export default class CocktailList extends BaseComponent{
     }
 
     sortRichListBy(methodString,list){
-        sorted = []
-        curSection = []
+        let sorted = []
+        let curSection = []
         for(let el of list){
             if(el.type == "section"){
-                sorted += this.sortListBy(methodString,curSection)
-                sorted += [el]
+                sorted = sorted.concat(this.sortListBy(methodString,curSection))
+                sorted.push(el)
             } else {
-                curSection += [el]
+                curSection.push(el)
             }
         }
-        sorted += this.sortListBy(methodString,curSection)
+        sorted = sorted.concat(this.sortListBy(methodString,curSection))
         return sorted
     }
 
