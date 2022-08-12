@@ -11,6 +11,7 @@ export let tags = {
         "skipper-kent-chocolate"
     ],
     "alcohol": [
+        "amaretto-sour",
         "aperol-spritz",
         "apple-pie",
         "aviation",
@@ -36,6 +37,7 @@ export let tags = {
         "gimlet",
         "gimlet-elderflower",
         "gin-peach-mint",
+        "godfather",
         "honey-bee",
         "hurricane",
         "jack-rose",
@@ -62,9 +64,11 @@ export let tags = {
         "paper-plane",
         "paper-plane-2",
         "passoa-ginger",
+        "perry-the-overdrive",
         "pirate-eve",
         "pornstar-martini",
         "puka-punch",
+        "rhythm",
         "rum-sour",
         "saturn",
         "scorpion-bowl",
@@ -91,6 +95,10 @@ export let tags = {
         "mandala",
         "saturn",
         "scorpion-bowl"
+    ],
+    "amaretto": [
+        "amaretto-sour",
+        "godfather"
     ],
     "amaro-nonino": [
         "paper-plane-2"
@@ -171,7 +179,8 @@ export let tags = {
         "you-and-me"
     ],
     "blue-curacao": [
-        "force-is-strong"
+        "force-is-strong",
+        "perry-the-overdrive"
     ],
     "brandy": [
         "scorpion-bowl",
@@ -221,12 +230,15 @@ export let tags = {
         "colada-chocolate",
         "colada-shirin",
         "martini-chocolate-cherry",
+        "melody",
+        "rhythm",
         "skipper-kent-chocolate"
     ],
     "chocolate-dark": [
         "chocolate-whip",
         "colada-chocolate",
         "colada-shirin",
+        "rhythm",
         "skipper-kent-chocolate"
     ],
     "cinnamon": [
@@ -387,6 +399,7 @@ export let tags = {
         "chartreuse-swizzle",
         "cobra-fang",
         "last-sword",
+        "perry-the-overdrive",
         "puka-punch",
         "rum-sour",
         "saturn"
@@ -524,6 +537,7 @@ export let tags = {
         "emmas-potion"
     ],
     "juice-lemon": [
+        "amaretto-sour",
         "aviation",
         "banana-daiquiri",
         "blood-n-sand",
@@ -534,6 +548,7 @@ export let tags = {
         "hurricane",
         "japanese-slider",
         "last-word",
+        "melody",
         "monte-cassino",
         "paper-plane",
         "paper-plane-2",
@@ -543,6 +558,7 @@ export let tags = {
         "solero",
         "touchdown",
         "trade-winds",
+        "virgin-amaretto-sour",
         "water-lilly",
         "whiskey-sour",
         "you-and-me"
@@ -569,8 +585,10 @@ export let tags = {
         "margarita",
         "martini-royal",
         "moscow-mule",
+        "perry-the-overdrive",
         "pornstar-martini",
         "puka-punch",
+        "rhythm",
         "rum-sour",
         "scorpion-bowl",
         "skipper-kent-chocolate",
@@ -584,12 +602,16 @@ export let tags = {
     "juice-orange": [
         "chocolate-whip",
         "cobra-fang",
+        "key-lime-pie",
         "king-kamehameha",
+        "melody",
         "orange-whip",
         "puka-punch",
+        "rhythm",
         "scorpion-bowl",
         "tiki-bowl",
-        "tropical champagne"
+        "tropical champagne",
+        "virgin-amaretto-sour"
     ],
     "juice-passion": [
         "king-kamehameha",
@@ -604,6 +626,7 @@ export let tags = {
         "colada-passion",
         "colada-pina",
         "colada-virgin",
+        "key-lime-pie",
         "king-kamehameha",
         "mandala",
         "pain-killada",
@@ -615,6 +638,7 @@ export let tags = {
         "pain-killada"
     ],
     "lemon": [
+        "amaretto-sour",
         "aviation",
         "banana-daiquiri",
         "blood-n-sand",
@@ -626,6 +650,7 @@ export let tags = {
         "japanese-slider",
         "last-word",
         "mcqueen",
+        "melody",
         "monte-cassino",
         "paper-plane",
         "paper-plane-2",
@@ -635,6 +660,7 @@ export let tags = {
         "solero",
         "touchdown",
         "trade-winds",
+        "virgin-amaretto-sour",
         "water-lilly",
         "whiskey-sour",
         "you-and-me"
@@ -660,6 +686,7 @@ export let tags = {
         "ipanema",
         "jack-rose",
         "kamikaze",
+        "key-lime-pie",
         "king-kamehameha",
         "last-sword",
         "mai-tai",
@@ -668,8 +695,10 @@ export let tags = {
         "margarita",
         "martini-royal",
         "moscow-mule",
+        "perry-the-overdrive",
         "pornstar-martini",
         "puka-punch",
+        "rhythm",
         "rum-sour",
         "scorpion-bowl",
         "skipper-kent-chocolate",
@@ -729,6 +758,7 @@ export let tags = {
         "chocolate-whip",
         "colada-chocolate",
         "colada-shirin",
+        "rhythm",
         "skipper-kent-chocolate"
     ],
     "mozart-dry": [
@@ -739,6 +769,7 @@ export let tags = {
     ],
     "no-milk": [
         "almonade",
+        "amaretto-sour",
         "aperol-spritz",
         "apple-pie",
         "aviation",
@@ -763,12 +794,14 @@ export let tags = {
         "gimlet",
         "gimlet-elderflower",
         "gin-peach-mint",
+        "godfather",
         "honey-bee",
         "hurricane",
         "ipanema",
         "jack-rose",
         "japanese-slider",
         "kamikaze",
+        "key-lime-pie",
         "king-kamehameha",
         "last-sword",
         "last-word",
@@ -782,6 +815,7 @@ export let tags = {
         "martini-chocolate-cherry",
         "martini-royal",
         "mcqueen",
+        "melody",
         "monte-cassino",
         "moscow-mule",
         "nectar-hades",
@@ -790,9 +824,11 @@ export let tags = {
         "paper-plane",
         "paper-plane-2",
         "passoa-ginger",
+        "perry-the-overdrive",
         "pirate-eve",
         "pornstar-martini",
         "puka-punch",
+        "rhythm",
         "rum-sour",
         "saturn",
         "scorpion-bowl",
@@ -807,6 +843,7 @@ export let tags = {
         "touchdown",
         "trade-winds",
         "tropical champagne",
+        "virgin-amaretto-sour",
         "water-lilly",
         "whiskey-sour",
         "you-and-me"
@@ -816,7 +853,10 @@ export let tags = {
         "colada-virgin",
         "emmas-potion",
         "ipanema",
-        "mandala"
+        "key-lime-pie",
+        "mandala",
+        "melody",
+        "virgin-amaretto-sour"
     ],
     "orange": [
         "aperol-spritz",
@@ -825,19 +865,24 @@ export let tags = {
         "force-is-strong",
         "japanese-slider",
         "kamikaze",
+        "key-lime-pie",
         "king-kamehameha",
         "m-one",
         "mai-tai",
         "mai-tai-deluxe",
         "margarita",
+        "melody",
         "orange-whip",
         "paper-plane",
         "paper-plane-2",
+        "perry-the-overdrive",
         "puka-punch",
+        "rhythm",
         "scorpion-bowl",
         "socialist",
         "tiki-bowl",
         "tropical champagne",
+        "virgin-amaretto-sour",
         "water-lilly"
     ],
     "overproof": [
@@ -897,6 +942,7 @@ export let tags = {
         "colada-passion",
         "colada-pina",
         "colada-virgin",
+        "key-lime-pie",
         "king-kamehameha",
         "mandala",
         "pain-killada",
@@ -905,6 +951,7 @@ export let tags = {
     ],
     "plantation-3stars": [
         "daiquiri-melon",
+        "perry-the-overdrive",
         "pirate-eve",
         "puka-punch",
         "top-notch-volcano",
@@ -954,6 +1001,7 @@ export let tags = {
     "rose-lime": [
         "almonade",
         "gimlet",
+        "key-lime-pie",
         "suffering-bastard"
     ],
     "rosemary": [
@@ -983,6 +1031,7 @@ export let tags = {
         "nectar-hades",
         "orange-whip",
         "pain-killada",
+        "perry-the-overdrive",
         "pirate-eve",
         "puka-punch",
         "rum-sour",
@@ -1047,6 +1096,7 @@ export let tags = {
     "rum-white": [
         "daiquiri-melon",
         "mai-tai",
+        "perry-the-overdrive",
         "pirate-eve",
         "puka-punch",
         "top-notch-volcano",
@@ -1071,6 +1121,7 @@ export let tags = {
         "almonade"
     ],
     "sour": [
+        "amaretto-sour",
         "daiquiri-melon",
         "demerara-dry-float",
         "honey-bee",
@@ -1079,6 +1130,7 @@ export let tags = {
         "margarita",
         "rum-sour",
         "top-notch-volcano",
+        "virgin-amaretto-sour",
         "whiskey-sour"
     ],
     "sparkling-dry": [
@@ -1123,6 +1175,7 @@ export let tags = {
         "ipanema"
     ],
     "sweet": [
+        "amaretto-sour",
         "apple-pie",
         "banana-daiquiri",
         "champagne-glory",
@@ -1138,19 +1191,28 @@ export let tags = {
         "gin-peach-mint",
         "jack-rose",
         "mandala",
+        "melody",
         "nectar-hades",
         "pain-killada",
         "pornstar-martini",
+        "rhythm",
         "saturn",
         "skull-n-bones",
         "smoking-chihuahua",
         "solero",
         "top-notch-volcano",
         "touchdown",
-        "trade-winds"
+        "trade-winds",
+        "virgin-amaretto-sour"
     ],
     "syrup-agave": [
         "smoking-chihuahua"
+    ],
+    "syrup-amaretto": [
+        "virgin-amaretto-sour"
+    ],
+    "syrup-chocolate": [
+        "melody"
     ],
     "syrup-cinnamon": [
         "center-galaxy",
@@ -1202,17 +1264,22 @@ export let tags = {
         "tropical champagne"
     ],
     "syrup-simple": [
+        "amaretto-sour",
         "banana-daiquiri",
         "daiquiri-melon",
         "demerara-dry-float",
         "gin-peach-mint",
         "mai-tai",
         "mai-tai-deluxe",
+        "perry-the-overdrive",
         "pirate-eve",
         "whiskey-sour"
     ],
     "syrup-vanille": [
+        "key-lime-pie",
+        "melody",
         "pornstar-martini",
+        "rhythm",
         "solero"
     ],
     "tangerine": [
@@ -1229,11 +1296,15 @@ export let tags = {
         "you-and-me"
     ],
     "vanilla": [
+        "key-lime-pie",
+        "melody",
         "pornstar-martini",
+        "rhythm",
         "solero"
     ],
     "vegan": [
         "almonade",
+        "amaretto-sour",
         "aperol-spritz",
         "apple-pie",
         "aviation",
@@ -1255,11 +1326,13 @@ export let tags = {
         "gimlet",
         "gimlet-elderflower",
         "gin-peach-mint",
+        "godfather",
         "hurricane",
         "ipanema",
         "jack-rose",
         "japanese-slider",
         "kamikaze",
+        "key-lime-pie",
         "last-sword",
         "last-word",
         "m-one",
@@ -1271,6 +1344,7 @@ export let tags = {
         "martini",
         "martini-chocolate-cherry",
         "martini-royal",
+        "melody",
         "monte-cassino",
         "moscow-mule",
         "negroni",
@@ -1278,8 +1352,10 @@ export let tags = {
         "paper-plane",
         "paper-plane-2",
         "passoa-ginger",
+        "perry-the-overdrive",
         "pirate-eve",
         "pornstar-martini",
+        "rhythm",
         "rum-sour",
         "saturn",
         "scorpion-bowl",
@@ -1293,6 +1369,7 @@ export let tags = {
         "touchdown",
         "trade-winds",
         "tropical champagne",
+        "virgin-amaretto-sour",
         "water-lilly",
         "whiskey-sour",
         "you-and-me"
@@ -1303,11 +1380,13 @@ export let tags = {
         "martini",
         "martini-royal",
         "negroni",
+        "perry-the-overdrive",
         "socialist"
     ],
     "vermouth-dry": [
         "martini",
-        "martini-royal"
+        "martini-royal",
+        "perry-the-overdrive"
     ],
     "vermouth-sweet": [
         "blood-n-sand",
@@ -1342,6 +1421,7 @@ export let tags = {
     "whiskey": [
         "blood-n-sand",
         "final-ward",
+        "godfather",
         "honey-bee",
         "m-one",
         "monte-cassino",
@@ -1363,6 +1443,7 @@ export let tags = {
     ],
     "whiskey-scotch": [
         "blood-n-sand",
+        "godfather",
         "m-one"
     ],
     "wine": [
@@ -1373,6 +1454,7 @@ export let tags = {
         "martini",
         "martini-royal",
         "negroni",
+        "perry-the-overdrive",
         "socialist",
         "tropical champagne"
     ],

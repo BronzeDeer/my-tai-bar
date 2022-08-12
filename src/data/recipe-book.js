@@ -164,6 +164,18 @@ export let ingredients = {
     "short-text": "",
     "tags": ["agave"]
   },
+  "syrup-chocolate": {
+    "text": "chocolate syrup",
+    "hint": "e.g. Monin",
+    "short-text": "",
+    "tags": ["chocolate"]
+  },
+  "syrup-amaretto": {
+    "text": "amaretto syrup",
+    "hint": "e.g. Monin",
+    "short-text": "",
+    "tags": []
+  },
   "sugar-cane-brown": {
     "text": "brown cane sugar",
     "hint": "",
@@ -565,6 +577,12 @@ export let ingredients = {
     "hint": "",
     "short-text": "",
     "tags": ["alcohol","herbal"]
+  },
+  "amaretto": {
+    "text": "Amaretto",
+    "hint": "",
+    "short-text": "",
+    "tags": ["alcohol"]
   }
 }
 
@@ -1915,8 +1933,117 @@ export let cocktails = {
   "method": "shake",
   "summary": "Rum, banana, lime, spices",
   "tags": ["tropical", "sweet"]
-}
+},
+
+"melody": {
+  "name": "Melody",
+  "ingredients": {
+    "syrup-vanille": "15ml",
+    "syrup-chocolate": "30ml",
+    "juice-lemon": "20ml",
+    "juice-orange": "30ml"
+  },
+  "glass": "martini",
+  "ice-method": "crushed",
+  "ice-glass": "none",
+  "method": "shake",
+  "summary": "Chocolate, lemon, orange, vanilla",
+  "tags": ["sweet"]
+},
+
+"rhythm": {
+  "name": "Rhythm",
+  "ingredients": {
+    "syrup-vanille": "25ml",
+    "juice-lime": "10ml",
+    "juice-orange": "20ml",
+    "mozart-dark": "30ml"
+  },
+  "glass": "martini",
+  "ice-method": "crushed",
+  "ice-glass": "none",
+  "method": "shake",
+  "summary": "Dark chocolate liquor, lime, orange, vanilla",
+  "tags": ["sweet"]
+},
+
+"amaretto-sour": {
+  "name": "Amaretto Sour",
+  "ingredients": {
+    "syrup-simple": "40ml",
+    "amaretto": "60ml",
+    "juice-lemon": "30ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "method",
+  "method": "shake",
+  "summary": "Amaretto, lemon, simple syrup",
+  "tags": ["sweet", "sour"]
+},
+
+"virgin-amaretto-sour": {
+  "name": "Virgin Amaretto Sour",
+  "ingredients": {
+    "syrup-amaretto": "30ml",
+    "juice-lemon": "30ml",
+    "juice-orange": "40ml"
+  },
+  "glass": "rocks",
+  "ice-method": "crushed",
+  "ice-glass": "method",
+  "method": "shake",
+  "summary": "Amaretto, lemon, orange",
+  "tags": ["sweet", "sour"]
+},
+
+"perry-the-overdrive": {
+  "name": "Perry the Overdrive",
+  "ingredients": {
+    "syrup-simple": "30ml",
+    "juice-lime": "20ml",
+    "blue-curacao": "20ml",
+    "plantation-3stars": "30ml",
+    "vermouth-dry": "20ml",
+    "falernum": "20ml"
+  },
+  "glass": "hurricane",
+  "ice-method": "crushed",
+  "ice-glass": "method",
+  "method": "shake",
+  "summary": "white rum, dry vermouth, blue Curaçao, falernum, lime",
+  "tags": []
+},
+
+"key-lime-pie": {
+  "name": "Key Lime Pie",
+  "ingredients": {
+    "syrup-vanille": "20ml",
+    "rose-lime": "20ml",
+    "juice-pineapple": "40ml",
+    "juice-orange": "20ml"
+  },
+  "glass": "martini",
+  "ice-method": "crushed",
+  "ice-glass": "method",
+  "method": "shake",
+  "summary": "vanille, pineapple, orange",
+  "tags": []
+},
+
+"godfather": {
+  "name": "Godfather",
+  "ingredients": {
+    "whiskey-scotch": "40ml",
+    "amaretto": "40ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "method",
+  "method": "build",
+  "summary": "scotch, amaretto",
+  "tags": [],
+  "note": "Offer optional dash of bitter according to preference of patron"
+  }
 
 }
-
-
