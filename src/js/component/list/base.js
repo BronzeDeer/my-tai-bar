@@ -212,7 +212,7 @@ export default class CocktailList extends BaseComponent{
         this.loadNextEntry()
     }
 
-    makeLoaderFunc = (id) => {
+    makeLoaderFunc = (id,price) => {
         throw new Error("Abstract makeLoaderFunc not overriden");
     }
 
@@ -229,14 +229,14 @@ export default class CocktailList extends BaseComponent{
                 div.classList.add("ml-5")
                 div.append(h)
             } else if (el.type == "cocktail"){
+                let loader = "price" in el ? this.makeLoaderFunc(el.id,el.price) : this.makeLoaderFunc(el.id)
                 if(this.noLazy){
-                    let loader = this.makeLoaderFunc(el.id)
                     div.append(await loader())
                 } else {
                     let ll = document.createElement("lazy-loader")
                     ll.className="full-width d-block blocker"
                     ll.id = "loader-" + el.id
-                    ll.loader = this.makeLoaderFunc(el.id)
+                    ll.loader = loader
                     div.append(ll)
                 }
             }
