@@ -29,14 +29,14 @@ export default class ListELement extends BaseComponent{
                 header.append(titleCol)
 
                 let btnCol = document.createElement("div")
-                btnCol.className = "col-2 text-center my-auto pick-col"
+                btnCol.className = "col-2 text-center my-auto pick-col d-none"
                     let pickBtn = document.createElement("button")
                     pickBtn.id = "pick-btn"
                     this._pickBtn = pickBtn
-                    pickBtn.className = "btn btn-secondary fa-1x d-none"
+                    pickBtn.className = "btn btn-secondary fa-1x"
                     if(window.pickList){
                         pickBtn.onclick = () => {if(this.cocktailID)window.pickList.addCocktail(this.cocktailID)}
-                        pickBtn.classList.remove("d-none")
+                        btnCol.classList.remove("d-none")
                     }
                     //Will be enabled once cocktailID is set
                     pickBtn.disabled = true
