@@ -22,6 +22,10 @@ let iconized_tags = {
   "vegan": {
     img_url: icon_root+"vegan.svg",
     desc: "contains only vegan ingredients; filtration methods not always known"
+  },
+  "honey-vegan": {
+    img_url: icon_root+"honey-vegan.svg",
+    desc: "vegan if made with honey-alternative; ask your bartender (potential upcharge)"
   }
 }
 

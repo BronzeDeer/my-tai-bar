@@ -753,7 +753,7 @@ export let cocktails = {
     "ice-glass":"method",
     "summary":"3 Rums, Aperol, orange, honey, passion fruit, pineapple, lime ",
     "note":"For 1 or 2 people",
-    "tags": ["strong","fruity","exotic","sharing"]
+    "tags": ["strong","fruity","exotic","sharing","honey-vegan"]
   },
 
 "rum-sour":
@@ -809,7 +809,7 @@ export let cocktails = {
   "ice-method":"cubes",
   "ice-glass":"none",
   "summary":"demerara rum, raspberry liquor, cinnamon, honey, lime",
-  "tags": ["spirit-forward"]
+  "tags": ["spirit-forward","honey-vegan"]
 },
 "scorpion-bowl":
   {
@@ -1148,7 +1148,7 @@ export let cocktails = {
     "ice-glass":"none",
     "summary":"bourbon, apricot brandy, honey, lemon",
     "note":"",
-    "tags": ["spirit-forward","sour"]
+    "tags": ["spirit-forward","sour","honey-vegan"]
   },
 "force-is-strong":
   {
@@ -1522,7 +1522,7 @@ export let cocktails = {
     "ice-glass":"method",
     "summary":"3 rums, falernum, honey, passion fruit, orange, pineapple",
     "note":"Mix all but OFTD, float OFTD afterwards",
-    "tags": ["exotic","fruity"]
+    "tags": ["exotic","fruity","honey-vegan"]
   },
   "japanese-slider":
   {
@@ -1679,7 +1679,7 @@ export let cocktails = {
   "ice-method":"crushed",
   "ice-glass":"method",
   "summary":"Gin, honey, cucumber, ginger beer, lemon",
-  "tags": []
+  "tags": ["honey-vegan"]
 
 },
 "ipanema":{
@@ -1744,7 +1744,7 @@ export let cocktails = {
   "ice-glass":"method",
   "method":"drink-mixer",
   "summary":"ginger, grapefruit, rosemary, lime",
-  "tags": ["bitter"]
+  "tags": ["bitter","honey-vegan"]
 },
 "almonade":{
   "name": "Almonade",
@@ -1900,7 +1900,7 @@ export let cocktails = {
   "ice-glass": "none",
   "method": "stirr",
   "summary": "Rum, honey, elderflower, b\u00e9n\u00e9dictine",
-  "tags": ["sweet","herbal"]
+  "tags": ["sweet","herbal","honey-vegan"]
 },
 
 "smoking-chihuahua": {
