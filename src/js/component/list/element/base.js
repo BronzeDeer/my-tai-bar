@@ -43,9 +43,8 @@ export default class ListELement extends BaseComponent{
 
                 let price = this._price = document.createElement("div")
                     price.className = "col-2 text-right d-none"
-                    let price_content = document.createElement("h2")
-                        price_content.id = "price"
-                    price.append(price_content)
+                    price.style = "font-size: 3rem; font-weight: 500;"
+                    price.id = "price"
                 header.append(price)
 
                 let btnCol = document.createElement("div")
@@ -115,9 +114,9 @@ export default class ListELement extends BaseComponent{
             case "price":
                 if(oldValue !== newValue){
                     if(newValue){
-                        this.$("#price").parentElement.classList.remove("d-none")
+                        this.$("#price").classList.remove("d-none")
                     } else {
-                        this.$("#price").parentElement.classList.add("d-none")
+                        this.$("#price").classList.add("d-none")
                     }
                     this.$('#price').innerText = newValue
                 }
