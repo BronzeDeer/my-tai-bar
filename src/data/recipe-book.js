@@ -564,7 +564,7 @@ export let ingredients = {
     "text": "yellow Chartreuse",
     "hint": "",
     "short-text": "",
-    "tags": ["alcohol","herbal"]
+    "tags": ["alcohol","herbal","not-vegan"]
   },
   "absinth": {
     "text": "Absinthe",

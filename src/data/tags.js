@@ -858,6 +858,10 @@ export let tags = {
         "melody",
         "virgin-amaretto-sour"
     ],
+    "not-vegan": [
+        "eureka-punch",
+        "monte-cassino"
+    ],
     "orange": [
         "aperol-spritz",
         "chocolate-whip",
@@ -1345,7 +1349,6 @@ export let tags = {
         "martini-chocolate-cherry",
         "martini-royal",
         "melody",
-        "monte-cassino",
         "moscow-mule",
         "negroni",
         "pain-killada",
@@ -1829,6 +1832,7 @@ export let reverse_tags = {
         "juice-lemon",
         "lemon",
         "no-milk",
+        "not-vegan",
         "rum",
         "syrup-honey"
     ],
@@ -2234,7 +2238,7 @@ export let reverse_tags = {
         "juice-lemon",
         "lemon",
         "no-milk",
-        "vegan",
+        "not-vegan",
         "whiskey",
         "whiskey-rye"
     ],

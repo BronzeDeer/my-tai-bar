@@ -39,7 +39,7 @@ def makeTags(parsedModules):
     #Calculate derived tags
     tags["non-alcoholic"] = parsedModules["cocktails"].keys() - tags["alcohol"]
     tags["no-milk"] = parsedModules["cocktails"].keys() - tags["milk"]
-    tags["vegan"] = parsedModules["cocktails"].keys() - tags["milk"] - tags["honey"] # - tags["egg"] - tags["not-vegan"]
+    tags["vegan"] = parsedModules["cocktails"].keys() - tags["milk"] - tags["honey"] - tags["not-vegan"] # - tags["egg"]
 
     #Reverse derived tags
     for t in ["non-alcoholic", "no-milk", "vegan"]:
