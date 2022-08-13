@@ -851,14 +851,14 @@ export let cocktails = {
     "ice-glass":"method",
     "summary":"3 Rums, honey, orange, lime",
     "note":"For 2 People",
-    "tags": ["sharing"]
+    "tags": ["sharing","honey-vegan"]
   },
 "martini":
   {
     "name":"Martini",
     "ingredients":{
-      "gin-london-dry": "80ml",
-      "vermouth-dry": "40ml"
+      "gin-london-dry": "60ml",
+      "vermouth-dry": "30ml"
     },
     "glass":"martini",
     "method":"stirr",
@@ -901,8 +901,8 @@ export let cocktails = {
   {
     "name":"Gimlet",
     "ingredients":{
-      "gin-london-dry":"80ml",
-      "rose-lime": "40ml"
+      "gin-london-dry":"60ml",
+      "rose-lime": "30ml"
     },
     "glass":"coupe",
     "method":"shake",
