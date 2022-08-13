@@ -13,11 +13,16 @@ def parseObj(objStr):
 
 def makeTags(parsedModules):
     tags = {}
+    reverse_tags = {}
 
     def addTag(key,value):
         if key not in tags:
             tags[key] = set()
         tags[key].add(value)
+
+        if value not in reverse_tags:
+            reverse_tags[value] = set()
+        reverse_tags[value].add(key)
 
     for cID,cocktail in parsedModules["cocktails"].items():
 
@@ -36,7 +41,12 @@ def makeTags(parsedModules):
     tags["no-milk"] = parsedModules["cocktails"].keys() - tags["milk"]
     tags["vegan"] = parsedModules["cocktails"].keys() - tags["milk"] - tags["honey"] # - tags["egg"] - tags["not-vegan"]
 
-    return {k:sorted(list(v)) for k,v in tags.items()}
+    #Reverse derived tags
+    for t in ["non-alcoholic", "no-milk", "vegan"]:
+        for cocktail in tags[t]:
+            reverse_tags[cocktail].add(t)
+
+    return {k:sorted(list(v)) for k,v in tags.items()}, {k:sorted(list(v)) for k,v in reverse_tags.items()}
 
 parsed = {}
 objStr = ""
@@ -55,5 +65,7 @@ if objStr.strip():
     parsed[key] = value
 
 with open("src/data/tags.js","w") as out:
-    out.write("export let tags = " +json.dumps(makeTags(parsed),indent=4,sort_keys=True))
+    tags, reverse_tags = makeTags(parsed)
+    out.write("export let tags = " +json.dumps(tags,indent=4,sort_keys=True)+";\n")
+    out.write("export let reverse_tags = " +json.dumps(reverse_tags,indent=4,sort_keys=True)+";\n")
     print("Generated tags")
