@@ -10,6 +10,7 @@ window.on('load',() =>{
         let list = localStorage.getItem("displayList")
         if(list){
             $("#list").richCocktailList = JSON.parse(list)
+            $("#bartender").richCocktailList = JSON.parse(list)
         } else {
             //Todo: Popup modal to load from disk or return to main page
             alert("No list in local storage")
