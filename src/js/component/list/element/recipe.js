@@ -37,7 +37,7 @@ export default class RecipeELement extends ListElement{
         let summary = document.createElement("div")
         summary.id = "summary"
         summary.className = "text-muted"
-        this.$("#title").append(summary)
+        this.$("#header").insertAdjacentElement('afterend',summary)
 
         let ingredientsCol = document.createElement("div")
         ingredientsCol.className = "col-8 my-auto ingredients"

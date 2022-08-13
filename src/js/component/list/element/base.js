@@ -16,9 +16,13 @@ export default class ListELement extends BaseComponent{
         this._container.id = "container"
         this._container.className = "container card cocktail no-break"
 
-            let header = document.createElement("div");
+            let card_header = document.createElement("div");
+            card_header.className = "card-header"
+            card_header.style = "margin-right: -15px; margin-left: -15px;"
+
+            let header = document.createElement("div")
             header.id = "header"
-            header.className = "row card-header"
+            header.className = "row"
 
                 let titleCol = document.createElement("div")
                 titleCol.id = "title"
@@ -68,7 +72,9 @@ export default class ListELement extends BaseComponent{
                     btnCol.append(pickBtn)
                 header.append(btnCol)
 
-            this._container.append(header)
+            card_header.append(header)
+
+            this._container.append(card_header)
 
             let topRow = document.createElement("div")
             topRow.className = "card-body row "
