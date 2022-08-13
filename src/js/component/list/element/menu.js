@@ -13,7 +13,7 @@ export default class MenuItem extends ListElement{
         price_content.id = "price"
         price.append(price_content)
 
-        this.$("#title").insertAdjacentElement("afterend",price)
+        this.$("#tags").insertAdjacentElement('afterend' ,price)
     }
 
     set cocktail(cocktail){

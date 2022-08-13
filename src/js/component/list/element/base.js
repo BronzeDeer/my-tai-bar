@@ -1,5 +1,6 @@
 import {cocktails} from "/data/recipe-book.js"
 import BaseComponent from "/js/component/base.js"
+import TagIcons from "../../tag-icons.js";
 
 export default class ListELement extends BaseComponent{
 
@@ -27,6 +28,13 @@ export default class ListELement extends BaseComponent{
                     titleCol.append(cocktailName)
 
                 header.append(titleCol)
+
+                let tagCol = document.createElement("div")
+                tagCol.id = "tags"
+                tagCol.className = "w-auto"
+                    let tags = document.createElement("tag-icons")
+                    tagCol.append(tags)
+                header.append(tagCol)
 
                 let btnCol = document.createElement("div")
                 btnCol.className = "col-2 text-center my-auto pick-col d-none"
