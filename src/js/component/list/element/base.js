@@ -1,6 +1,7 @@
 import {cocktails} from "/data/recipe-book.js"
 import BaseComponent from "/js/component/base.js"
 import TagIcons from "../../tag-icons.js";
+import {reverse_tags} from "../../../../data/tags.js"
 
 export default class ListELement extends BaseComponent{
 
@@ -32,7 +33,7 @@ export default class ListELement extends BaseComponent{
                 let tagCol = document.createElement("div")
                 tagCol.id = "tags"
                 tagCol.className = "w-auto"
-                    let tags = document.createElement("tag-icons")
+                    let tags = this._tags = document.createElement("tag-icons")
                     tagCol.append(tags)
                 header.append(tagCol)
 
@@ -87,6 +88,7 @@ export default class ListELement extends BaseComponent{
                 if(oldValue !== newValue){
                     this.cocktail = cocktails[newValue]
                     this._pickBtn.disabled = false
+                    this._tags.tags = reverse_tags[newValue]
                 }
                 break;
             case "printable":
