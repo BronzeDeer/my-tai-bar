@@ -37,6 +37,13 @@ export default class ListELement extends BaseComponent{
                     tagCol.append(tags)
                 header.append(tagCol)
 
+                let price = this._price = document.createElement("div")
+                    price.className = "col-2 text-right d-none"
+                    let price_content = document.createElement("h2")
+                        price_content.id = "price"
+                    price.append(price_content)
+                header.append(price)
+
                 let btnCol = document.createElement("div")
                 btnCol.className = "col-2 text-center my-auto pick-col d-none"
                     let pickBtn = document.createElement("button")
@@ -79,7 +86,7 @@ export default class ListELement extends BaseComponent{
     }
 
     static get observedAttributes() {
-        return ['cocktail-id','printable'];
+        return ['cocktail-id','printable',"price"];
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -99,6 +106,16 @@ export default class ListELement extends BaseComponent{
                         this._container.classList.remove("printable")
                     }
                 }
+            case "price":
+                if(oldValue !== newValue){
+                    if(newValue){
+                        this.$("#price").parentElement.classList.remove("d-none")
+                    } else {
+                        this.$("#price").parentElement.classList.add("d-none")
+                    }
+                    this.$('#price').innerText = newValue
+                }
+                break;
             default:
                 break;
         }
@@ -129,6 +146,14 @@ export default class ListELement extends BaseComponent{
 
     get printable(){
         return this.hasAttribute("printable")
+    }
+
+    set price(price){
+        this.setAttribute("price",price)
+    }
+
+    get price(){
+        return this.getAttribute("price")
     }
 
     _updateName = (value) => {
