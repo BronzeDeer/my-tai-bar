@@ -87,7 +87,7 @@ customElements.define("tag-icons",TagIcons)
 
 let constructItem= (item)=>{
   let container = document.createElement("div")
-  container.className = "d-flex col-6 p-2 align-items-center border"
+  container.className = "d-flex col col-xl-6 p-2 align-items-center border"
   container.append(constructIcon(item))
   let text = document.createElement("div")
   text.className = "ml-3"
