@@ -226,7 +226,7 @@ export default class CocktailList extends BaseComponent{
                 let h = document.createElement("h1")
                 h.innerText = el.name
                 h.classList = "display-3"
-                div.classList.add("ml-5")
+                div.classList.add("text-center")
                 div.append(h)
             } else if (el.type == "cocktail"){
                 let loader = "price" in el ? this.makeLoaderFunc(el.id,el.price) : this.makeLoaderFunc(el.id)
