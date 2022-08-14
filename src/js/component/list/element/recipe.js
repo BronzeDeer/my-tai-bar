@@ -40,7 +40,7 @@ export default class RecipeELement extends ListElement{
         this.$("#header").insertAdjacentElement('afterend',summary)
 
         let ingredientsCol = document.createElement("div")
-        ingredientsCol.className = "col-8 my-auto ingredients"
+        ingredientsCol.className = "col-7 my-auto ingredients"
         ingredientsCol.id = "ingredients"
         this.$("#top-row").append(ingredientsCol)
         let preparationCol = document.createElement("div")
@@ -253,7 +253,7 @@ export default class RecipeELement extends ListElement{
 
      _parseAmount = (val) => {
         let div = document.createElement("div")
-        div.className = "col-4 col-lg-3 col-xl-2"
+        div.className = "w-auto"
         val = val.trim().toLowerCase()
         let b = document.createElement("b")
         if(val.localeCompare("fill") == 0){
