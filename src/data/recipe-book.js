@@ -1944,7 +1944,7 @@ export let cocktails = {
     "juice-orange": "30ml"
   },
   "glass": "martini",
-  "ice-method": "crushed",
+  "ice-method": "cubes",
   "ice-glass": "none",
   "method": "shake",
   "summary": "Chocolate, lemon, orange, vanilla",
@@ -1960,7 +1960,7 @@ export let cocktails = {
     "mozart-dark": "30ml"
   },
   "glass": "martini",
-  "ice-method": "crushed",
+  "ice-method": "cubes",
   "ice-glass": "none",
   "method": "shake",
   "summary": "Dark chocolate liquor, lime, orange, vanilla",
@@ -1990,7 +1990,7 @@ export let cocktails = {
     "juice-orange": "40ml"
   },
   "glass": "rocks",
-  "ice-method": "crushed",
+  "ice-method": "cubes",
   "ice-glass": "method",
   "method": "shake",
   "summary": "Amaretto, lemon, orange",
@@ -2008,8 +2008,8 @@ export let cocktails = {
     "falernum": "20ml"
   },
   "glass": "hurricane",
-  "ice-method": "crushed",
-  "ice-glass": "method",
+  "ice-method": "cubes",
+  "ice-glass": "crushed",
   "method": "shake",
   "summary": "white rum, dry vermouth, blue Curaçao, falernum, lime",
   "tags": []
@@ -2024,8 +2024,8 @@ export let cocktails = {
     "juice-orange": "20ml"
   },
   "glass": "martini",
-  "ice-method": "crushed",
-  "ice-glass": "method",
+  "ice-method": "cubes",
+  "ice-glass": "none",
   "method": "shake",
   "summary": "vanille, pineapple, orange",
   "tags": []
