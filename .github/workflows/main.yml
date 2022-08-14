@@ -16,6 +16,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: "deploy to ec2"
         uses: "easingthemes/ssh-deploy@main"
         env:
