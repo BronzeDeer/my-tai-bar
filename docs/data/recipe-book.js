@@ -1813,7 +1813,7 @@ export let cocktails = {
   "ice-glass":"method",
   "method":"drink-mixer",
   "summary": "Navy strength rum, cinnamon, tangerine, pineapple, coconut",
-  "tags": ["colada","sweet", "creamy", "fruity", "exotic"]
+  "tags": ["colada","sweet", "creamy", "fruity", "exotic","strong"]
 },
 "paper-plane-2":{
   "name":"Paper Plane #2",
