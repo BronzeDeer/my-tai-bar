@@ -1,4 +1,4 @@
-import PickerItem from "/js/component/menu-picker/base-item.js"
+import PickerItem from "./base-item.js"
 
 
 export default class HeaderPickerItem extends PickerItem{

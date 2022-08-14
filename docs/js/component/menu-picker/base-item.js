@@ -1,13 +1,13 @@
-import {shadowBling} from "/js/util/bling.js"
-import BaseComponent from "/js/component/base.js"
+import {shadowBling} from "../../util/bling.js"
+import BaseComponent from "../base.js"
 
 export default class PickerItem extends BaseComponent{
 
     constructor(){
         super()
 
-        this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
-        this.addStyleSheet("/dist/fontawesome-free-5.12.1-web/css/all.min.css")
+        this.addStyleSheet("./dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
+        this.addStyleSheet("./dist/fontawesome-free-5.12.1-web/css/all.min.css")
 
         let container = document.createElement("div")
         container.className = "container-fluid"

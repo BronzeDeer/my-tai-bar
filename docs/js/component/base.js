@@ -1,4 +1,4 @@
-import {shadowBling} from "/js/util/bling.js"
+import {shadowBling} from "../util/bling.js"
 
 export default class BaseComponent extends HTMLElement{
     constructor(){

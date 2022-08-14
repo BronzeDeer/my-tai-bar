@@ -1,5 +1,5 @@
-import {cocktails} from "/data/recipe-book.js"
-import BaseComponent from "/js/component/base.js"
+import {cocktails} from "../../../../data/recipe-book.js"
+import BaseComponent from "../../base.js"
 import TagIcons from "../../tag-icons.js";
 import {reverse_tags} from "../../../../data/tags.js"
 
@@ -8,9 +8,9 @@ export default class ListELement extends BaseComponent{
     constructor() {
         super();
 
-        this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
-        this.addStyleSheet("/dist/fontawesome-free-5.12.1-web/css/all.min.css")
-        this.addStyleSheet("/css/recipe-element.css")
+        this.addStyleSheet("./dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
+        this.addStyleSheet("./dist/fontawesome-free-5.12.1-web/css/all.min.css")
+        this.addStyleSheet("./css/recipe-element.css")
 
         this._container = document.createElement("div")
         this._container.id = "container"

@@ -1,4 +1,4 @@
-import ListElement from "/js/component/list/element/base.js"
+import ListElement from "./base.js"
 
 export default class MenuItem extends ListElement{
     constructor(){

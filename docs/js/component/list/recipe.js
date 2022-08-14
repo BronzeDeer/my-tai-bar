@@ -1,6 +1,6 @@
 //Make sure the recipe elements are loaded and registered
-import RecipeElement from "/js/component/list/element/recipe.js"
-import CocktailList from "/js/component/list/base.js"
+import RecipeElement from "./element/recipe.js"
+import CocktailList from "./base.js"
 
 export default class RecipeList extends CocktailList{
 

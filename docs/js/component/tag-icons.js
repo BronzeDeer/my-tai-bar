@@ -1,6 +1,6 @@
 import BaseComponent from "./base.js"
 
-let icon_root = "/img/tag-icons/"
+let icon_root = "./img/tag-icons/"
 
 let iconized_tags = {
   "milk": {
@@ -41,7 +41,7 @@ export default class TagIcons extends BaseComponent{
   constructor() {
     super();
 
-    this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
+    this.addStyleSheet("./dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
 
     let container = document.createElement("div")
     container.id = "container"
@@ -102,7 +102,7 @@ export let legend = class TagLegend extends BaseComponent{
   constructor() {
     super();
 
-    this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
+    this.addStyleSheet("./dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
 
     let container = document.createElement("div")
     container.id = "container"

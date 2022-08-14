@@ -1,6 +1,6 @@
-import PickerItem from "/js/component/menu-picker/base-item.js"
+import PickerItem from "./base-item.js"
 
-import {cocktails} from "/data/recipe-book.js"
+import {cocktails} from "../../../data/recipe-book.js"
 
 export default class CocktailPickerItem extends PickerItem{
 

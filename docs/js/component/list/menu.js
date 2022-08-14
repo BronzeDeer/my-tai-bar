@@ -1,5 +1,5 @@
-import "/js/component/list/element/menu.js"
-import CocktailList from "/js/component/list/base.js"
+import "./element/menu.js"
+import CocktailList from "./base.js"
 
 export default class MenuList extends CocktailList{
 

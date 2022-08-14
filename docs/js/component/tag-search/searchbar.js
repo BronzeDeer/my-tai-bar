@@ -1,7 +1,7 @@
 
 import "../../util/set-tools.js"
 import {tags} from "../../../data/tags.js"
-import {cocktails} from "/data/recipe-book.js"
+import {cocktails} from "../../../data/recipe-book.js"
 import BaseComponent from "../base.js"
 import "../list/element/recipe.js"
 import "./tag-selection.js"
@@ -28,9 +28,9 @@ export default class TagSearchBar extends BaseComponent{
     constructor(){
         super()
 
-        this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
-        this.addStyleSheet("/dist/fontawesome-free-5.12.1-web/css/all.min.css")
-        this.addStyleSheet("/css/tag-search.css")
+        this.addStyleSheet("./dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
+        this.addStyleSheet("./dist/fontawesome-free-5.12.1-web/css/all.min.css")
+        this.addStyleSheet("./css/tag-search.css")
 
         this.selectedTags = new Set()
         this.recalculateFilter()

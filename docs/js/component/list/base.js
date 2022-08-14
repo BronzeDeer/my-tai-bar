@@ -1,15 +1,15 @@
-import LazyLoader from "/js/util/lazyload.js"
+import LazyLoader from "../../util/lazyload.js"
 import { cocktails } from "../../../data/recipe-book.js";
-import BaseComponent from "/js/component/base.js"
+import BaseComponent from "../base.js"
 
 export default class CocktailList extends BaseComponent{
     constructor() {
         super();
 
-        this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
-        this.addStyleSheet("/css/lazy-loader.css")
-        this.addStyleSheet("/css/cocktail-list.css")
-        this.addStyleSheet("/css/no-fouc.css")
+        this.addStyleSheet("./dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
+        this.addStyleSheet("./css/lazy-loader.css")
+        this.addStyleSheet("./css/cocktail-list.css")
+        this.addStyleSheet("./css/no-fouc.css")
 
         let container = document.createElement("div")
         container.id = "container"

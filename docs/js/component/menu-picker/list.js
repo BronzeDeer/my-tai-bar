@@ -1,17 +1,17 @@
-import BaseComponent from "/js/component/base.js"
-import "/js/component/menu-picker/cocktail-item.js"
+import BaseComponent from "../base.js"
+import "./cocktail-item.js"
 import "./header-item.js"
 
-import Sortable from "/dist/RubaXa-Sortable/sortable.core.esm.js"
+import Sortable from "../../../dist/RubaXa-Sortable/sortable.core.esm.js"
 
 export default class PickList extends BaseComponent{
     constructor(){
         super()
         window.pickList = this
 
-        this.addStyleSheet("/dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
-        this.addStyleSheet("/css/no-fouc.css")
-        this.addStyleSheet("/css/menu-picker.css")
+        this.addStyleSheet("./dist/bootstrap-4.3.1-dist/css/bootstrap.min.css")
+        this.addStyleSheet("./css/no-fouc.css")
+        this.addStyleSheet("./css/menu-picker.css")
 
         let main = document.createElement("div")
         main.className = "container-fluid menu-picker"
@@ -60,7 +60,7 @@ export default class PickList extends BaseComponent{
                 btn.type = "button"
                 btn.onclick = () => {
                     localStorage.setItem("displayList",this.toString())
-                    window.open("/menu.html?fromStorage=1",'_blank').focus()
+                    window.open("./menu.html?fromStorage=1",'_blank').focus()
                 }
                 dropdown.append(btn)
 

@@ -2,12 +2,12 @@
 import {bling} from "./util/bling.js"
 bling()
 
-import "/js/component/list/element/recipe.js"
-import "/js/component/list/recipe.js"
-import "/js/component/tag-search/searchbar.js"
-import "/js/component/list/menu.js"
-import "/js/component/menu-picker/list.js"
-import {cocktails} from "/data/recipe-book.js"
+import "./component/list/element/recipe.js"
+import "./component/list/recipe.js"
+import "./component/tag-search/searchbar.js"
+import "./component/list/menu.js"
+import "./component/menu-picker/list.js"
+import {cocktails} from "../data/recipe-book.js"
 
 const closeModal = () =>{
     window._modal.classList.remove("d-block")

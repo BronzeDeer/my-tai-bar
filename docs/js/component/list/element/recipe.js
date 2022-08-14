@@ -1,32 +1,32 @@
 
-import ListElement from "/js/component/list/element/base.js"
-import {ingredients,specialAfter,specialPre} from "/data/recipe-book.js"
+import ListElement from "./base.js"
+import {ingredients,specialAfter,specialPre} from "../../../../data/recipe-book.js"
 
 var METHOD_ICONS = {
-    "shake":"/img/recipe-icons/shaker.svg",
-    "stirr": "/img/recipe-icons/stirr.png",
-    "drink-mixer": "/img/recipe-icons/drink-mixer.svg",
-    "swizzle":"/img/recipe-icons/swizzle.svg"
+    "shake":"./img/recipe-icons/shaker.svg",
+    "stirr": "./img/recipe-icons/stirr.png",
+    "drink-mixer": "./img/recipe-icons/drink-mixer.svg",
+    "swizzle":"./img/recipe-icons/swizzle.svg"
 }
 
 var GLASS_ICONS = {
-    "pilsner":"/img/recipe-icons/pilsner.svg",
-    "coupe":"/img/recipe-icons/coupe.svg",
-    "flute":"/img/recipe-icons/flute.png",
-    "highball":"/img/recipe-icons/highball.svg",
-    "hurricane":"/img/recipe-icons/hurricane.svg",
-    "martini":"/img/recipe-icons/martini.svg",
-    "rocks":"/img/recipe-icons/rocks.svg",
-    "bowl":"/img/recipe-icons/bowl.svg",
-    "brandy":"/img/recipe-icons/brandy.svg",
-    "copper-mug":"/img/recipe-icons/copper-mug.png",
-    "shot":"/img/recipe-icons/shot.png",
-    "wine":"/img/recipe-icons/wine.svg"
+    "pilsner":"./img/recipe-icons/pilsner.svg",
+    "coupe":"./img/recipe-icons/coupe.svg",
+    "flute":"./img/recipe-icons/flute.png",
+    "highball":"./img/recipe-icons/highball.svg",
+    "hurricane":"./img/recipe-icons/hurricane.svg",
+    "martini":"./img/recipe-icons/martini.svg",
+    "rocks":"./img/recipe-icons/rocks.svg",
+    "bowl":"./img/recipe-icons/bowl.svg",
+    "brandy":"./img/recipe-icons/brandy.svg",
+    "copper-mug":"./img/recipe-icons/copper-mug.png",
+    "shot":"./img/recipe-icons/shot.png",
+    "wine":"./img/recipe-icons/wine.svg"
 }
 var ICE_ICONS={
-    "cubes":"/img/recipe-icons/ice-cubes.svg",
-    "crushed":"/img/recipe-icons/ice-crushed.svg",
-    "none":"/img/recipe-icons/none.png"
+    "cubes":"./img/recipe-icons/ice-cubes.svg",
+    "crushed":"./img/recipe-icons/ice-crushed.svg",
+    "none":"./img/recipe-icons/none.png"
     }
 
 export default class RecipeELement extends ListElement{
