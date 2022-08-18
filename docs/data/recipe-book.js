@@ -194,6 +194,12 @@ export let ingredients = {
     "short-text": "",
     "tags": ["coconut"]
   },
+  "grapefruit-radler":{
+    "text": "Grapefruit Radler",
+    "hint": "e.g. Stiegl, Schöfferhofer",
+    "short-text": "",
+    "tags": ["grapefruit"]
+  },
   "ginger-beer": {
     "text": "ginger beer",
     "hint": "e.g. Fever Tree",
@@ -2044,6 +2050,24 @@ export let cocktails = {
   "summary": "scotch, amaretto",
   "tags": [],
   "note": "Offer optional dash of bitter according to preference of patron"
-  }
+  },
+
+"donn-day": {
+  "name": "Donn Day Afternoon",
+  "ingredients": {
+    "juice-lime": "15ml",
+    "syrup-cinnamon": "15ml",
+    "rhum-agricole-blanc": "60ml",
+    "grapefruit-radler": "120ml"
+  },
+  "glass": "rocks",
+  "ice-method": "crushed",
+  "ice-glass": "method",
+  "method": "build",
+  "tags": [],
+  "summary": "grapefruit, rhum agricole, cinnamon, lime",
+  "note": "Build in glass and stir. Everything except Radler can be pre-batched for easy serving",
+  "garnish": "grapefruit peel"
+}
 
 }
