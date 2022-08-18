@@ -1598,6 +1598,38 @@ export let cocktails = {
     "tags": ["bitter","spirit-forward","dry"]
 
   },
+"daiquiri": {
+  "name":"Daiquiri",
+  "ingredients":{
+    "syrup-simple":"10ml",
+    "juice-lime":"20ml",
+    "plantation-3stars":"60ml"
+  },
+  "glass":"coupe",
+  "method":"shake",
+  "ice-method":"cubes",
+  "ice-glass":"none",
+  "summary":"rum, lime",
+  "note":"Also good as frozen Daiquiri with a dash of Maraschino and blended with crushed ice",
+  "tags": ["sour"]
+},
+"daiquiri-hemingway": {
+  "name":"Hemingway Daiquiri",
+  "ingredients":{
+    "syrup-simple":"10ml",
+    "juice-lime":"20ml",
+    "juice-grapefruit": "30ml",
+    "luxardo-maraschino":"10ml",
+    "plantation-3stars":"50ml"
+  },
+  "glass":"coupe",
+  "method":"shake",
+  "ice-method":"cubes",
+  "ice-glass":"none",
+  "summary":"rum, grapefruit, maraschino, lime",
+  "note":"",
+  "tags": ["sour","dry"]
+},
 "daiquiri-melon":
   {
     "name":"Melon Daiquiri",
@@ -1649,6 +1681,23 @@ export let cocktails = {
   "note":"Rim the glass with salt",
   "tags": ["sour","classical"]
 },
+
+"margarita-tommys": {
+  "name": "Tommy's Margarita",
+  "ingredients": {
+    "syrup-agave": "15ml",
+    "juice-lime": "15ml",
+    "tequila": "60ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "cubes",
+  "method": "shake",
+  "tags": [],
+  "summary": "tequila, agave, lime",
+  "garnish": "lime peel"
+},
+
 "kamikaze":
 {
   "name":"Kamikaze",
