@@ -2293,6 +2293,37 @@ export let cocktails = {
   "tags": [],
   "note": "Place sugar cube in glass and muddle with add angostura bitter and water dashes. Fill with ice, add whiskey and stir gently. Optionally replace bourbon by rye whiskey.",
   "summary": "Bourbon, sugar, angostura bitter"
+},
+
+"black-russian": {
+  "name": "Black Russian",
+  "ingredients": {
+    "coffee-liqueur": "20ml",
+    "vodka-normal": "50ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "method",
+  "method": "build",
+  "tags": [],
+  "note": "Build in glass, stir gently.",
+  "summary": "Coffee Liquer, Vodka"
+},
+
+"white-russian": {
+  "name": "White Russian",
+  "ingredients": {
+    "coffee-liqueur": "20ml",
+    "vodka-normal": "50ml",
+    "heavy-cream": "20ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "method",
+  "method": "build",
+  "tags": [],
+  "note": "Build in glass, float cream on top and stir in gently.",
+  "summary": "Coffee Liquer, Vodka, Cream"
 }
 
 }
