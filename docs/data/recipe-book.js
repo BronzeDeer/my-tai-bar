@@ -2099,7 +2099,7 @@ export let cocktails = {
   "summary": "scotch, amaretto",
   "tags": [],
   "note": "Offer optional dash of bitter according to preference of patron"
-  },
+},
 
 "donn-day": {
   "name": "Donn Day Afternoon",
