@@ -428,6 +428,12 @@ export let ingredients = {
     "short-text": "",
     "tags": ["alcohol","brandy","cognac"]
   },
+  "pisco-brandy": {
+    "text": "Pisco",
+    "hint": "",
+    "short-text": "",
+    "tags": ["alcohol","brandy"]
+  },
   "whiskey-bourbon": {
     "text": "bourbon",
     "hint": "e.g. Maker's Mark or Bulleit Bourbon",
@@ -2369,6 +2375,22 @@ export let cocktails = {
   "tags": [],
   "note": "Add champagne in the glass and stir gently.",
   "summary": "gin, champagne, lemon"
+},
+
+"pisco-sour": {
+  "name": "Pisco Sour",
+  "ingredients": {
+    "syrup-simple": "20ml",
+    "juice-lemon": "30ml",
+    "pisco-brandy": "60ml"
+  },
+  "glass": "coupe",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "note": "Add 1 egg white for the foam.",
+  "summary": "pisco, lemon"
 }
 
 }
