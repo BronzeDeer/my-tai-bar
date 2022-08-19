@@ -62,7 +62,7 @@ export let tags = {
         "m-one",
         "mai-tai",
         "mai-tai-deluxe",
-        "manhatten",
+        "manhattan",
         "margarita",
         "margarita-tommys",
         "martinez-sour-cherry",
@@ -160,7 +160,7 @@ export let tags = {
         "cobra-fang",
         "eureka-punch",
         "m-one",
-        "manhatten",
+        "manhattan",
         "martinez-sour-cherry",
         "old-fashioned",
         "orange-whip",
@@ -199,7 +199,7 @@ export let tags = {
         "cobra-fang",
         "eureka-punch",
         "m-one",
-        "manhatten",
+        "manhattan",
         "martinez-sour-cherry",
         "old-fashioned",
         "puka-punch",
@@ -959,7 +959,7 @@ export let tags = {
         "mai-tai",
         "mai-tai-deluxe",
         "mandala",
-        "manhatten",
+        "manhattan",
         "margarita",
         "margarita-tommys",
         "martinez-sour-cherry",
@@ -1566,7 +1566,7 @@ export let tags = {
         "mai-tai",
         "mai-tai-deluxe",
         "mandala",
-        "manhatten",
+        "manhattan",
         "margarita",
         "margarita-tommys",
         "martinez-sour-cherry",
@@ -1616,7 +1616,7 @@ export let tags = {
     "vermouth": [
         "blood-n-sand",
         "boulevardier",
-        "manhatten",
+        "manhattan",
         "martinez-sour-cherry",
         "martini",
         "martini-royal",
@@ -1632,7 +1632,7 @@ export let tags = {
     "vermouth-sweet": [
         "blood-n-sand",
         "boulevardier",
-        "manhatten",
+        "manhattan",
         "martinez-sour-cherry",
         "negroni",
         "socialist"
@@ -1681,7 +1681,7 @@ export let tags = {
         "godfather",
         "honey-bee",
         "m-one",
-        "manhatten",
+        "manhattan",
         "monte-cassino",
         "old-fashioned",
         "paper-plane",
@@ -1700,7 +1700,7 @@ export let tags = {
     ],
     "whiskey-rye": [
         "final-ward",
-        "manhatten",
+        "manhattan",
         "monte-cassino",
         "you-and-me"
     ],
@@ -1716,7 +1716,7 @@ export let tags = {
         "boulevardier",
         "champagne-glory",
         "french-75",
-        "manhatten",
+        "manhattan",
         "martinez-sour-cherry",
         "martini",
         "martini-royal",
@@ -2514,7 +2514,7 @@ export let reverse_tags = {
         "syrup-orgeat",
         "vegan"
     ],
-    "manhatten": [
+    "manhattan": [
         "alcohol",
         "aromatic-bitters",
         "bitter-angostura",

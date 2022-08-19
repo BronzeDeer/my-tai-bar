@@ -2250,8 +2250,8 @@ export let cocktails = {
   "note": "Pour directly in glass over ice cubes, then stir gently."
 },
 
-"manhatten": {
-  "name": "Manhatten",
+"manhattan": {
+  "name": "Manhattan",
   "ingredients": {
     "vermouth-sweet": "20ml",
     "whiskey-rye": "50ml",
@@ -2363,7 +2363,7 @@ export let cocktails = {
 },
 
 "cosmopolitan": {
-  "name": "Cosmopoliton",
+  "name": "Cosmopolitan",
   "ingredients": {
     "juice-lime": "15ml",
     "juice-cranberry": "30ml",
