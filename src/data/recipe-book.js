@@ -638,6 +638,12 @@ export let ingredients = {
     "short-text": "",
     "tags": ["alcohol"]
   },
+  "triple-sec": {
+    "text": "Triple Sec",
+    "hint": "",
+    "short-text": "",
+    "tags": ["alcohol"]
+  },
   "water": {
     "text": "water",
     "hint": "",
@@ -2415,6 +2421,21 @@ export let cocktails = {
   "note": "Rinse glass with absinthe, add crushed ice. Stir remaining ingredients over ice in a mixing glass. Discard ice and excess absinthe from prepared glass, strain mixed drink into glass.",
   "summary": "Cognac, absinth",
   "garnish": "lemon zest"
+},
+
+"sidecar": {
+  "name": "Sidecar",
+  "ingredients": {
+    "juice-lemon": "20ml",
+    "pierre-ferrand-brandy": "50ml",
+    "triple-sec": "20ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "summary": "Cognac, triple sec, lemon"
 }
 
 }
