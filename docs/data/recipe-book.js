@@ -2117,6 +2117,24 @@ export let cocktails = {
   "summary": "grapefruit, rhum agricole, cinnamon, lime",
   "note": "Build in glass and stir. Everything except Radler can be pre-batched for easy serving",
   "garnish": "grapefruit peel"
+},
+
+"bees-knees": {
+  "name": "Bee's Knees",
+  "ingredients": {
+    "syrup-honey": "10ml",
+    "juice-lemon": "22.5ml",
+    "juice-orange": "22.5ml",
+    "gin-london-dry": "52.5ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "method",
+  "method": "shake",
+  "tags": [],
+  "summary": "gin, honey, orange, lemon",
+  "note": "Stir syrup in juice until it dissolves before adding gin.",
+  "garnish": "Lemon or orange zest"
 }
 
 }
