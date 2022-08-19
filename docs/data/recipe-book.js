@@ -176,6 +176,12 @@ export let ingredients = {
     "short-text": "",
     "tags": []
   },
+  "sugar": {
+    "text": "sugar",
+    "hint": "",
+    "short-text": "",
+    "tags": ["sugar"]
+  },
   "sugar-cane-brown": {
     "text": "brown cane sugar",
     "hint": "",
@@ -601,6 +607,18 @@ export let ingredients = {
     "hint": "",
     "short-text": "",
     "tags": ["alcohol"]
+  },
+  "coffee-liqueur": {
+    "text": "Coffee Liqueur",
+    "hint": "",
+    "short-text": "",
+    "tags": ["alcohol"]
+  },
+  "water": {
+    "text": "water",
+    "hint": "",
+    "short-text": "",
+    "tags": []
   }
 }
 
@@ -2258,6 +2276,23 @@ export let cocktails = {
   "method": "shake",
   "tags": [],
   "summary": "london dry gin, orange, absinth, grenadine"
+},
+
+"old-fashioned": {
+  "name": "Old Fashioned",
+  "ingredients": {
+    "sugar": "1cube",
+    "bitter-angostura": "3dash",
+    "water": "3dash",
+    "whiskey-bourbon": "45ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "method",
+  "method": "build",
+  "tags": [],
+  "note": "Place sugar cube in glass and muddle with add angostura bitter and water dashes. Fill with ice, add whiskey and stir gently. Optionally replace bourbon by rye whiskey.",
+  "summary": "Bourbon, sugar, angostura bitter"
 }
 
 }
