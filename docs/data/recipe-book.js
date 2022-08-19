@@ -56,6 +56,12 @@ export let ingredients = {
     "short-text": "",
     "tags": ["mango"]
   },
+  "juice-cranberry": {
+    "text": "cranberry juice",
+    "hint": "",
+    "short-text": "",
+    "tags": ["cranberry"]
+  },
   "soda": {
     "text": "soda",
     "hint": "",
@@ -383,6 +389,12 @@ export let ingredients = {
   "vodka-bison": {
     "text": "bison grass vodka",
     "hint": "e.g. \u017bubr\u00f3wka",
+    "short-text": "",
+    "tags": ["alcohol","vodka"]
+  },
+  "vodka-citron": {
+    "text": "vodka citron",
+    "hint": "e.g. Absolut Citron",
     "short-text": "",
     "tags": ["alcohol","vodka"]
   },
@@ -2324,6 +2336,22 @@ export let cocktails = {
   "tags": [],
   "note": "Build in glass, float cream on top and stir in gently.",
   "summary": "Coffee Liquer, Vodka, Cream"
+},
+
+"cosmopolitan": {
+  "name": "Cosmopoliton",
+  "ingredients": {
+    "juice-lime": "15ml",
+    "juice-cranberry": "30ml",
+    "cointreau": "15ml",
+    "vodka-citron": "40ml"
+  },
+  "glass": "coupe",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "summary": "vodka citron, cointreau, cranberry, lime"
 }
 
 }
