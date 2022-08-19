@@ -2179,6 +2179,21 @@ export let cocktails = {
   "summary": "bourbon, campari, sweet vermouth",
   "note": "Optionally replace bourbon by rye whiskey",
   "garnish": "Orange zest"
+},
+
+"french-connection": {
+  "name": "French Connection",
+  "ingredients": {
+    "amaretto": "35ml",
+    "pierre-ferrand-brandy": "35ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "method",
+  "method": "build",
+  "tags": [],
+  "summary": "cognac, amaretto",
+  "note": "Pour directly in glass over ice cubes, then stir gently."
 }
 
 }
