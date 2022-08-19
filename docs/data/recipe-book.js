@@ -2162,6 +2162,23 @@ export let cocktails = {
   "method": "shake",
   "tags": [],
   "summary": "almond milk, cointreau, frangelico"
+},
+
+"boulevardier": {
+  "name": "Boulevardier",
+  "ingredients": {
+    "campari": "30ml",
+    "vermouth-sweet": "30ml",
+    "whiskey-bourbon": "45ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "stirr",
+  "tags": [],
+  "summary": "bourbon, campari, sweet vermouth",
+  "note": "Optionally replace bourbon by rye whiskey",
+  "garnish": "Orange zest"
 }
 
 }
