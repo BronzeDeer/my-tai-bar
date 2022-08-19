@@ -2210,6 +2210,22 @@ export let cocktails = {
   "tags": [],
   "summary": "rye whiskey, sweet vermouth",
   "garnish": "Cocktail cherry"
+},
+
+"mary-pickford": {
+  "name": "Mary Pickford",
+  "ingredients": {
+    "syrup-grenadine": "5ml",
+    "juice-pineapple": "45ml",
+    "luxardo-maraschino":"7.5ml",
+    "plantation-3stars": "45ml"
+  },
+  "glass": "coupe",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "summary": "White rum, maraschino luxardo, pineapple, grenadine"
 }
 
 }
