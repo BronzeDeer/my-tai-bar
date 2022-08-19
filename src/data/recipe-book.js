@@ -2477,6 +2477,21 @@ export let cocktails = {
   "method": "shake",
   "tags": [],
   "summary": "Lillet blanc, gin, vodka"
+},
+
+"white-lady": {
+  "name": "White Lady",
+  "ingredients": {
+    "juice-lemon": "20ml",
+    "triple-sec": "30ml",
+    "gin-london-dry": "40ml"
+  },
+  "glass": "coupe",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "summary": "Triple sec, gin, lemon"
 }
 
 }
