@@ -368,6 +368,12 @@ export let ingredients = {
     "short-text": "",
     "tags": ["alcohol","aromatic-bitters","walnut"]
   },
+  "bitter-peychaud": {
+    "text": "Peychaud's Bitters",
+    "hint": "",
+    "short-text": "",
+    "tags": ["alcohol","aromatic-bitters"]
+  },
   "umeshu": {
     "text": "umeshu plum liqueur",
     "hint": "e.g. Choya",
@@ -2391,6 +2397,24 @@ export let cocktails = {
   "tags": [],
   "note": "Add 1 egg white for the foam.",
   "summary": "pisco, lemon"
+},
+
+"sazerac": {
+  "name": "Sazerac",
+  "ingredients": {
+    "pierre-ferrand-brandy": "50ml",
+    "absinth": "10ml",
+    "sugar": "1cube",
+    "bitter-peychaud": "2dash"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "stirr",
+  "tags": [],
+  "note": "Rinse glass with absinthe, add crushed ice. Stir remaining ingredients over ice in a mixing glass. Discard ice and excess absinthe from prepared glass, strain mixed drink into glass.",
+  "summary": "Cognac, absinth",
+  "garnish": "lemon zest"
 }
 
 }
