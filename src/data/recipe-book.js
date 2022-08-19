@@ -644,6 +644,12 @@ export let ingredients = {
     "short-text": "",
     "tags": ["alcohol"]
   },
+  "lillet-blanc": {
+    "text": "Lillet Blanc",
+    "hint": "",
+    "short-text": "",
+    "tags": ["alcohol", "wine"]
+  },
   "water": {
     "text": "water",
     "hint": "",
@@ -2456,6 +2462,21 @@ export let cocktails = {
   "method": "shake",
   "tags": [],
   "summary": "Gin, cherry liqueur, cointreau, pineapple"
+},
+
+"vesper": {
+  "name": "Vesper",
+  "ingredients": {
+    "lillet-blanc": "7.5ml",
+    "vodka-normal": "15ml",
+    "gin-london-dry": "45ml"
+  },
+  "glass": "coupe",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "summary": "Lillet blanc, gin, vodka"
 }
 
 }
