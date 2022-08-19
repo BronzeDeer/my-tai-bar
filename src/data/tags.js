@@ -16,6 +16,7 @@ export let tags = {
     ],
     "alcohol": [
         "amaretto-sour",
+        "americano",
         "aperol-spritz",
         "apple-pie",
         "aviation",
@@ -243,6 +244,7 @@ export let tags = {
         "jack-rose"
     ],
     "campari": [
+        "americano",
         "boulevardier",
         "negroni"
     ],
@@ -594,6 +596,7 @@ export let tags = {
         "singapore-sling"
     ],
     "herbal": [
+        "americano",
         "boulevardier",
         "chartreuse-swizzle",
         "cobra-fang",
@@ -911,6 +914,7 @@ export let tags = {
     "no-milk": [
         "almonade",
         "amaretto-sour",
+        "americano",
         "aperol-spritz",
         "apple-pie",
         "aviation",
@@ -1316,7 +1320,8 @@ export let tags = {
         "smoking-chihuahua"
     ],
     "soda": [
-        "almonade"
+        "almonade",
+        "americano"
     ],
     "sour": [
         "amaretto-sour",
@@ -1524,6 +1529,7 @@ export let tags = {
     "vegan": [
         "almonade",
         "amaretto-sour",
+        "americano",
         "aperol-spritz",
         "apple-pie",
         "aviation",
@@ -1614,6 +1620,7 @@ export let tags = {
         "you-and-me"
     ],
     "vermouth": [
+        "americano",
         "blood-n-sand",
         "boulevardier",
         "manhattan",
@@ -1630,6 +1637,7 @@ export let tags = {
         "perry-the-overdrive"
     ],
     "vermouth-sweet": [
+        "americano",
         "blood-n-sand",
         "boulevardier",
         "manhattan",
@@ -1711,6 +1719,7 @@ export let tags = {
         "the-hound"
     ],
     "wine": [
+        "americano",
         "aperol-spritz",
         "blood-n-sand",
         "boulevardier",
@@ -1752,6 +1761,17 @@ export let reverse_tags = {
         "sweet",
         "syrup-simple",
         "vegan"
+    ],
+    "americano": [
+        "alcohol",
+        "campari",
+        "herbal",
+        "no-milk",
+        "soda",
+        "vegan",
+        "vermouth",
+        "vermouth-sweet",
+        "wine"
     ],
     "aperol-spritz": [
         "alcohol",

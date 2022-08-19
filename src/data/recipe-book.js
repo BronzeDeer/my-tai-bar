@@ -2492,6 +2492,22 @@ export let cocktails = {
   "method": "shake",
   "tags": [],
   "summary": "Triple sec, gin, lemon"
+},
+
+"americano": {
+  "name": "Americano",
+  "ingredients": {
+    "vermouth-sweet": "30ml",
+    "campari": "30ml",
+    "soda": "1splash"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "method",
+  "method": "build",
+  "tags": [],
+  "summary": "Campari, sweet vermouth",
+  "note": "Mix directly in glass filled with ice, then stir gently."
 }
 
 }
