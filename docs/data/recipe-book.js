@@ -2242,6 +2242,22 @@ export let cocktails = {
   "tags": [],
   "summary": "Scotch, frangelico, absinth",
   "note": "Use strong, peaty whiskey, such as Laphroaig Quarter Cask"
+},
+
+"monkey-gland": {
+  "name": "Monkey Gland",
+  "ingredients": {
+    "syrup-grenadine": "5ml",
+    "juice-orange": "45ml",
+    "absinth": "5ml",
+    "gin-london-dry": "45ml"
+  },
+  "glass": "highball",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "summary": "london dry gin, orange, absinth, grenadine"
 }
 
 }
