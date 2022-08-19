@@ -194,6 +194,12 @@ export let ingredients = {
     "short-text": "",
     "tags": ["coconut"]
   },
+  "almond-milk": {
+    "text": "almond milk",
+    "hint": "",
+    "short-text": "",
+    "tags": ["almond"]
+  },
   "grapefruit-radler":{
     "text": "Grapefruit Radler",
     "hint": "e.g. Stiegl, Schöfferhofer",
@@ -586,6 +592,12 @@ export let ingredients = {
   },
   "amaretto": {
     "text": "Amaretto",
+    "hint": "",
+    "short-text": "",
+    "tags": ["alcohol"]
+  },
+  "frangelico": {
+    "text": "Frangelico",
     "hint": "",
     "short-text": "",
     "tags": ["alcohol"]
@@ -2135,6 +2147,21 @@ export let cocktails = {
   "summary": "gin, honey, orange, lemon",
   "note": "Stir syrup in juice until it dissolves before adding gin.",
   "garnish": "Lemon or orange zest"
+},
+
+"squirrel": {
+  "name": "Squirrel",
+  "ingredients": {
+    "almond-milk": "50ml",
+    "frangelico": "30ml",
+    "cointreau": "20ml"
+  },
+  "glass": "highball",
+  "ice-method": "crushed",
+  "ice-glass": "method",
+  "method": "shake",
+  "tags": [],
+  "summary": "almond milk, cointreau, frangelico"
 }
 
 }
