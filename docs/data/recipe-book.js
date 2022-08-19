@@ -2226,6 +2226,22 @@ export let cocktails = {
   "method": "shake",
   "tags": [],
   "summary": "White rum, maraschino luxardo, pineapple, grenadine"
+},
+
+"the-hound": {
+  "name": "The Hound",
+  "ingredients": {
+    "frangelico": "20ml",
+    "whiskey-scotch": "45ml",
+    "absinth": "1dash"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "stirr",
+  "tags": [],
+  "summary": "Scotch, frangelico, absinth",
+  "note": "Use strong, peaty whiskey, such as Laphroaig Quarter Cask"
 }
 
 }
