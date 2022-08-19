@@ -2436,6 +2436,26 @@ export let cocktails = {
   "method": "shake",
   "tags": [],
   "summary": "Cognac, triple sec, lemon"
+},
+
+"singapore-sling": {
+  "name": "Singapore Sling",
+  "ingredients": {
+    "syrup-grenadine": "10ml",
+    "juice-lime": "15ml",
+    "juice-pineapple": "120ml",
+    "benedictine": "7.5ml",
+    "cointreau": "7.5ml",
+    "heering-cherry": "15ml",
+    "gin-london-dry": "30ml",
+    "bitter-angostura": "1dash"
+  },
+  "glass": "hurricane",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "summary": "Gin, cherry liqueur, cointreau, pineapple"
 }
 
 }
