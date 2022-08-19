@@ -2194,6 +2194,22 @@ export let cocktails = {
   "tags": [],
   "summary": "cognac, amaretto",
   "note": "Pour directly in glass over ice cubes, then stir gently."
+},
+
+"manhatten": {
+  "name": "Manhatten",
+  "ingredients": {
+    "vermouth-sweet": "20ml",
+    "whiskey-rye": "50ml",
+    "bitter-angostura":"1dash"
+  },
+  "glass": "coupe",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "stirr",
+  "tags": [],
+  "summary": "rye whiskey, sweet vermouth",
+  "garnish": "Cocktail cherry"
 }
 
 }
