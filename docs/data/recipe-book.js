@@ -2352,6 +2352,23 @@ export let cocktails = {
   "method": "shake",
   "tags": [],
   "summary": "vodka citron, cointreau, cranberry, lime"
+},
+
+"french-75": {
+  "name": "French 75",
+  "ingredients": {
+    "syrup-simple": "15ml",
+    "juice-lemon": "15ml",
+    "gin-london-dry": "30ml",
+    "sparkling-dry": "60ml"
+  },
+  "glass": "flute",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [],
+  "note": "Add champagne in the glass and stir gently.",
+  "summary": "gin, champagne, lemon"
 }
 
 }
