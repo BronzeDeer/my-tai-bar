@@ -31,6 +31,7 @@ export let tags = {
         "chocolate-whip",
         "cobra-fang",
         "colada-baileys",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -223,6 +224,7 @@ export let tags = {
         "you-and-me"
     ],
     "blue-curacao": [
+        "colada-blue",
         "force-is-strong",
         "perry-the-overdrive"
     ],
@@ -314,6 +316,7 @@ export let tags = {
     ],
     "coconut": [
         "colada-baileys",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -348,6 +351,7 @@ export let tags = {
     ],
     "colada": [
         "colada-baileys",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -366,6 +370,7 @@ export let tags = {
         "paper-plane-2"
     ],
     "coruba-jamaican": [
+        "colada-blue",
         "colada-cherry",
         "orange-whip"
     ],
@@ -375,6 +380,7 @@ export let tags = {
     "creamy": [
         "chocolate-whip",
         "colada-baileys",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -391,6 +397,7 @@ export let tags = {
     ],
     "creme-of-coconut": [
         "colada-baileys",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -441,6 +448,7 @@ export let tags = {
     ],
     "exotic": [
         "cobra-fang",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -485,6 +493,7 @@ export let tags = {
         "apple-pie",
         "champagne-glory",
         "cobra-fang",
+        "colada-blue",
         "colada-cherry",
         "colada-passion",
         "colada-pina",
@@ -746,6 +755,7 @@ export let tags = {
     ],
     "juice-pineapple": [
         "chartreuse-swizzle",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -927,6 +937,7 @@ export let tags = {
         "champagne-glory",
         "chartreuse-swizzle",
         "cobra-fang",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -1034,6 +1045,7 @@ export let tags = {
         "bees-knees",
         "chocolate-whip",
         "cobra-fang",
+        "colada-blue",
         "cosmopolitan",
         "force-is-strong",
         "japanese-slider",
@@ -1119,6 +1131,7 @@ export let tags = {
     ],
     "pineapple": [
         "chartreuse-swizzle",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -1209,6 +1222,7 @@ export let tags = {
         "chocolate-whip",
         "cobra-fang",
         "colada-baileys",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -1274,6 +1288,7 @@ export let tags = {
     ],
     "rum-jamaican": [
         "colada-baileys",
+        "colada-blue",
         "colada-cherry",
         "colada-passion",
         "colada-pina",
@@ -1389,6 +1404,7 @@ export let tags = {
         "banana-daiquiri",
         "champagne-glory",
         "colada-baileys",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -1540,6 +1556,7 @@ export let tags = {
         "champagne-glory",
         "chartreuse-swizzle",
         "cobra-fang",
+        "colada-blue",
         "colada-cherry",
         "colada-chocolate",
         "colada-passion",
@@ -1968,6 +1985,25 @@ export let reverse_tags = {
         "rum",
         "rum-jamaican",
         "sweet"
+    ],
+    "colada-blue": [
+        "alcohol",
+        "blue-curacao",
+        "coconut",
+        "colada",
+        "coruba-jamaican",
+        "creamy",
+        "creme-of-coconut",
+        "exotic",
+        "fruity",
+        "juice-pineapple",
+        "no-milk",
+        "orange",
+        "pineapple",
+        "rum",
+        "rum-jamaican",
+        "sweet",
+        "vegan"
     ],
     "colada-cherry": [
         "alcohol",

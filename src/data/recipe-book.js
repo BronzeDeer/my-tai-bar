@@ -1290,6 +1290,23 @@ export let cocktails = {
     "note":"",
     "tags": ["colada","sweet","fruity","exotic","creamy"]
   },
+  "colada-blue":
+  {
+    "name":"Blue Colada",
+    "ingredients":{
+      "juice-pineapple":"90ml",
+      "creme-of-coconut":"60ml",
+      "blue-curacao":"30ml",
+      "coruba-jamaican":"30ml"
+    },
+    "glass":"hurricane",
+    "method":"drink-mixer",
+    "ice-method":"crushed",
+    "ice-glass":"method",
+    "summary":"rum, blue curacao, pineapple, coconut cream",
+    "note":"",
+    "tags": ["colada","sweet","fruity","exotic","creamy"]
+  },
   "colada-passion":
   {
     "name":"Passion Colada",
