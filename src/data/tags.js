@@ -24,7 +24,9 @@ export let tags = {
         "bees-knees",
         "black-russian",
         "blood-n-sand",
+        "blood-n-sand-2",
         "boulevardier",
+        "bounty",
         "center-galaxy",
         "champagne-glory",
         "chartreuse-swizzle",
@@ -51,6 +53,7 @@ export let tags = {
         "french-connection",
         "gimlet",
         "gimlet-elderflower",
+        "gin-basil-smash",
         "gin-peach-mint",
         "godfather",
         "honey-bee",
@@ -116,6 +119,9 @@ export let tags = {
         "white-russian",
         "you-and-me"
     ],
+    "allspice-dram": [
+        "bounty"
+    ],
     "almond": [
         "almonade",
         "force-is-strong",
@@ -153,12 +159,14 @@ export let tags = {
         "mai-tai-deluxe"
     ],
     "apricot": [
+        "bounty",
         "champagne-glory",
         "honey-bee",
         "touchdown",
         "trade-winds"
     ],
     "aromatic-bitters": [
+        "bounty",
         "cobra-fang",
         "eureka-punch",
         "m-one",
@@ -184,6 +192,12 @@ export let tags = {
     ],
     "banana-liqueur": [
         "banana-daiquiri"
+    ],
+    "basil": [
+        "gin-basil-smash"
+    ],
+    "basil-leaf": [
+        "gin-basil-smash"
     ],
     "benedictine": [
         "monte-cassino",
@@ -211,6 +225,7 @@ export let tags = {
         "tiki-bowl"
     ],
     "bitter-orange": [
+        "bounty",
         "orange-whip",
         "socialist"
     ],
@@ -237,6 +252,7 @@ export let tags = {
         "suffering-bastard"
     ],
     "brandy-apricot": [
+        "bounty",
         "champagne-glory",
         "honey-bee",
         "touchdown",
@@ -266,6 +282,7 @@ export let tags = {
     "cherry": [
         "aviation",
         "blood-n-sand",
+        "blood-n-sand-2",
         "champagne-glory",
         "colada-cherry",
         "daiquiri-hemingway",
@@ -491,6 +508,7 @@ export let tags = {
     ],
     "fruity": [
         "apple-pie",
+        "bounty",
         "champagne-glory",
         "cobra-fang",
         "colada-blue",
@@ -521,6 +539,7 @@ export let tags = {
         "french-75",
         "gimlet",
         "gimlet-elderflower",
+        "gin-basil-smash",
         "gin-peach-mint",
         "last-word",
         "martinez-sour-cherry",
@@ -542,6 +561,7 @@ export let tags = {
         "french-75",
         "gimlet",
         "gimlet-elderflower",
+        "gin-basil-smash",
         "gin-peach-mint",
         "last-word",
         "martini",
@@ -597,6 +617,7 @@ export let tags = {
     ],
     "heering-cherry": [
         "blood-n-sand",
+        "blood-n-sand-2",
         "champagne-glory",
         "colada-cherry",
         "hurricane",
@@ -611,6 +632,7 @@ export let tags = {
         "cobra-fang",
         "eureka-punch",
         "final-ward",
+        "gin-basil-smash",
         "last-sword",
         "last-word",
         "monkey-gland",
@@ -663,9 +685,11 @@ export let tags = {
         "banana-daiquiri",
         "bees-knees",
         "blood-n-sand",
+        "bounty",
         "eureka-punch",
         "final-ward",
         "french-75",
+        "gin-basil-smash",
         "gin-peach-mint",
         "honey-bee",
         "hurricane",
@@ -733,6 +757,7 @@ export let tags = {
     ],
     "juice-orange": [
         "bees-knees",
+        "blood-n-sand-2",
         "chocolate-whip",
         "cobra-fang",
         "key-lime-pie",
@@ -780,9 +805,11 @@ export let tags = {
         "banana-daiquiri",
         "bees-knees",
         "blood-n-sand",
+        "bounty",
         "eureka-punch",
         "final-ward",
         "french-75",
+        "gin-basil-smash",
         "gin-peach-mint",
         "honey-bee",
         "hurricane",
@@ -932,7 +959,9 @@ export let tags = {
         "bees-knees",
         "black-russian",
         "blood-n-sand",
+        "blood-n-sand-2",
         "boulevardier",
+        "bounty",
         "center-galaxy",
         "champagne-glory",
         "chartreuse-swizzle",
@@ -958,6 +987,7 @@ export let tags = {
         "french-connection",
         "gimlet",
         "gimlet-elderflower",
+        "gin-basil-smash",
         "gin-peach-mint",
         "godfather",
         "honey-bee",
@@ -1043,6 +1073,8 @@ export let tags = {
     "orange": [
         "aperol-spritz",
         "bees-knees",
+        "blood-n-sand-2",
+        "bounty",
         "chocolate-whip",
         "cobra-fang",
         "colada-blue",
@@ -1366,9 +1398,12 @@ export let tags = {
     ],
     "spirit-forward": [
         "blood-n-sand",
+        "blood-n-sand-2",
+        "bounty",
         "center-galaxy",
         "demerara-dry-float",
         "gimlet",
+        "gin-basil-smash",
         "honey-bee",
         "mai-tai",
         "mai-tai-deluxe",
@@ -1402,6 +1437,7 @@ export let tags = {
         "amaretto-sour",
         "apple-pie",
         "banana-daiquiri",
+        "bounty",
         "champagne-glory",
         "colada-baileys",
         "colada-blue",
@@ -1474,6 +1510,9 @@ export let tags = {
         "puka-punch",
         "tiki-bowl"
     ],
+    "syrup-maple": [
+        "bounty"
+    ],
     "syrup-orgeat": [
         "almonade",
         "force-is-strong",
@@ -1502,6 +1541,7 @@ export let tags = {
         "daiquiri-melon",
         "demerara-dry-float",
         "french-75",
+        "gin-basil-smash",
         "gin-peach-mint",
         "mai-tai",
         "mai-tai-deluxe",
@@ -1552,7 +1592,9 @@ export let tags = {
         "banana-daiquiri",
         "black-russian",
         "blood-n-sand",
+        "blood-n-sand-2",
         "boulevardier",
+        "bounty",
         "champagne-glory",
         "chartreuse-swizzle",
         "cobra-fang",
@@ -1575,6 +1617,7 @@ export let tags = {
         "french-connection",
         "gimlet",
         "gimlet-elderflower",
+        "gin-basil-smash",
         "gin-peach-mint",
         "godfather",
         "hurricane",
@@ -1639,6 +1682,7 @@ export let tags = {
     "vermouth": [
         "americano",
         "blood-n-sand",
+        "blood-n-sand-2",
         "boulevardier",
         "manhattan",
         "martinez-sour-cherry",
@@ -1656,6 +1700,7 @@ export let tags = {
     "vermouth-sweet": [
         "americano",
         "blood-n-sand",
+        "blood-n-sand-2",
         "boulevardier",
         "manhattan",
         "martinez-sour-cherry",
@@ -1701,7 +1746,9 @@ export let tags = {
     ],
     "whiskey": [
         "blood-n-sand",
+        "blood-n-sand-2",
         "boulevardier",
+        "bounty",
         "final-ward",
         "godfather",
         "honey-bee",
@@ -1724,6 +1771,7 @@ export let tags = {
         "whiskey-sour"
     ],
     "whiskey-rye": [
+        "bounty",
         "final-ward",
         "manhattan",
         "monte-cassino",
@@ -1731,6 +1779,7 @@ export let tags = {
     ],
     "whiskey-scotch": [
         "blood-n-sand",
+        "blood-n-sand-2",
         "godfather",
         "m-one",
         "the-hound"
@@ -1739,6 +1788,7 @@ export let tags = {
         "americano",
         "aperol-spritz",
         "blood-n-sand",
+        "blood-n-sand-2",
         "boulevardier",
         "champagne-glory",
         "french-75",
@@ -1876,6 +1926,21 @@ export let reverse_tags = {
         "whiskey-scotch",
         "wine"
     ],
+    "blood-n-sand-2": [
+        "alcohol",
+        "cherry",
+        "heering-cherry",
+        "juice-orange",
+        "no-milk",
+        "orange",
+        "spirit-forward",
+        "vegan",
+        "vermouth",
+        "vermouth-sweet",
+        "whiskey",
+        "whiskey-scotch",
+        "wine"
+    ],
     "boulevardier": [
         "alcohol",
         "campari",
@@ -1887,6 +1952,25 @@ export let reverse_tags = {
         "whiskey",
         "whiskey-bourbon",
         "wine"
+    ],
+    "bounty": [
+        "alcohol",
+        "allspice-dram",
+        "apricot",
+        "aromatic-bitters",
+        "bitter-orange",
+        "brandy-apricot",
+        "fruity",
+        "juice-lemon",
+        "lemon",
+        "no-milk",
+        "orange",
+        "spirit-forward",
+        "sweet",
+        "syrup-maple",
+        "vegan",
+        "whiskey",
+        "whiskey-rye"
     ],
     "center-galaxy": [
         "alcohol",
@@ -2321,6 +2405,20 @@ export let reverse_tags = {
         "lime",
         "no-milk",
         "st-germain",
+        "vegan"
+    ],
+    "gin-basil-smash": [
+        "alcohol",
+        "basil",
+        "basil-leaf",
+        "gin",
+        "gin-london-dry",
+        "herbal",
+        "juice-lemon",
+        "lemon",
+        "no-milk",
+        "spirit-forward",
+        "syrup-simple",
         "vegan"
     ],
     "gin-peach-mint": [

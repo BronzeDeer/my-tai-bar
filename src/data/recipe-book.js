@@ -655,6 +655,24 @@ export let ingredients = {
     "hint": "",
     "short-text": "",
     "tags": []
+  },
+  "syrup-maple": {
+    "text": "Maple Syrup",
+    "hint": "",
+    "short-text": "",
+    "tags": []
+  },
+  "allspice-dram": {
+    "text": "Allspice/Pimento Dram",
+    "hint": "e.g. St. Elizabeth, the Bitter Truth",
+    "short-text": "",
+    "tags": []
+  },
+  "basil-leaf": {
+    "text": "Basil Leaf",
+    "hint": "",
+    "short-text": "Basil Leaf",
+    "tags": ["basil"]
   }
 }
 
@@ -1186,6 +1204,23 @@ export let cocktails = {
     "ice-method":"cubes",
     "ice-glass":"none",
     "summary":"Scotch, sweet vermouth, cherry liquor, lemon",
+    "note":"Strain with a coarse strainer, small ice splinters on top are desired. \n You can swap in a smokey whiskey, like a Talisker Storm for a more complex variant",
+    "tags": ["spirit-forward"]
+  },
+"blood-n-sand-2":
+  {
+    "name":"Blood and Sand #2",
+    "ingredients":{
+      "juice-orange":"30ml",
+      "whiskey-scotch":"30ml",
+      "vermouth-sweet":"30ml",
+      "heering-cherry":"30ml"
+    },
+    "glass":"martini",
+    "method":"shake",
+    "ice-method":"cubes",
+    "ice-glass":"none",
+    "summary":"Scotch, sweet vermouth, cherry liquor, orange",
     "note":"Strain with a coarse strainer, small ice splinters on top are desired. \n You can swap in a smokey whiskey, like a Talisker Storm for a more complex variant",
     "tags": ["spirit-forward"]
   },
@@ -2525,6 +2560,45 @@ export let cocktails = {
   "tags": [],
   "summary": "Campari, sweet vermouth",
   "note": "Mix directly in glass filled with ice, then stir gently."
+},
+
+"bounty": {
+  "name": "The Bounty",
+  "ingredients": {
+    "syrup-maple": "15ml",
+    "juice-lemon": "20ml",
+    "allspice-dram": "20ml",
+    "brandy-apricot": "30ml",
+    "whiskey-rye": "45ml",
+    "bitter-orange": "2dash"
+  },
+  "glass": "coupe",
+  "ice-method": "cubes",
+  "ice-glass": "none",
+  "method": "shake",
+  "tags": [ "sweet", "fruity", "spirit-forward"],
+  "summary": "Rye, allspice, apricot, orange"
+},
+
+"gin-basil-smash": {
+  "name": "Gin Basil Smash",
+  "ingredients": {
+    "basil-leaf": "15",
+    "syrup-simple": "20ml",
+    "juice-lemon": "20ml",
+    "gin-london-dry": "60ml"
+  },
+  "special-ingredients": {
+    "basil-leaf": "muddle",
+    "syrup-simple": "muddle"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "cubes",
+  "method": "shake",
+  "tags": ["spirit-forward", "herbal" ],
+  "summary": "A simple but alluring infusion of fresh basil into london dry gin. Good for slow indulgent sipping",
+  "note": "Double strain! If you have it, serve over a single massive ice cube or ball to help with slow deliberate sipping"
 }
 
 }
