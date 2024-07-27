@@ -6,19 +6,22 @@ import BaseComponent from "../base.js"
 import "../list/element/recipe.js"
 import "./tag-selection.js"
 
+const emojiRegEx = /\p{Extended_Pictographic}/u;
+
 function makeDataList(){
     let dataList = document.createElement("datalist")
     dataList.id="tag-list"
     for(let tag in tags){
         let opt = document.createElement("option")
-        opt.value=tag
+        // By appending a space to every tag vaule, we can ensure that the browser will generate an 'insertReplacementText' event, even if the user typed the whole word before selecting from the list
+        opt.value=tag+" "
         dataList.append(opt)
     }
 
     for(let [cocktailID,cocktailObj] of Object.entries(cocktails)){
         let opt = document.createElement("option")
-        opt.value=cocktailID
-        opt.innerText= cocktailObj.name
+        opt.value=cocktailID+" 🍹"
+        opt.innerText= cocktailObj.name +" 🍹"
         dataList.append(opt)
     }
     return dataList
@@ -79,7 +82,7 @@ export default class TagSearchBar extends BaseComponent{
         //This is an attempted workaround by detecting events which are not of the correct type
         if(e.inputType == "insertReplacementText" || ! (e instanceof InputEvent)){
             let el = document.createElement("tag-selection")
-            let tagValue = e.target.value
+            let tagValue = e.target.value.replace(emojiRegEx,'').trim()
 
             if(tagValue in cocktails){
                 //Todo spawn modal with the cocktail
