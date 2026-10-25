@@ -610,6 +610,9 @@ export let tags = {
     "grapefruit-radler": [
         "donn-day"
     ],
+    "green": [
+        "green-sunshine"
+    ],
     "heavy-cream": [
         "chocolate-whip",
         "orange-whip",
@@ -691,6 +694,7 @@ export let tags = {
         "french-75",
         "gin-basil-smash",
         "gin-peach-mint",
+        "green-sunshine",
         "honey-bee",
         "hurricane",
         "japanese-slider",
@@ -728,6 +732,7 @@ export let tags = {
         "emmas-potion",
         "force-is-strong",
         "gimlet-elderflower",
+        "green-sunshine",
         "ipanema",
         "jack-rose",
         "kamikaze",
@@ -760,6 +765,7 @@ export let tags = {
         "blood-n-sand-2",
         "chocolate-whip",
         "cobra-fang",
+        "green-sunshine",
         "key-lime-pie",
         "king-kamehameha",
         "melody",
@@ -786,6 +792,7 @@ export let tags = {
         "colada-passion",
         "colada-pina",
         "colada-virgin",
+        "green-sunshine",
         "key-lime-pie",
         "king-kamehameha",
         "mandala",
@@ -811,6 +818,7 @@ export let tags = {
         "french-75",
         "gin-basil-smash",
         "gin-peach-mint",
+        "green-sunshine",
         "honey-bee",
         "hurricane",
         "japanese-slider",
@@ -859,6 +867,7 @@ export let tags = {
         "force-is-strong",
         "gimlet",
         "gimlet-elderflower",
+        "green-sunshine",
         "ipanema",
         "jack-rose",
         "kamikaze",
@@ -990,6 +999,7 @@ export let tags = {
         "gin-basil-smash",
         "gin-peach-mint",
         "godfather",
+        "green-sunshine",
         "honey-bee",
         "hurricane",
         "ipanema",
@@ -1060,6 +1070,7 @@ export let tags = {
         "almonade",
         "colada-virgin",
         "emmas-potion",
+        "green-sunshine",
         "ipanema",
         "key-lime-pie",
         "mandala",
@@ -1080,6 +1091,7 @@ export let tags = {
         "colada-blue",
         "cosmopolitan",
         "force-is-strong",
+        "green-sunshine",
         "japanese-slider",
         "kamikaze",
         "key-lime-pie",
@@ -1125,6 +1137,7 @@ export let tags = {
         "cobra-fang",
         "colada-passion",
         "demerara-dry-float",
+        "green-sunshine",
         "hurricane",
         "king-kamehameha",
         "mandala",
@@ -1169,6 +1182,7 @@ export let tags = {
         "colada-passion",
         "colada-pina",
         "colada-virgin",
+        "green-sunshine",
         "key-lime-pie",
         "king-kamehameha",
         "mandala",
@@ -1224,6 +1238,9 @@ export let tags = {
         "singapore-sling",
         "skull-n-bones",
         "touchdown"
+    ],
+    "puree-passion": [
+        "green-sunshine"
     ],
     "raspberry": [
         "center-galaxy"
@@ -1473,6 +1490,9 @@ export let tags = {
     "syrup-amaretto": [
         "virgin-amaretto-sour"
     ],
+    "syrup-blue-curacao": [
+        "green-sunshine"
+    ],
     "syrup-chocolate": [
         "melody"
     ],
@@ -1620,6 +1640,7 @@ export let tags = {
         "gin-basil-smash",
         "gin-peach-mint",
         "godfather",
+        "green-sunshine",
         "hurricane",
         "ipanema",
         "jack-rose",
@@ -2447,6 +2468,23 @@ export let reverse_tags = {
         "vegan",
         "whiskey",
         "whiskey-scotch"
+    ],
+    "green-sunshine": [
+        "green",
+        "juice-lemon",
+        "juice-lime",
+        "juice-orange",
+        "juice-pineapple",
+        "lemon",
+        "lime",
+        "no-milk",
+        "non-alcoholic",
+        "orange",
+        "passion-fruit",
+        "pineapple",
+        "puree-passion",
+        "syrup-blue-curacao",
+        "vegan"
     ],
     "honey-bee": [
         "alcohol",

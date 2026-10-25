@@ -104,6 +104,18 @@ export let ingredients = {
     "short-text": "",
     "tags": ["mint"]
   },
+  "puree-passion": {
+    "text": "passion-fruit puree",
+    "hint": "",
+    "short-text": "",
+    "tags": ["passion-fruit"]
+  },
+  "syrup-blue-curacao": {
+    "text": "blue Cura\u00e7ao syrup",
+    "hint": "",
+    "short-text": "",
+    "tags": ["orange"]
+  },
   "syrup-passion": {
     "text": "passion-fruit syrup",
     "hint": "",
@@ -2599,6 +2611,25 @@ export let cocktails = {
   "tags": ["spirit-forward", "herbal" ],
   "summary": "A simple but alluring infusion of fresh basil into london dry gin. Good for slow indulgent sipping",
   "note": "Double strain! If you have it, serve over a single massive ice cube or ball to help with slow deliberate sipping"
+},
+
+"green-sunshine": {
+  "name": "Green Sunshine",
+  "ingredients": {
+    "puree-passion": "40ml",
+    "juice-lime": "20ml",
+    "juice-lemon": "20ml",
+    "juice-orange": "40ml",
+    "juice-pineapple": "10ml",
+    "syrup-blue-curacao": "5ml"
+  },
+  "glass": "rocks",
+  "ice-method": "cubes",
+  "ice-glass": "cubes",
+  "method": "shake",
+  "tags": ["green"],
+  "summary": "Tart, fruity, sweet, non-alcoholic refreshment with a vibrant green color"
+
 }
 
 }
